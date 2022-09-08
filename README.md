@@ -15,6 +15,11 @@ our apps mature such that they are built-to-last, but alas, nevertheless, we
 can still [preserve freedom][freedom] and the [accessibility of the accessible][a11y] 
 and not introduce [performance][perf] [costs][slow] due to [weight][mf] and [cache][hard].
 
+### on-going list
+
+1. incorporate [organic][organic] [bem][bem]⚚
+2. and [unit testing for sass][unit]
+
 since the api☂︎ is 
 [not][misc] [itself][hateoas] [rest-ful][siren] that we're hitting, we'll eventually show 
 what it looks like for a client to suggest and encourage it civilly.
@@ -22,6 +27,7 @@ what it looks like for a client to suggest and encourage it civilly.
 ## footnotes
 
 ☂︎ application programming interface (you might hate *better*)
+⚚ block-element-modifier
 
 [arrested]: https://www.researchgate.net/publication/4083481_Extending_the_REpresentational_State_Transfer_REST_architectural_style_for_decentralized_systems
 [fielding]: https://roy.gbiv.com/untangled/2008/rest-apis-must-be-hypertext-driven
@@ -37,3 +43,6 @@ what it looks like for a client to suggest and encourage it civilly.
 [starter]: https://github.com/mamund/api-starter/blob/master/darrt/transitions.js
 [hateoas]: https://apisyouwonthate.com/blog/common-hypermedia-patterns-with-json-hyper-schema
 [siren]: https://github.com/kevinswiber/siren
+[bem]: https://css-tricks.com/abem-useful-adaptation-bem/
+[organic]: https://krasimir.github.io/organic-css/
+[unit]: https://www.educative.io/blog/sass-tutorial-unit-testing-with-sass-true
