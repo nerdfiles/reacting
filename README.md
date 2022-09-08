@@ -3,7 +3,13 @@
 tryna get [arrested][arrested] with the sauce [not a decade too soon][fielding]; 
 i.e., we will not be employing "state management," and we're concerned with 
 drawing out what "statelessness" entails (e.g., "direct linking" or url-to-url 
-processing).
+processing). yes, `useReducer` exists but *the* rest✓ is hateoas❤︎ for the web 
+and we're ontologically committed to be exposing "actions" to a discoverable 
+medium: *our semantic web*. everything can be described as a resource, not (just)
+objects.
+
+> your data model is not your [object] model is not your resource model is not your affordance model.
+> (mike amundsen. co-author of [microservice architecture][ma])
 
 ## todo
 
@@ -29,6 +35,8 @@ what it looks like for a client to suggest and encourage it civilly.
 
 ☂︎ application programming interface (you might hate *better*)
 ⚚ block-element-modifier
+✓ representational state transfer
+❤︎ hypermedia as the engine of application state
 
 [arrested]: https://www.researchgate.net/publication/4083481_Extending_the_REpresentational_State_Transfer_REST_architectural_style_for_decentralized_systems
 [fielding]: https://roy.gbiv.com/untangled/2008/rest-apis-must-be-hypertext-driven
@@ -47,3 +55,5 @@ what it looks like for a client to suggest and encourage it civilly.
 [bem]: https://css-tricks.com/abem-useful-adaptation-bem/
 [organic]: https://krasimir.github.io/organic-css/
 [unit]: https://www.educative.io/blog/sass-tutorial-unit-testing-with-sass-true
+[object]: https://mamund.site44.com/articles/objects-v-messages/index.html
+[ma]: https://www.programmer-books.com/wp-content/uploads/2019/07/Microservice-Architecture.pdf
