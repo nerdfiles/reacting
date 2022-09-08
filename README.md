@@ -9,7 +9,7 @@ processing)
 
 obviously this doesn't even shake a stick at mike amundsen's api-starter, but 
 the goal is to show how one can eventually achieve the [link relation types][lrt]
-with a "popular" [framework][framework], if "framework wars" must be endured for the next 
+with a "popular" [framework][framework] (or "library"? *i don't care*), if "framework wars" must be endured for the next 
 decade. of course, we were always supposed to think to abolish the "framework" as 
 our apps mature such that they are built-to-last, but alas, nevertheless, we 
 can still [preserve freedom][freedom] and the [accessibility of the accessible][a11y] 
