@@ -33,10 +33,10 @@ what it looks like for a client to suggest and encourage it civilly.
 
 ## footnotes
 
-☂︎ application programming interface (you might hate *better*)
-⚚ block-element-modifier
-✓ representational state transfer
-❤︎ hypermedia as the engine of application state
+1. ☂︎ application programming interface (you might hate *better*)
+2. ⚚ block-element-modifier
+3. ✓ representational state transfer
+4. ❤︎ hypermedia as the engine of application state
 
 [arrested]: https://www.researchgate.net/publication/4083481_Extending_the_REpresentational_State_Transfer_REST_architectural_style_for_decentralized_systems
 [fielding]: https://roy.gbiv.com/untangled/2008/rest-apis-must-be-hypertext-driven
