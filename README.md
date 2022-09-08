@@ -19,6 +19,7 @@ and not introduce [performance][perf] [costs][slow] due to [weight][mf] and [cac
 
 1. incorporate [organic][organic] [bem][bem]⚚
 2. and [unit testing for sass][unit]
+3. and behavior-driven tests (with cypress??)
 
 since the api☂︎ is 
 [not][misc] [itself][hateoas] [rest-ful][siren] that we're hitting, we'll eventually show 
