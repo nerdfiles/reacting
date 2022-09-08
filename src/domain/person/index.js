@@ -12,7 +12,7 @@ import Profile from '../helpers/Profile'
 const Person = t.struct({
   additionalName: t.maybe(t.String),
   name: t.String,
-  middle_name: t.maybe(t.String),
+  middleName: t.maybe(t.String),
   surname: t.maybe(t.String),
   age: t.Integer,
   tags: t.list(t.String)
