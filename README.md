@@ -3,7 +3,7 @@
 tryna get [arrested][arrested] with the sauce [not a decade too soon][fielding]; 
 i.e., we will not be employing "state management," and we're concerned with 
 drawing out what "statelessness" entails (e.g., "direct linking" or url-to-url 
-processing)
+processing).
 
 ## todo
 
