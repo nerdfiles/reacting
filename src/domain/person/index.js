@@ -6,8 +6,11 @@
  * })
  */
 import t from 'tcomb'
+import HelpText from '../helpers/HelpText'
+import Profile from '../helpers/Profile'
 
 const Person = t.struct({
+  additionalName: t.String,
   name: t.String,
   middle_name: t.maybe(t.String),
   surname: t.maybe(t.String),
@@ -15,9 +18,8 @@ const Person = t.struct({
   tags: t.list(t.String)
 }, 'Person')
 
-Person.prototype.getFullName = function () {
-  return `${this.name} ${this.surname}`
-}
+Profile.addProfile(Person)
+HelpText.addHelpText(Person)
 
 export default Person
 
