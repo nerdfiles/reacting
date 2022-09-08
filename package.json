@@ -17,7 +17,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build && echo 'arrested.surge.sh' > ./build/CNAME",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "help": "npm run $(echo \"$(npm run)\" | percol)",
+    "install/homebrew": "/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"",
+    "install/percol": "brew install percol"
   },
   "eslintConfig": {
     "extends": [
