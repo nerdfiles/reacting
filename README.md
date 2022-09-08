@@ -15,9 +15,13 @@ our apps mature such that they are built-to-last, but alas, nevertheless, we
 can still [preserve freedom][freedom] and the [accessibility of the accessible][a11y] 
 and not introduce [performance][perf] [costs][slow] due to [weight][mf] and [cache][hard].
 
-since the <abbr title="application programming interface (you might hate)">api</abbr> is 
+since the api☂︎ is 
 [not][misc] [itself][hateoas] [rest-ful][siren] that we're hitting, we'll eventually show 
 what it looks like for a client to suggest and encourage it civilly.
+
+## footnotes
+
+☂︎ application programming interface (you might hate)
 
 [arrested]: https://www.researchgate.net/publication/4083481_Extending_the_REpresentational_State_Transfer_REST_architectural_style_for_decentralized_systems
 [fielding]: https://roy.gbiv.com/untangled/2008/rest-apis-must-be-hypertext-driven
