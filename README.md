@@ -7,7 +7,7 @@ processing)
 
 ## todo
 
-obviously this doesn't even shake a stick at mike amundsen's api-starter, but 
+obviously this doesn't even shake a stick at mike amundsen's [api-starter][starter], but 
 the goal is to show how one can eventually achieve the [link relation types][lrt]
 with a "popular" [framework][framework] (or "library"? *i don't care*), if "framework wars" must be endured for the next 
 decade. of course, we were always supposed to think to abolish the "framework" as 
@@ -15,7 +15,7 @@ our apps mature such that they are built-to-last, but alas, nevertheless, we
 can still [preserve freedom][freedom] and the [accessibility of the accessible][a11y] 
 and not introduce [performance][perf] [costs][slow] due to [weight][mf] and [cache][hard].
 
-since the api is [not itself rest-ful][misc] that we're hitting, we'll eventually show 
+since the api is [not][misc] [itself][hateoas] [rest-ful][siren] that we're hitting, we'll eventually show 
 what it looks like for a client to suggest and encourage it civilly.
 
 [arrested]: https://www.researchgate.net/publication/4083481_Extending_the_REpresentational_State_Transfer_REST_architectural_style_for_decentralized_systems
@@ -29,3 +29,6 @@ what it looks like for a client to suggest and encourage it civilly.
 [mf]: https://github.com/lyoshenka/awesome-motherfucking-website
 [hard]: https://www.martinfowler.com/bliki/TwoHardThings.html
 [misc]: https://mamund.site44.com/articles/objects-v-messages/index.html
+[starter]: https://github.com/mamund/api-starter/blob/master/darrt/transitions.js
+[hateoas]: https://apisyouwonthate.com/blog/common-hypermedia-patterns-with-json-hyper-schema
+[siren]: https://github.com/kevinswiber/siren
