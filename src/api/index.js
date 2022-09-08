@@ -49,79 +49,149 @@ class Api {
     return request('delete')
   }
 
+  /**
+   * TRACE.
+   */
   TRACE () {
     return request('trace')
-
   }
+
+  /**
+   * CONNECT.
+   */
   CONNECT () {
     return request('connect')
   }
 
+  /**
+   * PROPFIND.
+   *
+   * @param {} payload
+   */
   PROPFIND (payload) {
     return request('propfind', payload)
   }
 
+  /**
+   * PROPPATCH.
+   *
+   * @param {} payload
+   */
   PROPPATCH (payload) {
     return request('proppatch', payload)
   }
 
+  /**
+   * MKCOL.
+   */
   MKCOL () {
     return request('mkcol')
   }
 
+  /**
+   * COPY.
+   *
+   * @param {} payload
+   */
   COPY (payload) {
     return request('copy', payload)
   }
 
+  /**
+   * MOVE.
+   *
+   * @param {} payload
+   */
   MOVE (payload) {
     return request('move', payload)
   }
 
+  /**
+   * LOCK.
+   */
   LOCK () {
     return request('lock')
-
   }
 
+  /**
+   * UNLOCK.
+   */
   UNLOCK () {
     return request('unlock')
   }
 
+  /**
+   * VERSION_CONTROL.
+   */
   VERSION_CONTROL () {
     return request('version_control')
   }
 
+  /**
+   * REPORT.
+   */
   REPORT () {
     return request('report')
   }
 
+  /**
+   * CHECKOUT.
+   */
   CHECKOUT () {
     return request('checkout')
   }
 
+  /**
+   * CHECKIN.
+   */
   CHECKIN () {
     return request('checkin')
   }
 
+  /**
+   * UNCHECKOUT.
+   */
   UNCHECKOUT () {
     return request('uncheckout')
   }
 
+  /**
+   * MKWORKSPACE.
+   */
   MKWORKSPACE () {
     return request('mkworkspace')
   }
 
+  /**
+   * UPDATE.
+   *
+   * @param {} payload
+   */
   UPDATE (payload) {
     return request('update', payload)
   }
 
+  /**
+   * LABEL.
+   *
+   * @param {} payload
+   */
   LABEL (payload) {
     return request('label', payload)
   }
 
+  /**
+   * MERGE.
+   *
+   * @param {} payload
+   */
   MERGE (payload) {
     return request('merge', payload)
   }
 
+  /**
+   * BASELINE_CONTROL.
+   */
   BASELINE_CONTROL () {
     return request('baseline_control')
   }
