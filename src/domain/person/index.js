@@ -10,7 +10,7 @@ import HelpText from '../helpers/HelpText'
 import Profile from '../helpers/Profile'
 
 const Person = t.struct({
-  additionalName: t.String,
+  additionalName: t.maybe(t.String),
   name: t.String,
   middle_name: t.maybe(t.String),
   surname: t.maybe(t.String),
