@@ -1,6 +1,9 @@
 # reacting
 
-tryna get [arrested][arrested] with the sauce [not a decade too soon][fielding]
+tryna get [arrested][arrested] with the sauce [not a decade too soon][fielding]; 
+i.e., we will not be employing "state management," and we're concerned with 
+drawing out what "statelessness" entails (e.g., "direct linking" or url-to-url 
+processing)
 
 ## todo
 
@@ -12,7 +15,7 @@ our apps mature such that they are built-to-last, but alas, nevertheless, we
 can still [preserve freedom][freedom] and the [accessibility of the accessible][a11y] 
 and not introduce [performance][perf] [costs][slow] due to [weight][mf] and [cache][hard].
 
-since the api is [not itself rest-ful][] that we're hitting, we'll eventually show 
+since the api is [not itself rest-ful][misc] that we're hitting, we'll eventually show 
 what it looks like for a client to suggest and encourage it civilly.
 
 [arrested]: https://www.researchgate.net/publication/4083481_Extending_the_REpresentational_State_Transfer_REST_architectural_style_for_decentralized_systems
@@ -25,3 +28,4 @@ what it looks like for a client to suggest and encourage it civilly.
 [a11y]: https://www.accessibility.uxdesign.cc/
 [mf]: https://github.com/lyoshenka/awesome-motherfucking-website
 [hard]: https://www.martinfowler.com/bliki/TwoHardThings.html
+[misc]: https://mamund.site44.com/articles/objects-v-messages/index.html
