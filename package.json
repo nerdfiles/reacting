@@ -47,6 +47,7 @@
   },
   "devDependencies": {
     "es6-plato": "^1.2.3",
+    "gulp": "^4.0.2",
     "jasmine": "^4.4.0",
     "jsdoc": "^3.6.11",
     "jsdoc-api": "^7.1.1",
