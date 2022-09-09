@@ -15,6 +15,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "report/complexity": "./node_modules/.bin/es6-plato -r -d ./report src",
     "start": "react-scripts start",
     "build": "react-scripts build && echo 'arrested.surge.sh' > ./build/CNAME",
     "test": "react-scripts test",
@@ -40,5 +41,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "es6-plato": "^1.2.3",
+    "jasmine": "^4.4.0",
+    "sass": "^1.54.9",
+    "sass-true": "^6.1.0",
+    "specificity-graph": "^0.1.7"
   }
 }

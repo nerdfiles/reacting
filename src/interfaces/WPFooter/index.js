@@ -6,14 +6,12 @@
  */
 const WPFooter = ({ props }) => {
   return (
-    <>
-      <footer
-        itemScope
-        itemType='https://schema.org/WebFooter'
-      >
-        <h2>footer</h2>
-      </footer>
-    </>
+    <footer
+      itemScope
+      itemType='https://schema.org/WPFooter'
+    >
+      <h2>footer</h2>
+    </footer>
   )
 }
 

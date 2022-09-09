@@ -6,14 +6,13 @@
  */
 const WPHeader = ({ props }) => {
   return (
-    <>
-      <header
-        itemScope
-        itemType='https://schema.org/WebHeader'
-      >
-        <h1>header</h1>
-      </header>
-    </>
+    <header
+      className='m-view--wpheader__default__'
+      itemScope
+      itemType='https://schema.org/WPHeader'
+    >
+      <h1 className='m-view--line__default__'>header</h1>
+    </header>
   )
 }
 

@@ -90,17 +90,17 @@ function App () {
     <div
       itemScope
       itemType='https://schema.org/WebApplication'
-      className='App'
+      className='O-view--webapp__default__'
       id='top'
     >
       <WPHeader />
 
-      <main className=''>
+      <main className='S-view--loci__default__'>
         <input
           id=''
           name=''
-          className=''
           onInput={(e) => clientPostSetData(e.currentTarget.value)}
+          className='m-view--datapoint__default__'
         />
         <ul className=''>
           {List()}
