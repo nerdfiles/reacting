@@ -19,6 +19,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build && echo 'arrested.surge.sh' > ./build/CNAME",
     "test": "react-scripts test",
+    "test:coverage": "CI=true npm test -- --env=jsdom --coverage",
     "eject": "react-scripts eject",
     "help": "npm run $(echo \"$(npm run)\" | percol)",
     "install/homebrew": "/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"",
@@ -45,6 +46,8 @@
   "devDependencies": {
     "es6-plato": "^1.2.3",
     "jasmine": "^4.4.0",
+    "jsdoc": "^3.6.11",
+    "jsdoc-api": "^7.1.1",
     "sass": "^1.54.9",
     "sass-true": "^6.1.0",
     "specificity-graph": "^0.1.7"
