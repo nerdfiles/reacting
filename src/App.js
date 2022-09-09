@@ -1,10 +1,16 @@
 import './App.scss'
 import { useState } from 'react'
+import Logger from './infrastructure/utils/Logger'
+import UserApi from './app/user'
 import WPHeader from './interfaces/WPHeader'
 import WPFooter from './interfaces/WPFooter'
 import Button from './interface.parts/Button'
-import UserApi from './app/user'
-import Logger from './utils/Logger'
+import Person from './domain/person'
+const person = new Person({
+  name: 'john',
+  age: 30,
+  tags: ['human']
+})
 
 /**
  * @name App
@@ -107,22 +113,29 @@ function App () {
         </ul>
       </main>
 
-      <nav className=''>
-        <ul className=''>
-          <li className=''>
+      <nav
+        className='S-view--websitenavigation__default__'
+        itemScope
+        itemType='https://schema.org/SiteNavigationElement'
+      >
+        <ul className='m-view--list__default__'>
+          <li className='m-view--listing__default__'>
             <Button
               textLabel='get'
+              concept={person}
               act={() => getData()}
             />
           </li>
-          <li className=''>
+          <li className='m-view--listing__default__'>
             <Button
               textLabel='post'
+              concept={person}
               act={() => postData(clientPostData)}
             />
           </li>
-          <li className=''>
+          <li className='m-view--listing__default__'>
             <Button
+              concept={person}
               textLabel='delete'
               act={() => deleteData(clientDeleteData)}
             />

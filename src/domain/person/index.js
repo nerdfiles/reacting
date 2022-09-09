@@ -9,6 +9,9 @@ import t from 'tcomb'
 import HelpText from '../helpers/HelpText'
 import Profile from '../helpers/Profile'
 
+const profile = new Profile()
+const helpText = new HelpText()
+
 const Person = t.struct({
   additionalName: t.maybe(t.String),
   name: t.String,
@@ -18,8 +21,8 @@ const Person = t.struct({
   tags: t.list(t.String)
 }, 'Person')
 
-Profile.addProfile(Person)
-HelpText.addHelpText(Person)
+profile.addProfile(Person)
+helpText.addHelpText(Person)
 
 export default Person
 
