@@ -4,7 +4,7 @@
  * api method endpoints for /places
  * @see https://annevankesteren.nl/2007/10/http-methods
  */
-import request from './request'
+import request from '../../api/request'
 
 class Api {
   /**

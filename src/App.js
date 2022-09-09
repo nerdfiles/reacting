@@ -3,7 +3,7 @@ import { useState } from 'react'
 import WPHeader from './interfaces/WPHeader'
 import WPFooter from './interfaces/WPFooter'
 import Button from './interface.parts/Button'
-import Api from './api'
+import UserApi from './app/user'
 import Logger from './utils/Logger'
 
 /**
@@ -11,7 +11,7 @@ import Logger from './utils/Logger'
  * @description
  */
 function App () {
-  const api = new Api()
+  const api = new UserApi()
   const [clientGetData, clientGetSetData] = useState([])
   const [clientPostData, clientPostSetData] = useState({})
   const [clientDeleteData, clientDeleteSetData] = useState('')
