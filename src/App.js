@@ -1,4 +1,4 @@
-import './App.css'
+import './App.scss'
 import { useState } from 'react'
 import WPHeader from './interfaces/WPHeader'
 import WPFooter from './interfaces/WPFooter'
