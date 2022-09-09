@@ -15,12 +15,14 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "report/complexity": "./node_modules/.bin/es6-plato -r -d ./report src",
     "start": "react-scripts start",
     "build": "react-scripts build && echo 'arrested.surge.sh' > ./build/CNAME",
+    "eject": "react-scripts eject",
     "test": "react-scripts test",
     "test:coverage": "CI=true npm test -- --env=jsdom --coverage",
-    "eject": "react-scripts eject",
+    "test/sass": "echo 'implement sass-true'",
+    "test/behavior": "echo 'implement cypress'",
+    "report/complexity": "./node_modules/.bin/es6-plato -r -d ./report src",
     "help": "npm run $(echo \"$(npm run)\" | percol)",
     "install/homebrew": "/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"",
     "install/percol": "brew install percol"
