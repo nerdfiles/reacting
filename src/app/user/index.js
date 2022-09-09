@@ -4,7 +4,7 @@
  * api method endpoints for /users
  * @see https://annevankesteren.nl/2007/10/http-methods
  */
-import request from '../../api/request'
+import request from '../../infrastructure/api/request'
 
 class UserApi {
   /**

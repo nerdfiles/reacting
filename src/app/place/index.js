@@ -4,9 +4,9 @@
  * api method endpoints for /places
  * @see https://annevankesteren.nl/2007/10/http-methods
  */
-import request from '../../api/request'
+import request from '../../infrastructure/api/request'
 
-class Api {
+class PlaceApi {
   /**
    * OPTIONS.
    */
@@ -239,4 +239,6 @@ class Api {
   }
 }
 
-export default Api
+export default PlaceApi
+
+// EOF

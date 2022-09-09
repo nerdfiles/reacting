@@ -11,7 +11,7 @@ import Logger from './utils/Logger'
  * @description
  */
 function App () {
-  const api = new UserApi()
+  const userApi = new UserApi()
   const [clientGetData, clientGetSetData] = useState([])
   const [clientPostData, clientPostSetData] = useState({})
   const [clientDeleteData, clientDeleteSetData] = useState('')
@@ -32,7 +32,7 @@ function App () {
       name: NAME,
       job: 'surfer'
     }
-    const payment = api.POST(payload)
+    const payment = userApi.POST(payload)
     payment
       .then((res) => {
         const dataList = res.data
@@ -46,7 +46,7 @@ function App () {
    * getData.
    */
   const getData = () => {
-    const payment = api.GET()
+    const payment = userApi.GET()
     payment
       .then((res) => {
         const dataList = res.data.data
@@ -59,7 +59,7 @@ function App () {
    * deleteData.
    */
   const deleteData = () => {
-    const payment = api.DELETE()
+    const payment = userApi.DELETE()
     payment
       .then((res) => {
         const dataList = res.data.data
