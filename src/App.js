@@ -7,12 +7,14 @@ import Api from './api'
 import Logger from './utils/Logger'
 
 /**
- * App.
+ * @name App
+ * @description
  */
 function App () {
   const api = new Api()
   const [clientGetData, clientGetSetData] = useState([])
-  const [clientPostData, clientPostSetData] = useState('')
+  const [clientPostData, clientPostSetData] = useState({})
+  const [clientDeleteData, clientDeleteSetData] = useState('')
   const EMPTY_LIST = (
     <p>empty</p>
   )
@@ -53,6 +55,37 @@ function App () {
       .catch(Logger)
   }
 
+  /**
+   * deleteData.
+   */
+  const deleteData = () => {
+    const payment = api.DELETE()
+    payment
+      .then((res) => {
+        const dataList = res.data.data
+        clientDeleteSetData(dataList)
+      })
+      .catch(Logger)
+  }
+
+  const List = () => {
+    return (
+      DATA_LIST
+        ? clientGetData.map((dataRef, keyRef) => {
+          const NAME = dataRef.first_name || dataRef.name
+          return (
+            <li
+              className=''
+              key={keyRef}
+            >
+              {NAME}
+            </li>
+          )
+        })
+        : EMPTY_LIST
+    )
+  }
+
   return (
     <div
       itemScope
@@ -62,36 +95,36 @@ function App () {
     >
       <WPHeader />
 
-      <main>
-        <input onInput={(e) => clientPostSetData(e.currentTarget.value)} />
-        <ul>
-          {
-            DATA_LIST
-              ? clientGetData.map((dataRef, keyRef) => {
-                const NAME = dataRef.first_name || dataRef.name
-                return (
-                  <li key={keyRef}>
-                    {NAME}
-                  </li>
-                )
-              })
-              : EMPTY_LIST
-          }
+      <main className=''>
+        <input
+          id=''
+          name=''
+          className=''
+          onInput={(e) => clientPostSetData(e.currentTarget.value)}
+        />
+        <ul className=''>
+          {List()}
         </ul>
       </main>
 
-      <nav>
-        <ul>
-          <li>
+      <nav className=''>
+        <ul className=''>
+          <li className=''>
             <Button
               textLabel='get'
               act={() => getData()}
             />
           </li>
-          <li>
+          <li className=''>
             <Button
               textLabel='post'
               act={() => postData(clientPostData)}
+            />
+          </li>
+          <li className=''>
+            <Button
+              textLabel='delete'
+              act={() => deleteData(clientDeleteData)}
             />
           </li>
         </ul>
@@ -103,3 +136,5 @@ function App () {
 }
 
 export default App
+
+// EOF
