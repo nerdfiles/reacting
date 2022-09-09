@@ -135,7 +135,6 @@ function App () {
           </li>
           <li className='m-view--listing__default__'>
             <Button
-              concept={person}
               textLabel='delete'
               act={() => deleteData(clientDeleteData)}
             />

@@ -4,7 +4,7 @@
  * @param {Object.props}
  */
 const Button = (props) => {
-  const helpText = props.concept.additionalNameHelpText()
+  const helpText = props?.concept && props.concept.additionalNameHelpText()
   return (
     <button
       title={helpText}
