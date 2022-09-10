@@ -1,3 +1,16 @@
+/**
+ * @filename ./src/infrastructure/services/index.js
+ * @name user.services
+ * @description
+ * client side services which really should be organized into "apps"
+ *
+ * ```diagram.yuml-ish
+ * (api request handler)
+ *  ↳(user api)
+ *    ↳(client side service)
+ *      ↳(interface elements)
+ * ```
+ */
 import UserApi from '../../app/user'
 import Logger from '../../infrastructure/utils/Logger'
 
