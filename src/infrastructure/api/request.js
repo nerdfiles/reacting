@@ -5,7 +5,7 @@ import axios from 'axios'
  * @param {string} method
  * @param {object} payload
  */
-const request = (ent,  method, payload) => {
+const request = (ent, method, payload) => {
   return new Promise((resolve, reject) => {
     const task = axios[method]
     const baseUrl = 'https://reqres.in/api'
