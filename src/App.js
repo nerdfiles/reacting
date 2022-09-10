@@ -5,12 +5,7 @@ import WPFooter from './interfaces/WPFooter'
 import Button from './interface.parts/Button'
 import Person from './domain/person'
 import services from './infrastructure/services'
-
-const person = new Person({
-  name: 'john',
-  age: 30,
-  tags: ['human']
-})
+import Listing from './interface.parts/Listing'
 
 /**
  * @name App
@@ -29,13 +24,17 @@ function App () {
       DATA_LIST
         ? clientGetData.map((dataRef, keyRef) => {
           const NAME = dataRef.first_name || dataRef.name
+          const person = new Person({
+            name: NAME,
+            age: 0,
+            tags: ['human']
+          })
+
           return (
-            <li
-              className='m-view--listing__default__'
+            <Listing
               key={keyRef}
-            >
-              {NAME}
-            </li>
+              concept={person}
+            />
           )
         })
         : EMPTY_LIST
@@ -58,7 +57,7 @@ function App () {
           onInput={(e) => clientPostSetData(e.currentTarget.value)}
           className='m-view--datapoint-entry__default__'
         />
-        <ul className='m-view--datapoint__default__'>
+        <ul className='m-view--datalist__default__'>
           <List />
         </ul>
       </main>
@@ -72,14 +71,12 @@ function App () {
           <li className='m-view--listing__default__'>
             <Button
               textLabel='get'
-              concept={person}
               act={() => services.getData(clientGetSetData)}
             />
           </li>
           <li className='m-view--listing__default__'>
             <Button
               textLabel='post'
-              concept={person}
               act={() => services.postData(clientPostData, clientPostSetData)}
             />
           </li>

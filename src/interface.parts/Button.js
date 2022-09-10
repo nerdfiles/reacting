@@ -4,10 +4,15 @@
  * @param {Object.props}
  */
 const Button = (props) => {
-  const helpText = props?.concept && props.concept.additionalNameHelpText()
+  const RANDSCOPE = 1000000
+  const glue = ''
+  const _id = [
+    'element_',
+    String(Math.floor(Math.random() * RANDSCOPE))
+  ].join(glue)
   return (
     <button
-      title={helpText}
+      id={_id}
       onClick={(e) => {
         props.act()
         e.preventDefault()
