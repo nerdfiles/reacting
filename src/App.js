@@ -6,6 +6,7 @@ import WPHeader from './interfaces/WPHeader'
 import WPFooter from './interfaces/WPFooter'
 import Button from './interface.parts/Button'
 import Person from './domain/person'
+
 const person = new Person({
   name: 'john',
   age: 30,
