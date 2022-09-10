@@ -7,11 +7,13 @@
  * ```diagram.yuml-ish
  * (start)
  *  ↳(api request handler)
- *    ↳(user api)
+ *    ↳(entity api)
  *      ↳(client side service)
  *        ↳(interface elements)
  *          ↳(end)
  * ```
+ * @todo
+ * generaliz this file for other "entities."
  */
 import UserApi from '../../app/user'
 import Logger from '../../infrastructure/utils/Logger'
