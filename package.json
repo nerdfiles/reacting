@@ -17,6 +17,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build && echo 'arrested.surge.sh' > ./build/CNAME",
+    "build/dev": "NODE_ENV=dev npm run build --dev --configuration=dev",
     "eject": "react-scripts eject",
     "test": "react-scripts test",
     "test:coverage": "CI=true npm test -- --env=jsdom --coverage",
