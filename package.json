@@ -17,7 +17,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && echo 'arrested.surge.sh' > ./build/CNAME",
+    "publish": "cd build && surge .",
+    "build": "react-scripts build && echo 'arrested.surge.sh' > ./build/CNAME && mv docs build && mv report build",
     "build/dev": "NODE_ENV=dev npm run build --dev --configuration=dev",
     "eject": "react-scripts eject",
     "test": "react-scripts test",
