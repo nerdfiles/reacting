@@ -4,12 +4,13 @@
  * @param {Object.props}
  */
 const Button = (props) => {
-  const RANDSCOPE = 1000000
+  const RANDMAX = 1000000
   const glue = ''
   const _id = [
     'element_',
-    String(Math.floor(Math.random() * RANDSCOPE))
+    String(Math.floor(Math.random() * RANDMAX))
   ].join(glue)
+
   return (
     <button
       id={_id}
