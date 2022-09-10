@@ -5,10 +5,12 @@
  * client side services which really should be organized into "apps"
  *
  * ```diagram.yuml-ish
- * (api request handler)
- *  ↳(user api)
- *    ↳(client side service)
- *      ↳(interface elements)
+ * (start)
+ *  ↳(api request handler)
+ *    ↳(user api)
+ *      ↳(client side service)
+ *        ↳(interface elements)
+ *          ↳(end)
  * ```
  */
 import UserApi from '../../app/user'
