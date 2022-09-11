@@ -3,9 +3,8 @@ import { useState } from 'react'
 import WPHeader from './interfaces/WPHeader'
 import WPFooter from './interfaces/WPFooter'
 import Button from './interface.parts/Button'
-import Person from './domain/person'
 import services from './infrastructure/services'
-import Listing from './interface.parts/Listing'
+import List from './interface.parts/List'
 
 /**
  * @name App
@@ -15,31 +14,6 @@ function App () {
   const [clientGetData, clientGetSetData] = useState([])
   const [clientPostData, clientPostSetData] = useState({})
   const [clientDeleteData, clientDeleteSetData] = useState('')
-  const EMPTY_LIST = (
-    <p>empty</p>
-  )
-  const DATA_LIST = clientGetData && clientGetData.length
-  const List = () => {
-    return (
-      DATA_LIST
-        ? clientGetData.map((dataRef, keyRef) => {
-          const NAME = dataRef.first_name || dataRef.name
-          const person = new Person({
-            name: NAME,
-            age: 0,
-            tags: ['human']
-          })
-
-          return (
-            <Listing
-              key={keyRef}
-              concept={person}
-            />
-          )
-        })
-        : EMPTY_LIST
-    )
-  }
 
   return (
     <div
@@ -58,7 +32,7 @@ function App () {
           className='m-view--datapoint-entry__default__'
         />
         <ul className='m-view--datalist__default__'>
-          <List />
+          <List dataList={clientGetData} />
         </ul>
       </main>
 
