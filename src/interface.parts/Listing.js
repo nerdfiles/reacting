@@ -38,6 +38,7 @@ const Listing = (props) => {
    */
   const CLASSNAME = 'm-view--listing__default__'
   const helpText = props?.concept && props.concept.additionalNameHelpText()
+
   return (
     <li
       className={CLASSNAME}
