@@ -14,6 +14,63 @@ designators, etc.
 7. `<Span>...</Span>`
 8. `<Div>...</Div>`
 
+## abstract 
+
+### objects (abstractness)
+
+1. `<Point>...</Point>`
+2. `<Line>...</Line>`
+3. `<Surface>...</Surface>`
+4. `<Dimensions>...</Dimensions>`
+5. `<Format></Format>`
+
+### structures (abstraction)
+
+6. `<FormalStructures></FormalStructures>`
+6. `<Usufructure></Usufructure>`
+6. `<Gradation></Gradation>`
+6. `<Radiation></Radiation>`
+6. `<InformalStructures></InformalStructures>`
+6. `<VisualDistribution></VisualDistribution>`
+6. `<ScreenMemory></ScreenMemory>`
+6. `<ScreenApology></ScreenApology>`
+6. `<ScreenEstimate></ScreenEstimate>`
+6. `<Card></Card>`
+6. `<Conversation></Conversation>`
+6. `<Confirmation></Confirmation>`
+6. `<InvisibleStructures></InvisibleStructures>`
+6. `<VisibleStructures></VisibleStructures>`
+6. `<ActiveStructures></ActiveStructures>`
+6. `<InactiveStructures></InactiveStructures>`
+6. `<StructuralSkeleton></StructuralSkeleton>`
+
+## concrete
+
+### object-orientation (concrete objects)
+
+obviously these "concretions" are what most web developers and designers 
+confuse as exhausting the structure of the space of possibility for the field 
+of vision.
+
+> "there is nothing in our field of vision that tells us it is an eye seeing it."
+> 
+> (wittgenstein)
+
+
+1. `<Form></Form>`
+1. `<Size></Size>`
+1. `<Color></Color>`
+1. `<...></...>`
+
+### structuration (concrete structures)
+
+1. `<VisibleStructures></VisibleStructures>`
+1. `<InvisibleStructures></InvisibleStructures>`
+1. `<ActiveStructures></ActiveStructures>`
+1. `<InactiveStructures></InactiveStructures>`
+1. `<Texture></Texture>`
+1. `<...></...>`
+
 ## relations
 
 9. `<Attraction></Attraction>`
@@ -54,7 +111,7 @@ designators, etc.
 13. `<Glossary></Glossary>`
 13. `<Bibliography></Bibliography>`
 
-## activities
+## activities (abstractive)
 
 13. `<Repetition></Repetition>`
 13. `<Frequency></Frequency>`
