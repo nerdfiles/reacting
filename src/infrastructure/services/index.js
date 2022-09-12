@@ -69,10 +69,32 @@ const deleteData = (callback) => {
     .catch(Logger)
 }
 
+/**
+ * @name clientUpdateData
+ * @description update with PUT/PATCH
+ */
+const updateData = (_name, callback) => {
+  const NAME = _name
+  const payload = {
+    name: NAME,
+    job: 'surfer'
+  }
+  const payment = userApi.UPDATE(payload)
+  payment
+    .then((res) => {
+      const dataList = res.data
+      Logger({ label: 'res', msg: [dataList] })
+      const outcome = [dataList]
+      callback(outcome)
+    })
+    .catch(Logger)
+}
+
 const services = {
   getData: getData,
   postData: postData,
-  deleteData: deleteData
+  deleteData: deleteData,
+  updateData: updateData
 }
 
 export default services

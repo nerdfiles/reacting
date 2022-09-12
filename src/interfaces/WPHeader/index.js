@@ -5,13 +5,24 @@
  * @param {Object.props}
  */
 const WPHeader = (props) => {
+  /**
+   * @constant
+   * @default
+   */
+  const HTMLHEADER_CLASS = 'm-view--wpheader__default__'
+  /**
+   * @constant
+   * @default
+   */
+  const HTMLHEADINGELEMENT_CLASS = 'm-view--copyline__default__'
+
   return (
     <header
-      className='m-view--wpheader__default__'
+      className={HTMLHEADER_CLASS}
       itemScope
       itemType='https://schema.org/WPHeader'
     >
-      <h1 className='m-view--copyline__default__'>header</h1>
+      <h1 className={HTMLHEADINGELEMENT_CLASS}>header</h1>
     </header>
   )
 }

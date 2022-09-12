@@ -1,3 +1,21 @@
+/**
+ * @filepath ./src/App.js
+ * @fileoverview app file.
+ * @author aha <patagnome@protonmail.com>
+ * @license wtfpl, version 2
+ * @since 0.0.0-novel.0
+ * @version 0.0.0-novel.0
+ * @kind function
+ * @todo none
+ * @name App
+ * @function
+ * @see web.dev/apply-instant-loading-with-prpl/
+ * @see web.dev/rail/
+ * @description an ensemble of hypermediated components passing relations and
+ * submitting forms according to relating relations (e.g., spogs, jetson?).
+ * @todo browse https://www.npmjs.com/package/require-css
+ * @returns {HTMLDivElement} markup.
+ */
 import './App.scss'
 import { useState } from 'react'
 import WPHeader from './interfaces/WPHeader'
@@ -13,6 +31,7 @@ import List from './interface.parts/List'
 function App () {
   const [clientGetData, clientGetSetData] = useState([])
   const [clientPostData, clientPostSetData] = useState({})
+  const [clientUpdateData, clientUpdateSetData] = useState({})
   const [clientDeleteData, clientDeleteSetData] = useState('')
 
   return (
@@ -50,8 +69,15 @@ function App () {
           </li>
           <li className='m-view--listing__default__'>
             <Button
-              textLabel='post'
+              textLabel='create'
               act={() => services.postData(clientPostData, clientPostSetData)}
+              onChange={() => services.updateData(clientPostData, clientUpdateSetData)}
+            />
+          </li>
+          <li className='m-view--listing__default__'>
+            <Button
+              textLabel='update'
+              act={() => services.updateData(clientUpdateData, clientUpdateSetData)}
             />
           </li>
           <li className='m-view--listing__default__'>

@@ -1,5 +1,21 @@
 /**
- *
+ * @filepath ./src/interface.parts/List.js
+ * @fileoverview yet another list web component
+ * @name List
+ * @function
+ * @description
+ * @license wtfpl, version 2
+ * @version 0.0.0-novel.0
+ * @since 0.0.0-novel.0
+ * @kind constant
+ * @author aha <patagnome@protonmail.com>
+ * @todo none
+ * @example
+ * @example
+ * @example
+ * @param props - properties for a bespoke list element.
+ * @param props[dataList] - yet another mapping.
+ * @returns {HTMLLIElement} markup.
  */
 import Listing from './Listing'
 import Person from '../domain/person'
@@ -15,7 +31,12 @@ const EMPTY_LIST = (
  * @param {} props
  */
 const List = (props) => {
+  /**
+   * @constant
+   * @default
+   */
   const DATA_LIST = props.dataList && props.dataList.length
+
   return (
     DATA_LIST
       ? DATA_LIST.map((dataRef, keyRef) => {
