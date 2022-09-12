@@ -131,3 +131,54 @@ of vision.
 13. `<Information></Information>`
 13. `<Direction:of:Displacement></Direction:of:Displacement>`
 
+## systems
+
+## visual systems, (grid systems)
+
+1. `<Paper></Paper>`
+1. `<Alphabet></Alphabet>`
+1. `<Column></Column>`
+1. `<Leading></Leading>`
+1. `<Segment></Segment>`
+1. `<Numeral></Numeral>`
+1. `<Face></Face>`
+1. `<Body></Body>`
+1. `<Grid></Grid>`
+1. `<Area></Area>`
+1. `<Picture></Picture>`
+1. `<SoundPicture></SoundPicture>`
+1. `<Photo></Photo>`
+1. `<Illustration></Illustration>`
+1. `<Tint></Tint>`
+1. `<CorporateIdentity></CorporateIdentity>`
+
+## logical systems
+
+1. `<Source></Source>`
+1. `<Statement></Statement>`
+1. `<Stakeholder></Stakeholder>`
+1. `<Sorting></Sorting>`
+1. `<Preview></Preview>`
+1. `<Interview></Interview>`
+1. `<Reduction></Reduction>`
+1. `<Interpretation></Interpretation>`
+1. `<Factor></Factor>`
+1. `<Policy></Policy>`
+1. `<Asset></Asset>`
+1. `<AssetCollection></AssetCollection>`
+1. `<ConflictTerm></ConflictTerm>`
+1. `<Set></Set>`
+1. `<Offer></Offer>`
+1. `<Agreement></Agreement>`
+1. `<Rule></Rule>`
+1. `<Action></Action>`
+1. `<Permission></Permission>`
+1. `<Duty></Duty>`
+1. `<Prohibition></Prohibition>`
+1. `<Operator></Operator>`
+1. `<RightOperand></RightOperand>`
+1. `<LeftOperand></LeftOperand>`
+1. `<Party></Party>`
+1. `<PartyCollection></PartyCollection>`
+1. `<Constraint></Constraint>`
+1. `<LogicalConstraint></LogicalConstraint>`
