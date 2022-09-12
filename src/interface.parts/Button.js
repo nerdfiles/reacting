@@ -13,11 +13,11 @@
  * @param {} _ .
  * @returns {} .
  */
-import exec from 'exec'
-import { Random } from 'random-js'
+// import exec from 'exec'
 import Logger from '../infrastructure/utils/Logger'
-const MT19937 = require('mt19937')
-const RANDMAX = new Random(MT19937.Seed())
+// import { Random } from 'random-js'
+// const MT19937 = require('mt19937')
+// const RANDMAX = new Random(MT19937.Seed())
 
 /**
  * @name Button
@@ -26,14 +26,14 @@ const RANDMAX = new Random(MT19937.Seed())
  */
 const Button = (props) => {
   const glue = ''
-  const RANDBOTTOM = 1
-  const RANDTOP = 100
-  const value = RANDMAX.integer(RANDBOTTOM, RANDTOP)
-  const wordList = exec('diceware -n 16 > .words && cat .words | sed -e \'s/[A-Z]/\\ &/g\'')
-  Logger({ label: '', msg: [wordList] })
+  // const RANDBOTTOM = 1
+  // const RANDTOP = 100
+  // const value = RANDMAX.integer(RANDBOTTOM, RANDTOP)
+  // const wordList = exec('diceware -n 16 > .words && cat .words | sed -e \'s/[A-Z]/\\ &/g\'')
+  // Logger({ label: '', msg: [wordList] })
 
   // frontend console output
-  Logger({ label: 'value', msg: [value] })
+  // Logger({ label: 'value', msg: [value] })
 
   const _id = [
     'element_'
