@@ -1,8 +1,8 @@
 FROM node:12-alpine3.14 
-WORKDIR /server 
-COPY /server/package.json /server 
+WORKDIR /reacting 
+COPY /reacting/package.json /reacting 
 RUN npm i && npm cache clean --force
-COPY . /server
+COPY . /reacting
 
 CMD node index.js 
 EXPOSE 9000
