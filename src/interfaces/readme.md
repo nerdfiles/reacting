@@ -15,6 +15,10 @@ interaction outcomes back to it, along with whatever domain entities are implica
 in said interaction modeling. so think: "https://schema.org/WebActivityHistory", etc.
 
 infrastructure, app, and domain will be informed by domain-driven design and 
-public ontologies.
+public ontologies. expect to find cybersemiosis, autopoeisis, aisthesis, etc. 
+in ARIA-centric components at the center of the hypermedia-orientation of 
+hyperspace for the [accessibility][a11y] of the [accessible][dc].
 
 [wa]: https://schema.org/WebApplication
+[a11y]: https://www.w3.org/WAI/ARIA/apg/example-index/
+[dc]: https://www.dublincore.org/specifications/dublin-core/dcmi-terms/

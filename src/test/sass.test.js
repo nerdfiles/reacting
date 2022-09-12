@@ -1,7 +1,6 @@
 /**
- * @file ./test/sass.test.js
- * @description
- *
+ * @filepath ./test/sass.test.js
+ * @description test.
  */
 import { path } from 'path'
 import { sassTrue } from 'sass-true'
