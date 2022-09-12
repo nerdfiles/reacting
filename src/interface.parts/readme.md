@@ -133,7 +133,7 @@ of vision.
 
 ## systems
 
-## visual systems, (grid systems)
+## visual systems (grid systems)
 
 1. `<Paper></Paper>`
 1. `<Alphabet></Alphabet>`
