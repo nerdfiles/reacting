@@ -35,6 +35,7 @@
     "test:coverage": "CI=true npm test -- --env=jsdom --coverage",
     "test/sass": "echo 'implement sass-true'",
     "test/behavior": "echo 'implement cypress'",
+    "report/open": "open report/index.html",
     "report/complexity": "/node_modules/.bin/es6-plato -r -l .jshintrc -e .eslintrc.backup -d report src",
     "help": "npm run $(echo \"$(npm run)\" | percol)",
     "install/homebrew": "/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"",
