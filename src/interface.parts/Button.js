@@ -1,6 +1,6 @@
 /**
  * @filepath ./src/interface.parts/Button.js
- * @fileoverview .
+ * @fileoverview trying out a possible web component.
  * @name Button
  * @license wtfpl, version 2
  * @author aha <patagnome@protonmail.com>
@@ -9,15 +9,15 @@
  * @example
  * @example
  * @example
- * @description
- * @param {} _ .
- * @returns {} .
+ * @description a singular <button> implementation in reactjs.
+ * @summary a <button>.
  */
 // import exec from 'exec'
 // import Logger from '../infrastructure/utils/Logger'
 // import { Random } from 'random-js'
 // const MT19937 = require('mt19937')
 // const RANDMAX = new Random(MT19937.Seed())
+
 /**
  * @constant
  * @default
