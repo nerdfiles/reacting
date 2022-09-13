@@ -14,45 +14,8 @@
 
 ## strength
 
-1. `<Contract></Contract>`
-1. `<Contract></Contract>`
-1. `<Contract></Contract>`
-1. `<Contract></Contract>`
-1. `<Contract></Contract>`
-1. `<Contract></Contract>`
-1. `<Contract></Contract>`
-1. `<Contract></Contract>`
-1. `<Contract></Contract>`
-1. `<Contract></Contract>`
-1. `<Contract></Contract>`
-1. `<Contract></Contract>`
-
 ## threat
-
-1. `<Contract></Contract>`
-1. `<Contract></Contract>`
-1. `<Contract></Contract>`
-1. `<Contract></Contract>`
-1. `<Contract></Contract>`
-1. `<Contract></Contract>`
-1. `<Contract></Contract>`
-1. `<Contract></Contract>`
-1. `<Contract></Contract>`
-1. `<Contract></Contract>`
-1. `<Contract></Contract>`
-1. `<Contract></Contract>`
 
 ## weakness
 
-1. `<Contract></Contract>`
-1. `<Contract></Contract>`
-1. `<Contract></Contract>`
-1. `<Contract></Contract>`
-1. `<Contract></Contract>`
-1. `<Contract></Contract>`
-1. `<Contract></Contract>`
-1. `<Contract></Contract>`
-1. `<Contract></Contract>`
-1. `<Contract></Contract>`
-1. `<Contract></Contract>`
-1. `<Contract></Contract>`
+<!-- EOF -->
