@@ -19,7 +19,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "fora.R": "echo '[aRb]R>[aRc]' >> fora.yuml",
+    "fora.new": "n.fora.new",
+    "fora": "n.fora",
     "open/@todo": "nohup vim $(ack @todo -l | percol)",
     "recent": "ack @filepath src -l | percol",
     "percol/alder": "alder src | percol",

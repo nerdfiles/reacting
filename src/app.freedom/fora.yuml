@@ -1,6 +1,18 @@
 // {type:sequence}
 // {generate:true}
 
-
-[aRb]>[aRc]
-[aRc]>[aRd]
+[aRd]>[aRb]
+[aRc]>[aRb]
+[aRc]>[aRb]
+[aRc]>[aRb]
+[aRc]>[aRb]
+[aRc]>[aRb]
+[aRc]>[aRb]
+[aRc]>[aRb]
+[aRc]>[aRb]
+[aRc]>[aRb]
+[aRc]>[aRb]
+[aRc]>[aRb]
+[aRd]>[aRb]
+[aRd]>[aRb]
+[aRd]>[aRb]
