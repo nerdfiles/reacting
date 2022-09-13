@@ -168,19 +168,18 @@ of vision.
 
 1. `<Source></Source>`
 1. `<Statement></Statement>` 
-  1. <Compound></Compound>
-  2. <Disjunction></Disjunction>
-  3. <DoubleArrowIn></DoubleArrowIn>
-  4. <DoubleArrowOut></DoubleArrowOut>
-  5. <Conditional></Conditional>
-  6. <Biconditional></Biconditional>
-  7. <Conjunction></Conjunction> 
-  8. <Negation></Negation> 
-1. <Rule></Rule>
-  9. <DashIn></DashIn>
+  1. `<Compound></Compound>`
+  2. `<Disjunction></Disjunction>`
+  3. `<DoubleArrowIn></DoubleArrowIn>`
+  4. `<DoubleArrowOut></DoubleArrowOut>`
+  5. `<Conditional></Conditional>`
+  6. `<Biconditional></Biconditional>`
+  7. `<Conjunction></Conjunction> `
+  8. `<Negation></Negation> `
+1. `<Rule></Rule>`
+  9. `<DashIn></DashIn>`
 1. `<Fixture></Fixture>`
-  9.<Change></Change>
-  10. 
+  9. `<Change></Change>`
 1. `<Stakeholder></Stakeholder>`
 1. `<Sorting></Sorting>`
 1. `<Preview></Preview>`
