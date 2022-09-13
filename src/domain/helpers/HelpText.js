@@ -1,7 +1,6 @@
 /**
  * @name HelpText
- * @description
- * saw django do it once
+ * @description saw django do it once 
  */
 class HelpText {
   /**

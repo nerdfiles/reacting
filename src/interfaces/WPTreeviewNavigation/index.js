@@ -6,9 +6,6 @@
  * @author aha <patagnome@protonmail.com>
  * @version 0.0.0-novel.0
  * @since 0.0.0-novel.0
- * @example
- * @example
- * @example
  * @description a singular <ul class="treeview-navigation"> implementation in reactjs.
  * @summary a `ul["treeview-navigation"]`.
  * @see https://www.w3.org/WAI/ARIA/apg/example-index/treeview/treeview-navigation.html

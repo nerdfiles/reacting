@@ -1,7 +1,6 @@
 /**
  * @filepath src/api/index.js
- * @description
- * api method endpoints for /users
+ * @description api method endpoints for /usersapi method endpoints for /users
  * @see https://annevankesteren.nl/2007/10/http-methods
  */
 import request from '../../infrastructure/api/request'

@@ -3,16 +3,13 @@
  * @fileoverview yet another list web component
  * @name List
  * @function
- * @description
+ * @description List.js.
  * @license wtfpl, version 2
  * @version 0.0.0-novel.0
  * @since 0.0.0-novel.0
  * @kind constant
  * @author aha <patagnome@protonmail.com>
  * @todo none
- * @example
- * @example
- * @example
  * @param props - properties for a bespoke list element.
  * @param props[dataList] - yet another mapping.
  * @returns {HTMLLIElement} markup.
@@ -26,8 +23,7 @@ const EMPTY_LIST = (
 
 /**
  * @name List
- * @description
- * for data lists. it's probably in the living standard somewhere anyway.
+ * @description for data lists. it's probably in the living standard somewhere anyway. 
  * @param {} props
  */
 const List = (props) => {

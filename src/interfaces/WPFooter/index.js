@@ -1,7 +1,6 @@
 /**
  * @name WPFooter
- * @description
- * footer
+ * @description footer 
  * @param {Object.props}
  */
 const WPFooter = (props) => {

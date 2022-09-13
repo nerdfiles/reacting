@@ -26,7 +26,7 @@ import List from './interface.parts/List'
 
 /**
  * @name App
- * @description
+ * @function
  */
 function App () {
   const [clientGetData, clientGetSetData] = useState([])

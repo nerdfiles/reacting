@@ -1,6 +1,6 @@
 /**
  * @name Button
- * @description
+ * @description Button.
  * @usage
  * const code = Button({
  * })

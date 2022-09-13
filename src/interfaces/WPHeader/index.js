@@ -1,7 +1,6 @@
 /**
  * @name WPHeader
- * @description
- * footer
+ * @description footer 
  * @param {Object.props}
  */
 const WPHeader = (props) => {

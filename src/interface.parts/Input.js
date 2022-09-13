@@ -1,9 +1,6 @@
 /**
  * @name Input
- * @description
- * @example
- * @example
- * @example
+ * @description Input.
  * @param props - properties for the component.
  * @returns {HTMLInputElement} markup.
  */

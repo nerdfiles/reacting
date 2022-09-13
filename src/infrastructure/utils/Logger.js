@@ -1,7 +1,6 @@
 /**
  * @name Logger
- * @description
- * a simple log util
+ * @description a simple log util
  */
 const Logger = (thing) => {
   if (thing && !thing.label && !thing.msg) {

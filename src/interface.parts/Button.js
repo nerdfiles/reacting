@@ -6,9 +6,6 @@
  * @author aha <patagnome@protonmail.com>
  * @version 0.0.0-novel.0
  * @since 0.0.0-novel.0
- * @example
- * @example
- * @example
  * @description a singular <button> implementation in reactjs.
  * @summary a <button>.
  */
@@ -74,7 +71,7 @@ const Icon = (props) => {
 
 /**
  * @name Button
- * @description
+ * @description Button.
  * @param {Object.props}
  * @returns {React.FC}
  */

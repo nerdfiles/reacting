@@ -1,7 +1,7 @@
 /**
  * @name WPBreadcrumbs
  * @version 0.0.0-novel.0
- * @description
+ * @description WPBreadcrumbs.
  * @kind function.React.FC
  * @param {Object} props 
  */

@@ -21,6 +21,8 @@
   "scripts": {
     "fora.new": "n.fora.new",
     "fora": "n.fora",
+    "docs": "jsdoc -d docs -r src",
+    "docs/open": "open docs/index.html",
     "open/@todo": "nohup vim $(ack @todo -l | percol)",
     "recent": "ack @filepath src -l | percol",
     "percol/alder": "alder src | percol",

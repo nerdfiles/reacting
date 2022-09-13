@@ -1,6 +1,6 @@
 /**
  * @name Profile
- * @description
+ * @description Profile.
  */
 class Profile {
   /**

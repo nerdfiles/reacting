@@ -1,17 +1,16 @@
 /**
  * @filename ./src/infrastructure/services/index.js
  * @name user.services
- * @description
- * client side services which really should be organized into "apps"
+ * @description client side services which really should be organized into "apps".
  *
- * ```diagram.yuml-ish
+ * ## diagram.yuml-ish
+ *
  * (start)
  *  ↳(api request handler)
  *    ↳(entity api)
  *      ↳(client side service)
  *        ↳(interface elements)
  *          ↳(end)
- * ```
  * @todo
  * generaliz this file for other "entities."
  */

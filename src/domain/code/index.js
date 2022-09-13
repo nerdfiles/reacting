@@ -1,6 +1,6 @@
 /**
  * @name Code
- * @description
+ * @description Code
  * @usage
  * const code = Code({
  * })
