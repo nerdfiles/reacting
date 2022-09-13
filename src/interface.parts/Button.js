@@ -19,10 +19,35 @@
 // const MT19937 = require('mt19937')
 // const RANDMAX = new Random(MT19937.Seed())
 
+/**
+ * @name Icon
+ * @description a singular icon for a button.
+ * @param {Object.props} props
+ * @returns {React.FC}
+ */
 const Icon = (props) => {
+  /**
+   * @constant
+   * @default
+   */
 	const SYMBOL = props && props.symbol 
+
+  /**
+   * @constant
+   * @default
+   */
 	const NAMED_SYMBOL = `#icon-${SYMBOL}`
+
+  /**
+   * @constant
+   * @default
+   */
 	const FOCUSABLE = 'false'
+
+  /**
+   * @constant
+   * @default
+   */
 	const HIDDEN = 'true'
 
 	return (
@@ -39,10 +64,37 @@ const Icon = (props) => {
  * @name Button
  * @description
  * @param {Object.props}
+ * @returns {React.FC}
  */
 const Button = (props) => {
-	const hasIcon = props?.concept && props.concept.icon
-  const glue = ''
+  /**
+   * @constant
+   * @default
+   */
+  const GLUE = ''
+
+  /**
+   * @constant
+   * @default
+   */
+  const ID = [
+    'element_'
+  ].join(GLUE)
+
+  /**
+   * @constant
+   * @default
+   */
+  const NAME = [
+    'name_'
+  ].join(GLUE)
+
+  /**
+   * @constant
+   * @default
+   */
+  const TABINDEX = '0'
+
   // const RANDBOTTOM = 1
   // const RANDTOP = 100
   // const value = RANDMAX.integer(RANDBOTTOM, RANDTOP)
@@ -52,13 +104,13 @@ const Button = (props) => {
   // frontend console output
   // Logger({ label: 'value', msg: [value] })
 
-  const _id = [
-    'element_'
-  ].join(glue)
+	const hasIcon = props?.concept && props.concept.icon
 
   return (
     <button
-      id={_id}
+      id={ID}
+      name={NAME}
+      tabindex={TABINDEX}
       onClick={(e) => {
         props.act()
         e.preventDefault()
