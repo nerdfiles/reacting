@@ -21,7 +21,8 @@ const concept = {
   tabindex: t.maybe(t.String),
   title: t.maybe(t.String),
   type: t.maybe(t.String),
-  value: t.maybe(t.String)
+  value: t.maybe(t.String),
+  favicon: t.maybe(t.Boolean)
 }
 
 const Button = t.struct(concept, 'Button')

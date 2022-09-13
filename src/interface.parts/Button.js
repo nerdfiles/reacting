@@ -19,12 +19,29 @@
 // const MT19937 = require('mt19937')
 // const RANDMAX = new Random(MT19937.Seed())
 
+const Icon = (props) => {
+	const SYMBOL = props && props.symbol 
+	const NAMED_SYMBOL = `#icon-${SYMBOL}`
+	const FOCUSABLE = 'false'
+	const HIDDEN = 'true'
+
+	return (
+		<svg
+			aria-hidden={HIDDEN}
+			focusable={FOCUSABLE}
+		>
+			<use xlinkHref={NAMED_SYMBOL}></use>
+		</svg>
+	)
+}
+
 /**
  * @name Button
  * @description
  * @param {Object.props}
  */
 const Button = (props) => {
+	const hasIcon = props?.concept && props.concept.icon
   const glue = ''
   // const RANDBOTTOM = 1
   // const RANDTOP = 100
@@ -47,7 +64,13 @@ const Button = (props) => {
         e.preventDefault()
       }}
     >
-      {props.textLabel}
+      <span
+				className='m-view--text-label__default__'
+			>{props.textLabel}</span>
+			{hasIcon 
+				? <Icon symbol={hasIcon} />
+				: <></>
+			}
     </button>
   )
 }
