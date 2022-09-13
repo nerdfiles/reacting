@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Plato - report/files/infrastructure_api_request_js/report.js</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <link href="../../assets/css/vendor/morris.css" rel="stylesheet" type="text/css">
+  <link href="../../assets/css/vendor/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="../../assets/css/vendor/font-awesome.css" rel="stylesheet" type="text/css">
+  <link href="../../assets/css/vendor/codemirror.css" rel="stylesheet" type="text/css">
+  <link href="../../assets/css/plato.css" rel="stylesheet" type="text/css">
+  <link href="../../assets/css/plato-file.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+<div class="navbar navbar-fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="https://github.com/the-simian/es6-plato">ES6 Plato on Github</a>
+    <ul class="nav navbar-nav">
+      <li>
+        <a href="../../index.html">Report Home</a>
+      </li>
+      <li class="active">
+        <a href="display.html">Summary Display</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="jumbotron">
+  <div class="container">
+    <h1>report/files/infrastructure_api_request_js/report.js</h1>
+  </div>
+</div>
+
+<div class="container aggregate-stats">
+  <div class="row">
+    <div class="col-md-6">
+      <h2 class="header">Maintainability <a href="http://blogs.msdn.com/b/codeanalysis/archive/2007/11/20/maintainability-index-range-and-meaning.aspx"><i class="icon icon-info-sign" rel="popover" data-placement="top" data-trigger="hover" data-content="A value between 0 and 100 that represents the relative ease of maintaining the code. A high value means better maintainability." data-original-title="Maintainability Index"  data-container="body"></i></a></h2>
+      <p class="stat">15.46</p>
+    </div>
+    <div class="col-md-6">
+      <h2 class="header">Lines of code <i class="icon icon-info-sign" rel="popover" data-placement="top" data-trigger="hover" data-content="Source Lines of Code / Logical Lines of Code" data-original-title="SLOC/LSLOC" data-container="body"></i></h2>
+      <p class="stat">1</p>
+    </div>
+  </div>
+  <div class="row historical">
+    <div class="col-md-6">
+      <p id="chart_historical_maint" class="chart"></p>
+    </div>
+    <div class="col-md-6">
+      <p id="chart_historical_sloc" class="chart"></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <h2 class="header">Difficulty  <a href="http://en.wikipedia.org/wiki/Halstead_complexity_measures"><i class="icon icon-info-sign" rel="popover" data-placement="top" data-trigger="hover" data-content="The difficulty measure is related to the difficulty of the program to write or understand." data-original-title="Difficulty" data-container="body"></i></a></h2>
+      <p class="stat">15.95</p>
+    </div>
+    <div class="col-md-6">
+      <h2 class="header">Estimated Errors  <a href="http://en.wikipedia.org/wiki/Halstead_complexity_measures"><i class="icon icon-info-sign" rel="popover" data-placement="top" data-trigger="hover" data-content="Halstead's delivered bugs is an estimate for the number of errors in the implementation." data-original-title="Delivered Bugs" data-container="body"></i></a></h2>
+      <p class="stat">4.42</p>
+    </div>
+  </div>
+</div>
+
+<div class="container charts">
+  <div class="row">
+    <h2 class="header">Function weight</h2>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <h3 class="chart-header">By Complexity <a href="http://en.wikipedia.org/wiki/Cyclomatic_complexity"><i class="icon icon-info-sign" rel="popover" data-placement="top" data-trigger="hover" data-content="This metric counts the number of distinct paths through a block of code. Lower values are better." data-original-title="Cyclomatic Complexity" data-container="body"></i></a></h3>
+      <div id="fn-by-complexity" class="stat"></div>
+    </div>
+    <div class="col-md-6">
+      <h3 class="chart-header">By SLOC  <i class="icon icon-info-sign" rel="popover" data-placement="top" data-trigger="hover" data-content="Source Lines of Code / Logical Lines of Code" data-original-title="SLOC/LSLOC" data-container="body"></i></h3>
+      <div id="fn-by-sloc" class="stat"></div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <textarea id="file-source" class="col-md-12">__report = {&quot;info&quot;:{&quot;file&quot;:&quot;src/infrastructure/api/request.js&quot;,&quot;fileShort&quot;:&quot;infrastructure/api/request.js&quot;,&quot;fileSafe&quot;:&quot;infrastructure_api_request_js&quot;,&quot;link&quot;:&quot;files/infrastructure_api_request_js/index.html&quot;},&quot;complexity&quot;:{&quot;methodAggregate&quot;:{&quot;cyclomatic&quot;:3,&quot;cyclomaticDensity&quot;:27.273,&quot;halstead&quot;:{&quot;bugs&quot;:0.132,&quot;difficulty&quot;:10.64,&quot;effort&quot;:4217.751,&quot;length&quot;:75,&quot;time&quot;:234.319,&quot;vocabulary&quot;:39,&quot;volume&quot;:396.405,&quot;operands&quot;:{&quot;distinct&quot;:25,&quot;total&quot;:38,&quot;identifiers&quot;:[&quot;__stripped__&quot;]},&quot;operators&quot;:{&quot;distinct&quot;:14,&quot;total&quot;:37,&quot;identifiers&quot;:[&quot;__stripped__&quot;]}},&quot;params&quot;:7,&quot;sloc&quot;:{&quot;logical&quot;:11,&quot;physical&quot;:27}},&quot;settings&quot;:{&quot;commonjs&quot;:false,&quot;forin&quot;:false,&quot;logicalor&quot;:true,&quot;switchcase&quot;:true,&quot;trycatch&quot;:false,&quot;newmi&quot;:true},&quot;classes&quot;:[],&quot;dependencies&quot;:[{&quot;line&quot;:1,&quot;path&quot;:&quot;axios&quot;,&quot;type&quot;:&quot;esm&quot;}],&quot;errors&quot;:[],&quot;lineEnd&quot;:27,&quot;lineStart&quot;:1,&quot;maintainability&quot;:79.888,&quot;methods&quot;:[{&quot;cyclomatic&quot;:1,&quot;cyclomaticDensity&quot;:100,&quot;halstead&quot;:{&quot;bugs&quot;:0.007,&quot;difficulty&quot;:1.5,&quot;effort&quot;:29.477,&quot;length&quot;:7,&quot;time&quot;:1.638,&quot;vocabulary&quot;:7,&quot;volume&quot;:19.651,&quot;operands&quot;:{&quot;distinct&quot;:4,&quot;total&quot;:4,&quot;identifiers&quot;:[&quot;__stripped__&quot;]},&quot;operators&quot;:{&quot;distinct&quot;:3,&quot;total&quot;:3,&quot;identifiers&quot;:[&quot;__stripped__&quot;]}},&quot;params&quot;:3,&quot;sloc&quot;:{&quot;logical&quot;:1,&quot;physical&quot;:17},&quot;errors&quot;:[],&quot;lineEnd&quot;:24,&quot;lineStart&quot;:8,&quot;name&quot;:&quot;&lt;anonymous&gt;&quot;,&quot;complexity&quot;:{&quot;cyclomatic&quot;:1,&quot;sloc&quot;:{&quot;logical&quot;:1,&quot;physical&quot;:17},&quot;halstead&quot;:{&quot;bugs&quot;:0.007,&quot;difficulty&quot;:1.5,&quot;effort&quot;:29.477,&quot;length&quot;:7,&quot;time&quot;:1.638,&quot;vocabulary&quot;:7,&quot;volume&quot;:19.651,&quot;operands&quot;:{&quot;distinct&quot;:4,&quot;total&quot;:4,&quot;identifiers&quot;:[&quot;__stripped__&quot;]},&quot;operators&quot;:{&quot;distinct&quot;:3,&quot;total&quot;:3,&quot;identifiers&quot;:[&quot;__stripped__&quot;]}}},&quot;line&quot;:8},{&quot;cyclomatic&quot;:3,&quot;cyclomaticDensity&quot;:42.857,&quot;halstead&quot;:{&quot;bugs&quot;:0.074,&quot;difficulty&quot;:5.111,&quot;effort&quot;:1129.15,&quot;length&quot;:47,&quot;time&quot;:62.731,&quot;vocabulary&quot;:26,&quot;volume&quot;:220.921,&quot;operands&quot;:{&quot;distinct&quot;:18,&quot;total&quot;:23,&quot;identifiers&quot;:[&quot;__stripped__&quot;]},&quot;operators&quot;:{&quot;distinct&quot;:8,&quot;total&quot;:24,&quot;identifiers&quot;:[&quot;__stripped__&quot;]}},&quot;params&quot;:2,&quot;sloc&quot;:{&quot;logical&quot;:7,&quot;physical&quot;:15},&quot;errors&quot;:[],&quot;lineEnd&quot;:23,&quot;lineStart&quot;:9,&quot;name&quot;:&quot;&lt;anonymous&gt;&quot;,&quot;complexity&quot;:{&quot;cyclomatic&quot;:3,&quot;sloc&quot;:{&quot;logical&quot;:7,&quot;physical&quot;:15},&quot;halstead&quot;:{&quot;bugs&quot;:0.074,&quot;difficulty&quot;:5.111,&quot;effort&quot;:1129.15,&quot;length&quot;:47,&quot;time&quot;:62.731,&quot;vocabulary&quot;:26,&quot;volume&quot;:220.921,&quot;operands&quot;:{&quot;distinct&quot;:18,&quot;total&quot;:23,&quot;identifiers&quot;:[&quot;__stripped__&quot;]},&quot;operators&quot;:{&quot;distinct&quot;:8,&quot;total&quot;:24,&quot;identifiers&quot;:[&quot;__stripped__&quot;]}}},&quot;line&quot;:9},{&quot;cyclomatic&quot;:1,&quot;cyclomaticDensity&quot;:100,&quot;halstead&quot;:{&quot;bugs&quot;:0.002,&quot;difficulty&quot;:0.75,&quot;effort&quot;:4.755,&quot;length&quot;:4,&quot;time&quot;:0.264,&quot;vocabulary&quot;:3,&quot;volume&quot;:6.34,&quot;operands&quot;:{&quot;distinct&quot;:2,&quot;total&quot;:3,&quot;identifiers&quot;:[&quot;__stripped__&quot;]},&quot;operators&quot;:{&quot;distinct&quot;:1,&quot;total&quot;:1,&quot;identifiers&quot;:[&quot;__stripped__&quot;]}},&quot;params&quot;:1,&quot;sloc&quot;:{&quot;logical&quot;:1,&quot;physical&quot;:3},&quot;errors&quot;:[],&quot;lineEnd&quot;:19,&quot;lineStart&quot;:17,&quot;name&quot;:&quot;&lt;anonymous&gt;&quot;,&quot;complexity&quot;:{&quot;cyclomatic&quot;:1,&quot;sloc&quot;:{&quot;logical&quot;:1,&quot;physical&quot;:3},&quot;halstead&quot;:{&quot;bugs&quot;:0.002,&quot;difficulty&quot;:0.75,&quot;effort&quot;:4.755,&quot;length&quot;:4,&quot;time&quot;:0.264,&quot;vocabulary&quot;:3,&quot;volume&quot;:6.34,&quot;operands&quot;:{&quot;distinct&quot;:2,&quot;total&quot;:3,&quot;identifiers&quot;:[&quot;__stripped__&quot;]},&quot;operators&quot;:{&quot;distinct&quot;:1,&quot;total&quot;:1,&quot;identifiers&quot;:[&quot;__stripped__&quot;]}}},&quot;line&quot;:17},{&quot;cyclomatic&quot;:1,&quot;cyclomaticDensity&quot;:100,&quot;halstead&quot;:{&quot;bugs&quot;:0.005,&quot;difficulty&quot;:1.333,&quot;effort&quot;:18.575,&quot;length&quot;:6,&quot;time&quot;:1.032,&quot;vocabulary&quot;:5,&quot;volume&quot;:13.932,&quot;operands&quot;:{&quot;distinct&quot;:3,&quot;total&quot;:4,&quot;identifiers&quot;:[&quot;__stripped__&quot;]},&quot;operators&quot;:{&quot;distinct&quot;:2,&quot;total&quot;:2,&quot;identifiers&quot;:[&quot;__stripped__&quot;]}},&quot;params&quot;:1,&quot;sloc&quot;:{&quot;logical&quot;:1,&quot;physical&quot;:3},&quot;errors&quot;:[],&quot;lineEnd&quot;:22,&quot;lineStart&quot;:20,&quot;name&quot;:&quot;&lt;anonymous&gt;&quot;,&quot;complexity&quot;:{&quot;cyclomatic&quot;:1,&quot;sloc&quot;:{&quot;logical&quot;:1,&quot;physical&quot;:3},&quot;halstead&quot;:{&quot;bugs&quot;:0.005,&quot;difficulty&quot;:1.333,&quot;effort&quot;:18.575,&quot;length&quot;:6,&quot;time&quot;:1.032,&quot;vocabulary&quot;:5,&quot;volume&quot;:13.932,&quot;operands&quot;:{&quot;distinct&quot;:3,&quot;total&quot;:4,&quot;identifiers&quot;:[&quot;__stripped__&quot;]},&quot;operators&quot;:{&quot;distinct&quot;:2,&quot;total&quot;:2,&quot;identifiers&quot;:[&quot;__stripped__&quot;]}}},&quot;line&quot;:20}],&quot;methodAverage&quot;:{&quot;cyclomatic&quot;:1.5,&quot;cyclomaticDensity&quot;:85.714,&quot;halstead&quot;:{&quot;bugs&quot;:0.022,&quot;difficulty&quot;:2.174,&quot;effort&quot;:295.489,&quot;length&quot;:16,&quot;time&quot;:16.416,&quot;vocabulary&quot;:10.25,&quot;volume&quot;:65.211,&quot;operands&quot;:{&quot;distinct&quot;:6.75,&quot;total&quot;:8.5},&quot;operators&quot;:{&quot;distinct&quot;:3.5,&quot;total&quot;:7.5}},&quot;params&quot;:1.75,&quot;sloc&quot;:{&quot;logical&quot;:2.5,&quot;physical&quot;:9.5}},&quot;module&quot;:&quot;infrastructure/api/request.js&quot;,&quot;aggregate&quot;:{&quot;complexity&quot;:{&quot;cyclomatic&quot;:3,&quot;cyclomaticDensity&quot;:27.273,&quot;halstead&quot;:{&quot;bugs&quot;:0.132,&quot;difficulty&quot;:10.64,&quot;effort&quot;:4217.751,&quot;length&quot;:75,&quot;time&quot;:234.319,&quot;vocabulary&quot;:39,&quot;volume&quot;:396.405,&quot;operands&quot;:{&quot;distinct&quot;:25,&quot;total&quot;:38,&quot;identifiers&quot;:[&quot;__stripped__&quot;]},&quot;operators&quot;:{&quot;distinct&quot;:14,&quot;total&quot;:37,&quot;identifiers&quot;:[&quot;__stripped__&quot;]}},&quot;params&quot;:7,&quot;sloc&quot;:{&quot;logical&quot;:11,&quot;physical&quot;:27}}},&quot;functions&quot;:[{&quot;cyclomatic&quot;:1,&quot;cyclomaticDensity&quot;:100,&quot;halstead&quot;:{&quot;bugs&quot;:0.007,&quot;difficulty&quot;:1.5,&quot;effort&quot;:29.477,&quot;length&quot;:7,&quot;time&quot;:1.638,&quot;vocabulary&quot;:7,&quot;volume&quot;:19.651,&quot;operands&quot;:{&quot;distinct&quot;:4,&quot;total&quot;:4,&quot;identifiers&quot;:[&quot;__stripped__&quot;]},&quot;operators&quot;:{&quot;distinct&quot;:3,&quot;total&quot;:3,&quot;identifiers&quot;:[&quot;__stripped__&quot;]}},&quot;params&quot;:3,&quot;sloc&quot;:{&quot;logical&quot;:1,&quot;physical&quot;:17},&quot;errors&quot;:[],&quot;lineEnd&quot;:24,&quot;lineStart&quot;:8,&quot;name&quot;:&quot;&lt;anonymous&gt;&quot;,&quot;complexity&quot;:{&quot;cyclomatic&quot;:1,&quot;sloc&quot;:{&quot;logical&quot;:1,&quot;physical&quot;:17},&quot;halstead&quot;:{&quot;bugs&quot;:0.007,&quot;difficulty&quot;:1.5,&quot;effort&quot;:29.477,&quot;length&quot;:7,&quot;time&quot;:1.638,&quot;vocabulary&quot;:7,&quot;volume&quot;:19.651,&quot;operands&quot;:{&quot;distinct&quot;:4,&quot;total&quot;:4,&quot;identifiers&quot;:[&quot;__stripped__&quot;]},&quot;operators&quot;:{&quot;distinct&quot;:3,&quot;total&quot;:3,&quot;identifiers&quot;:[&quot;__stripped__&quot;]}}},&quot;line&quot;:8},{&quot;cyclomatic&quot;:3,&quot;cyclomaticDensity&quot;:42.857,&quot;halstead&quot;:{&quot;bugs&quot;:0.074,&quot;difficulty&quot;:5.111,&quot;effort&quot;:1129.15,&quot;length&quot;:47,&quot;time&quot;:62.731,&quot;vocabulary&quot;:26,&quot;volume&quot;:220.921,&quot;operands&quot;:{&quot;distinct&quot;:18,&quot;total&quot;:23,&quot;identifiers&quot;:[&quot;__stripped__&quot;]},&quot;operators&quot;:{&quot;distinct&quot;:8,&quot;total&quot;:24,&quot;identifiers&quot;:[&quot;__stripped__&quot;]}},&quot;params&quot;:2,&quot;sloc&quot;:{&quot;logical&quot;:7,&quot;physical&quot;:15},&quot;errors&quot;:[],&quot;lineEnd&quot;:23,&quot;lineStart&quot;:9,&quot;name&quot;:&quot;&lt;anonymous&gt;&quot;,&quot;complexity&quot;:{&quot;cyclomatic&quot;:3,&quot;sloc&quot;:{&quot;logical&quot;:7,&quot;physical&quot;:15},&quot;halstead&quot;:{&quot;bugs&quot;:0.074,&quot;difficulty&quot;:5.111,&quot;effort&quot;:1129.15,&quot;length&quot;:47,&quot;time&quot;:62.731,&quot;vocabulary&quot;:26,&quot;volume&quot;:220.921,&quot;operands&quot;:{&quot;distinct&quot;:18,&quot;total&quot;:23,&quot;identifiers&quot;:[&quot;__stripped__&quot;]},&quot;operators&quot;:{&quot;distinct&quot;:8,&quot;total&quot;:24,&quot;identifiers&quot;:[&quot;__stripped__&quot;]}}},&quot;line&quot;:9},{&quot;cyclomatic&quot;:1,&quot;cyclomaticDensity&quot;:100,&quot;halstead&quot;:{&quot;bugs&quot;:0.002,&quot;difficulty&quot;:0.75,&quot;effort&quot;:4.755,&quot;length&quot;:4,&quot;time&quot;:0.264,&quot;vocabulary&quot;:3,&quot;volume&quot;:6.34,&quot;operands&quot;:{&quot;distinct&quot;:2,&quot;total&quot;:3,&quot;identifiers&quot;:[&quot;__stripped__&quot;]},&quot;operators&quot;:{&quot;distinct&quot;:1,&quot;total&quot;:1,&quot;identifiers&quot;:[&quot;__stripped__&quot;]}},&quot;params&quot;:1,&quot;sloc&quot;:{&quot;logical&quot;:1,&quot;physical&quot;:3},&quot;errors&quot;:[],&quot;lineEnd&quot;:19,&quot;lineStart&quot;:17,&quot;name&quot;:&quot;&lt;anonymous&gt;&quot;,&quot;complexity&quot;:{&quot;cyclomatic&quot;:1,&quot;sloc&quot;:{&quot;logical&quot;:1,&quot;physical&quot;:3},&quot;halstead&quot;:{&quot;bugs&quot;:0.002,&quot;difficulty&quot;:0.75,&quot;effort&quot;:4.755,&quot;length&quot;:4,&quot;time&quot;:0.264,&quot;vocabulary&quot;:3,&quot;volume&quot;:6.34,&quot;operands&quot;:{&quot;distinct&quot;:2,&quot;total&quot;:3,&quot;identifiers&quot;:[&quot;__stripped__&quot;]},&quot;operators&quot;:{&quot;distinct&quot;:1,&quot;total&quot;:1,&quot;identifiers&quot;:[&quot;__stripped__&quot;]}}},&quot;line&quot;:17},{&quot;cyclomatic&quot;:1,&quot;cyclomaticDensity&quot;:100,&quot;halstead&quot;:{&quot;bugs&quot;:0.005,&quot;difficulty&quot;:1.333,&quot;effort&quot;:18.575,&quot;length&quot;:6,&quot;time&quot;:1.032,&quot;vocabulary&quot;:5,&quot;volume&quot;:13.932,&quot;operands&quot;:{&quot;distinct&quot;:3,&quot;total&quot;:4,&quot;identifiers&quot;:[&quot;__stripped__&quot;]},&quot;operators&quot;:{&quot;distinct&quot;:2,&quot;total&quot;:2,&quot;identifiers&quot;:[&quot;__stripped__&quot;]}},&quot;params&quot;:1,&quot;sloc&quot;:{&quot;logical&quot;:1,&quot;physical&quot;:3},&quot;errors&quot;:[],&quot;lineEnd&quot;:22,&quot;lineStart&quot;:20,&quot;name&quot;:&quot;&lt;anonymous&gt;&quot;,&quot;complexity&quot;:{&quot;cyclomatic&quot;:1,&quot;sloc&quot;:{&quot;logical&quot;:1,&quot;physical&quot;:3},&quot;halstead&quot;:{&quot;bugs&quot;:0.005,&quot;difficulty&quot;:1.333,&quot;effort&quot;:18.575,&quot;length&quot;:6,&quot;time&quot;:1.032,&quot;vocabulary&quot;:5,&quot;volume&quot;:13.932,&quot;operands&quot;:{&quot;distinct&quot;:3,&quot;total&quot;:4,&quot;identifiers&quot;:[&quot;__stripped__&quot;]},&quot;operators&quot;:{&quot;distinct&quot;:2,&quot;total&quot;:2,&quot;identifiers&quot;:[&quot;__stripped__&quot;]}}},&quot;line&quot;:20}]},&quot;eslint&quot;:{&quot;messages&quot;:[{&quot;severity&quot;:&quot;error&quot;,&quot;line&quot;:1,&quot;column&quot;:26,&quot;message&quot;:&quot;Missing semicolon.&quot;,&quot;fix&quot;:{&quot;range&quot;:[25,25],&quot;text&quot;:&quot;;&quot;}},{&quot;severity&quot;:&quot;error&quot;,&quot;line&quot;:10,&quot;column&quot;:31,&quot;message&quot;:&quot;Missing semicolon.&quot;,&quot;fix&quot;:{&quot;range&quot;:[223,223],&quot;text&quot;:&quot;;&quot;}},{&quot;severity&quot;:&quot;error&quot;,&quot;line&quot;:11,&quot;column&quot;:44,&quot;message&quot;:&quot;Missing semicolon.&quot;,&quot;fix&quot;:{&quot;range&quot;:[267,267],&quot;text&quot;:&quot;;&quot;}},{&quot;severity&quot;:&quot;error&quot;,&quot;line&quot;:12,&quot;column&quot;:34,&quot;message&quot;:&quot;Missing semicolon.&quot;,&quot;fix&quot;:{&quot;range&quot;:[301,301],&quot;text&quot;:&quot;;&quot;}},{&quot;severity&quot;:&quot;error&quot;,&quot;line&quot;:13,&quot;column&quot;:21,&quot;message&quot;:&quot;Missing semicolon.&quot;,&quot;fix&quot;:{&quot;range&quot;:[395,395],&quot;text&quot;:&quot;;&quot;}},{&quot;severity&quot;:&quot;error&quot;,&quot;line&quot;:14,&quot;column&quot;:50,&quot;message&quot;:&quot;Missing semicolon.&quot;,&quot;fix&quot;:{&quot;range&quot;:[445,445],&quot;text&quot;:&quot;;&quot;}},{&quot;severity&quot;:&quot;error&quot;,&quot;line&quot;:18,&quot;column&quot;:26,&quot;message&quot;:&quot;Missing semicolon.&quot;,&quot;fix&quot;:{&quot;range&quot;:[536,536],&quot;text&quot;:&quot;;&quot;}},{&quot;severity&quot;:&quot;error&quot;,&quot;line&quot;:21,&quot;column&quot;:27,&quot;message&quot;:&quot;Missing semicolon.&quot;,&quot;fix&quot;:{&quot;range&quot;:[598,598],&quot;text&quot;:&quot;;&quot;}},{&quot;severity&quot;:&quot;error&quot;,&quot;line&quot;:22,&quot;column&quot;:9,&quot;message&quot;:&quot;Missing semicolon.&quot;,&quot;fix&quot;:{&quot;range&quot;:[607,607],&quot;text&quot;:&quot;;&quot;}},{&quot;severity&quot;:&quot;error&quot;,&quot;line&quot;:23,&quot;column&quot;:5,&quot;message&quot;:&quot;Missing semicolon.&quot;,&quot;fix&quot;:{&quot;range&quot;:[612,612],&quot;text&quot;:&quot;;&quot;}},{&quot;severity&quot;:&quot;error&quot;,&quot;line&quot;:24,&quot;column&quot;:2,&quot;message&quot;:&quot;Missing semicolon.&quot;,&quot;fix&quot;:{&quot;range&quot;:[614,614],&quot;text&quot;:&quot;;&quot;}},{&quot;severity&quot;:&quot;error&quot;,&quot;line&quot;:26,&quot;column&quot;:23,&quot;message&quot;:&quot;Missing semicolon.&quot;,&quot;fix&quot;:{&quot;range&quot;:[638,638],&quot;text&quot;:&quot;;&quot;}}]}}</textarea>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <p>.</p>
+  </div>
+</footer>
+
+<script type="text/html" id="complexity-popover-template">
+  <div class="complexity-notice">
+    Complexity : {{ complexity.cyclomatic }} <br>
+    Length : {{ complexity.halstead.length }} <br>
+    Difficulty : {{ complexity.halstead.difficulty.toFixed(2) }} <br>
+    Est # bugs : {{ complexity.halstead.bugs.toFixed(2) }}<br>
+  </div>
+</script>
+
+<script type="text/javascript" src="../../assets/scripts/bundles/core-bundle.js"></script>
+<script type="text/javascript" src="../../assets/scripts/bundles/codemirror.js"></script>
+<script type="text/javascript" src="../../assets/scripts/codemirror.markpopovertext.js"></script>
+<script type="text/javascript" src="report.js"></script>
+<script type="text/javascript" src="report.history.js"></script>
+<script type="text/javascript" src="../../assets/scripts/plato-file.js"></script>
+</body>
+</html>
