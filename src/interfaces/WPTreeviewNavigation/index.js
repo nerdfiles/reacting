@@ -86,7 +86,9 @@ const WPTreeviewNavigation = (props) => {
   }
 
   return (
-    <DataTreeElement data={DATA_TREE} />
+    <>
+      <DataTreeElement data={DATA_TREE} />
+    </>
   )
 }
 
