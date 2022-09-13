@@ -101,6 +101,12 @@ const Button = (props) => {
    */
   const TABINDEX = '0'
 
+  /**
+   * @constant
+   * @default
+   */
+  const DISABLED = 'false'
+
   // const RANDBOTTOM = 1
   // const RANDTOP = 100
   // const value = RANDMAX.integer(RANDBOTTOM, RANDTOP)
@@ -114,13 +120,14 @@ const Button = (props) => {
 
   return (
     <button
+      disabled={DISABLED}
       id={ID}
       name={NAME}
-      tabindex={TABINDEX}
       onClick={(e) => {
         props.act()
         e.preventDefault()
       }}
+      tabindex={TABINDEX}
     >
       <span
 				className='m-view--text-label__default__'

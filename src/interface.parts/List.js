@@ -41,11 +41,12 @@ const List = (props) => {
     DATA_LIST
       ? DATA_LIST.map((dataRef, keyRef) => {
         const NAME = dataRef.first_name || dataRef.name
-        const person = new Person({
+        const nullPerson = {
           name: NAME,
           age: 0,
           tags: ['human']
-        })
+        }
+        const person = new Person(nullPerson)
 
         return (
           <Listing
