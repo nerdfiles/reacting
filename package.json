@@ -19,6 +19,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "open/@todo": "vim $(ack @todo -l | percol)",
     "start": "react-scripts start",
     "publish": "cd build && surge .",
     "build": "react-scripts build && echo 'arrested.surge.sh' > ./build/CNAME && mv docs build && mv report build",
