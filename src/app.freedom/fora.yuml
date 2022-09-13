@@ -1,3 +1,6 @@
 // {type:sequence}
 // {generate:true}
 
+
+[aRb]>[aRc]
+[aRc]>[aRd]
