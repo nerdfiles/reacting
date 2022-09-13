@@ -18,6 +18,11 @@
 // import { Random } from 'random-js'
 // const MT19937 = require('mt19937')
 // const RANDMAX = new Random(MT19937.Seed())
+/**
+ * @constant
+ * @default
+ */
+const GLUE = ''
 
 /**
  * @name Icon
@@ -36,7 +41,7 @@ const Icon = (props) => {
    * @constant
    * @default
    */
-	const NAMED_SYMBOL = `#icon-${SYMBOL}`
+	const NAMED_SYMBOL = String(['#icon-', SYMBOL].join(GLUE))
 
   /**
    * @constant
@@ -52,7 +57,7 @@ const Icon = (props) => {
 
 	return (
 		<svg
-			aria-hidden={HIDDEN}
+			ariaHidden={HIDDEN}
 			focusable={FOCUSABLE}
 		>
 			<use xlinkHref={NAMED_SYMBOL}></use>
@@ -67,12 +72,6 @@ const Icon = (props) => {
  * @returns {React.FC}
  */
 const Button = (props) => {
-  /**
-   * @constant
-   * @default
-   */
-  const GLUE = ''
-
   /**
    * @constant
    * @default
