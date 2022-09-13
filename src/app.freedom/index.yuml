@@ -5,13 +5,19 @@
 [:a]yPx>[:b]
 [:a]yQx>[:b]
 [:b]xRx>[:a]
+
 [:a]xSx>[:b]
 [:a]xSx>[:c]
 [:c]yQx>[:c]
 [:a]xXy>[:b]
 [aRb]xXy[aRb]
-
-[ aRb*10 ]>
+[aRb]xXy[aRb]
+[aRb]xXy[aRb]
+[aRb]xXy[aRb]
+[aRb]xXy[aRb]
+[aRb]xXy[aRb]
+[aRb*10]>[aRc*10]
+[aRRb]>[aRb]
 
 
 // EOF

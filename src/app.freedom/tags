@@ -1,0 +1,30 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/Users/nerdfiles/Projects/reacting/src/app.freedom/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+Collectivity	Collectivity/index.js	/^class Collectivity {$/;"	c
+Unification	Unification/index.js	/^class Unification {$/;"	c
+arrow-filled	fora.yuml.svg	/^    <marker id="arrow-filled" refX="6" refY="3" markerWidth="6" markerHeight="6" orient="auto">$/;"	d
+arrow-filled	fora.yuml.svg	/^    <marker id="arrow-filled" refX="6" refY="3" markerWidth="6" markerHeight="6" orient="auto">$/;"	i
+arrow-open	fora.yuml.svg	/^    <marker id="arrow-open" refX="6" refY="3" markerWidth="6" markerHeight="6" orient="auto">$/;"	d
+arrow-open	fora.yuml.svg	/^    <marker id="arrow-open" refX="6" refY="3" markerWidth="6" markerHeight="6" orient="auto">$/;"	i
+autonomy	readme.md	/^## autonomy$/;"	s	chapter:freedom
+choice	Unification/index.js	/^  choice () {}$/;"	m	class:Unification
+collectivity	readme.md	/^## collectivity$/;"	s	chapter:freedom
+concretion	Unification/index.js	/^  concretion () {}$/;"	m	class:Unification
+freedom	readme.md	/^# freedom$/;"	c
+historical	Unification/index.js	/^  historical () {}$/;"	m	class:Unification
+intentionality	readme.md	/^## intentionality$/;"	s	chapter:freedom
+novelty	Unification/index.js	/^  novelty () {}$/;"	m	class:Unification
+nsff7fd6000101	fora.yuml.svg	/^<svg  width="216.5" height="1162" viewBox="0.00 0.00 216.5 1162" xmlns="http:\/\/www.w3.org\/200/;"	n	uri:http://www.w3.org/2000/svg
+perceptuality	Unification/index.js	/^  perceptuality () {}$/;"	m	class:Unification
+ultimacy	readme.md	/^## ultimacy$/;"	s	chapter:freedom
+unification	readme.md	/^## unification$/;"	s	chapter:freedom
+unity	Unification/index.js	/^  unity () {}$/;"	m	class:Unification
