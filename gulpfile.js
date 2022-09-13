@@ -23,7 +23,8 @@ const lintRules = {
     'func-names': [1, 'always']
   },
   env: {
-    es6: true
+    es6: true,
+    asi: true
   },
   globals: ['require'],
   parserOptions: {
