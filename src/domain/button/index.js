@@ -10,7 +10,7 @@ import HelpText from '../helpers/HelpText'
 
 const helpText = new HelpText()
 
-const Button = t.struct({
+const concept = {
   'aria-expanded': t.maybe(t.Boolean),
   'aria-controls': t.maybe(t.String),
   'aria-pressed': t.maybe(t.String),
@@ -22,7 +22,9 @@ const Button = t.struct({
   title: t.maybe(t.String),
   type: t.maybe(t.String),
   value: t.maybe(t.String)
-}, 'Button')
+}
+
+const Button = t.struct(concept, 'Button')
 
 helpText.addHelpText(Button)
 

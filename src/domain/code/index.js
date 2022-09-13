@@ -10,8 +10,10 @@ import HelpText from '../helpers/HelpText'
 
 const helpText = new HelpText()
 
-const Code = t.struct({
-}, 'CategoryCode')
+const concept = {
+}
+
+const Code = t.struct(concept, 'CategoryCode')
 
 helpText.addHelpText(Code)
 

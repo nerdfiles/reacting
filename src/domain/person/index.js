@@ -12,14 +12,16 @@ import Profile from '../helpers/Profile'
 const profile = new Profile()
 const helpText = new HelpText()
 
-const Person = t.struct({
+const concept = {
   additionalName: t.maybe(t.String),
   name: t.String,
   middleName: t.maybe(t.String),
   surname: t.maybe(t.String),
   age: t.Integer,
   tags: t.list(t.String)
-}, 'Person')
+}
+
+const Person = t.struct(concept, 'Person')
 
 profile.addProfile(Person)
 helpText.addHelpText(Person)
