@@ -199,6 +199,7 @@
         }],
         "semi-spacing": [ WARN, { "before": false, "after": true }],
         "semi": [ WARN, "never" ],
+        "asi": false,
         "sort-vars": OFF,
         "space-after-keywords": [ WARN, "always" ],
         "space-before-blocks": [ WARN, "always" ],
