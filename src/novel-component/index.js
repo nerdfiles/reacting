@@ -2,6 +2,7 @@
  * @name NovelComponent
  */
 import React from 'react'
+import connect from './connect'
 
 /**
  * @name NovelComponent

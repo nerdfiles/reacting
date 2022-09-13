@@ -15,7 +15,7 @@ const store = createStore(Store)
 const App = () => (
   <Provider store={store}>
     <Router history={browserHistory}>
-      <Route path="/">
+      <Route path='/'>
         <IndexRoute component={NovelComponent} />
       </Route>
     </Router>
