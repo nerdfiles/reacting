@@ -5,6 +5,11 @@
 class Culture {
   honor () {}
   dignity () {}
+  ethos () {}
+  morality () {}
+  religiosity () {}
+  respect () {}
+  normativity () {}
 }
 
 export default Culture
