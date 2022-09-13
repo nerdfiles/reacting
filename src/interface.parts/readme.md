@@ -125,9 +125,7 @@ of vision.
 13. `<Direction></Direction>`
 13. `<SuperordinateMovement></SuperordinateMovement>`
 13. `<SubordinateMovement></SubordinateMovement>`
-13. `<Cloning></Cloning>`
 13. `<Displacement></Displacement>`
-13. `<Performation></Performation>`
 13. `<Information></Information>`
 13. `<Direction:of:Displacement></Direction:of:Displacement>`
 
@@ -151,6 +149,20 @@ of vision.
 1. `<Illustration></Illustration>`
 1. `<Tint></Tint>`
 1. `<CorporateIdentity></CorporateIdentity>`
+
+## non-standard model (non-photographic imaginary)
+
+1. `<Performation></Performation>`
+2. `<WordPicture></WordPicture>`
+2. `<Glyph></Glyph>`
+2. `<Model></Model>`
+3. `<Cloning></Cloning>`
+4. `<Syzygy></Syzygy>`
+5. `<Absolute></Absolute>`
+5. `<Clinamen></Clinamen>`
+5. `<Anomaly></Anomaly>`
+5. `<Antinomy></Antinomy>`
+5. `<Pataphor></Pataphor>`
 
 ## logical systems
 
