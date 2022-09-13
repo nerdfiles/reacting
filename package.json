@@ -24,7 +24,6 @@
     "docs": "jsdoc -d docs -r src",
     "docs/open": "open docs/index.html",
     "open/@todo": "nohup vim $(ack @todo -l | percol)",
-    "recent": "ack @filepath src -l | percol",
     "percol/alder": "alder src | percol",
     "start": "react-scripts start",
     "publish": "cp -R docs build/docs && cp -R report build/report && echo 'arrested.surge.sh' > ./build/CNAME && cd build && surge .",
