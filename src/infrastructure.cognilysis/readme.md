@@ -1,14 +1,14 @@
 # cognilysis
 
-agile meets starr.
+[agility][agility] meets starr.
 
 1. re-cognitions, re-volitions, etc.
 
-## action
+## action and temporization
 
 1. spotlight theory of time à la b. skow.
-2. liveness and safety à la l. lamport.
-3. safety à la m. amundsen.
+2. *liveness* and *safety* à la l. lamport.
+3. *safety*, *idempotence*, *mutbility*, etc. à la m. amundsen.
 
 ## initiative
 
@@ -39,5 +39,7 @@ agile meets starr.
 ## story
 
 ## epic
+
+[agility]: http://agilemanifesto.org/principles.html
 
 <!-- EOF -->
