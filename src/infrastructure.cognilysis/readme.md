@@ -16,12 +16,13 @@
 
 ## reflection
 
-1. paradigmatics à la p. m. s. hacker.
+1. consciousness à la p. m. s. hacker.
 2. paradigmatics à la c. s. herrman.
+3. typicality à la peter carl
 
 ## result
 
-1. modal forces à la b. nanay.
+1. pragmatic representation and modal forces à la b. nanay.
 
 ## situation
 
