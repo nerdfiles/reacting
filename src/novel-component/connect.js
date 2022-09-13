@@ -9,7 +9,7 @@ import NovelComponent from './index'
 
 export default connect((state) => {
   return {
-    stateKey: state.stateKey
+    key: state.key
   }
 }, (dispatch) => {
   return bindActionCreators({ ACTION_NAME }, dispatch)

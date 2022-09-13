@@ -2,7 +2,6 @@
  * @name NovelComponent
  */
 import React from 'react'
-import './connect'
 
 /**
  * @name NovelComponent
@@ -18,7 +17,7 @@ class NovelComponent extends React.Component {
       <div
         className='m-view--mycomponent__default__' {...this.props}
       >
-        12:49:44
+        component copy
       </div>
     )
   }

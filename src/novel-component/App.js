@@ -9,6 +9,7 @@ import { Router, Route, IndexRoute, browserHistory } from 'react-router'
 
 import Store from './reducers'
 import NovelComponent from './index'
+import './connect'
 
 const store = createStore(Store)
 
