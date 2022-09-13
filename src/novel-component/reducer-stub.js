@@ -3,7 +3,7 @@
  */
 import { ACTION_KEY } from './actions'
 
-const act = (state = [], action) => {
+const act = (occasion = [], action) => {
   switch (action.type) {
     case ACTION_KEY:
       return {
@@ -12,7 +12,7 @@ const act = (state = [], action) => {
     default:
       break
   }
-  return state
+  return occasion
 }
 
 export default act

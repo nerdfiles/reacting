@@ -8,8 +8,10 @@ import { ACTION_NAME } from './actions'
 import NovelComponent from './index'
 
 export default connect((state) => {
+  const KEY = state['key']
+
   return {
-    key: state.key
+    key: KEY
   }
 }, (dispatch) => {
   return bindActionCreators({ ACTION_NAME }, dispatch)

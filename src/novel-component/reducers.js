@@ -2,12 +2,12 @@
  * @name reducers
  */
 import { combineReducers } from 'redux'
-import stubReducer from './reducer-stub'
+import occasion from './reducer-stub'
 
-const reducerList = {
-  stub: stubReducer
+const list = {
+  stub: occasion
 }
 
-export default combineReducers(reducerList)
+export default combineReducers(list)
 
 // EOF
