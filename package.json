@@ -20,6 +20,7 @@
   },
   "scripts": {
     "open/@todo": "nohup vim $(ack @todo -l | percol)",
+    "percol/alder": "alder src | percol",
     "start": "react-scripts start",
     "publish": "cd build && surge .",
     "build": "react-scripts build && echo 'arrested.surge.sh' > ./build/CNAME && mv docs build && mv report build",
