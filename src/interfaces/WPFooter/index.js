@@ -17,7 +17,7 @@ const WPFooter = (props) => {
         itemType='https://schema.org/SiteNavigationElement'
       >
         <ul>
-          <li><a href="https://arrested.surge.sh/docs">docs</a></li>
+          <li><a href="https://arrested.surge.sh/docs/index.html">docs</a></li>
           <li><a href="https://arrested.surge.sh/report">analysis</a></li>
           <li>
             <a
