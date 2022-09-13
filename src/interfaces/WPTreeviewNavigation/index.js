@@ -34,14 +34,19 @@
  */
 const EMPTY_TREE = () => {
   return (
-    <div className='m-view--empty-tree__default__'>
-      <ul className='m-view-empty-tree-list__default__'>
-        <span
-          className='m-view--icon-empty__default__'
-          title='no data provided'
-        ></span>
-      </ul>
-    </div>
+    <>
+      <li
+        className='m-view--empty-tree__default__'
+      >
+
+        <ul className='m-view-empty-tree-list__default__'>
+          <span
+            className='m-view--icon-empty__default__'
+            title='no data provided'
+          ></span>
+        </ul>
+      </li>
+    </>
   )
 }
 
