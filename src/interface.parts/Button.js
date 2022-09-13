@@ -41,7 +41,7 @@ const Icon = (props) => {
    * @constant
    * @default
    */
-	const NAMED_SYMBOL = String(['#icon-', SYMBOL].join(GLUE))
+	const NAMED_SYMBOL = ['#icon-', SYMBOL].join(GLUE)
 
   /**
    * @constant
@@ -55,9 +55,16 @@ const Icon = (props) => {
    */
 	const HIDDEN = 'true'
 
+  /**
+   * @constant
+   * @default
+   */
+  const CLASSNAME = 'm-view--icon-label__default__'
+
 	return (
 		<svg
 			ariaHidden={HIDDEN}
+      className={CLASSNAME}
 			focusable={FOCUSABLE}
 		>
 			<use xlinkHref={NAMED_SYMBOL}></use>
