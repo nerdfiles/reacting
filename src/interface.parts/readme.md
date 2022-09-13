@@ -155,7 +155,20 @@ of vision.
 ## logical systems
 
 1. `<Source></Source>`
-1. `<Statement></Statement>`
+1. `<Statement></Statement>` 
+  1. <Compound></Compound>
+  2. <Disjunction></Disjunction>
+  3. <DoubleArrowIn></DoubleArrowIn>
+  4. <DoubleArrowOut></DoubleArrowOut>
+  5. <Conditional></Conditional>
+  6. <Biconditional></Biconditional>
+  7. <Conjunction></Conjunction> 
+  8. <Negation></Negation> 
+1. <Rule></Rule>
+  9. <DashIn></DashIn>
+1. `<Fixture></Fixture>`
+  9.<Change></Change>
+  10. 
 1. `<Stakeholder></Stakeholder>`
 1. `<Sorting></Sorting>`
 1. `<Preview></Preview>`
@@ -182,3 +195,15 @@ of vision.
 1. `<PartyCollection></PartyCollection>`
 1. `<Constraint></Constraint>`
 1. `<LogicalConstraint></LogicalConstraint>`
+1. `<op:IfThen></op:IfThen>`
+1. `<op:NeitherNor></op:NeitherNor>`
+1. `<op:BothAnd></op:BothAnd>`
+1. `<Theorem></Theorem>`
+1. `<Def></Def>`
+1. `<Scholium></Scholium>`
+1. `<Postulate></Postulate>`
+1. `<ConjunctiveInclusion></ConjunctiveInclusion>`
+1. `<ConjunctiveExclusion></ConjunctiveExlusion>`
+1. `<DisjunctiveInclusion></DisjunctiveInclusion>`
+1. `<DisjunctiveExlusion></DisjunctiveExlusion>`
+
