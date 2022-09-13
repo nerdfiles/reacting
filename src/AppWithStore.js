@@ -1,15 +1,13 @@
 /**
  * @name App
  */
-import React from 'react'
-import ReactDOM from 'react-dom'
 import { Provider } from 'react-redux'
 import { createStore } from 'redux'
 import { Router, Route, IndexRoute, browserHistory } from 'react-router'
 
-import Store from './reducers'
-import NovelComponent from './index'
-import './connect'
+import Store from './novel-component/reducers'
+import NovelComponent from './novel-component'
+import './novel-component/connect'
 
 const store = createStore(Store)
 
@@ -23,6 +21,6 @@ const App = () => (
   </Provider>
 )
 
-ReactDOM.render(<App />, document.getElementById('app'))
+export default App
 
 // EOF
