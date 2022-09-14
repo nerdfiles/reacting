@@ -39,8 +39,8 @@ button {}
 /// ```
 ///   (a)   `*=_ as ._`
 ///   (a.1) `._ as [class*='...']_` (assuming '*' and whatever name, '...')
-///   (a.2) `._<ctrl+y,\leader> as [class='']_<ctrl+y,\leader>`/ 
-///   (a.3) `. as _`/ 
+///   (a.2) `._<ctrl+y,\leader> as [class=""]_<ctrl+y,\leader>` 
+///   (a.3) `. as _` 
 /// ```
 ///
 /// > [(a.2) returns no tag output with emmet where `[class='_-']` 
@@ -72,6 +72,11 @@ button {}
 /// ## naming
 ///
 /// [controls].
+///
+/// ## stuff happening
+///
+/// 1. [servers exposed](https://www.darkreading.com/application-security/more-than-eight-in-10-kubernetes-api-servers-exposed-to-the-internet)
+/// 2. [miners exposed](https://href.li/?https://medium.com/hackernoon/mapping-global-crypto-mining-w-shodan-io-7a174d18a327)
 ///  
 /// ## semantics-driven code design
 ///
