@@ -123,6 +123,22 @@ button {}
 /// 3. proxy: "The domain dependent is the Real Sub ject (which often exists 
 ///    before Proxy pattern application) and functionality of Proxy 
 ///    participants that provide access to the Real Subject."
+///
+/// (1) is often used in interaction models presenting tree structure: tree 
+/// maps, proof trees, binary trees, file directory trees, etc. (2) can be 
+/// used for domain dependent functionality pertaining to state management:
+/// interaction counters, form submission and error handling, etc. (3) concerns
+/// behaviors like creative, formative, adjustive, processive subscription and 
+/// hooking behaviors (see [resthooks] and [activitypub]). the idea is to think
+/// less so in terms of "states" and rather in terms of "occasions." there's never 
+/// really an `interactionCounter.count` set to `0`. it's "initial" value is
+/// even in intuitive examples *given* to a context in which someone is perceptually
+/// related to the output or the outcome of the program. `0` could very well depend
+/// on whether or not the computer one is using hiccups or non-deterministically
+/// pulls information from another peripheral. we don't have to suppose nefarious
+/// hacking, only that `0` is not some answer we should fix our implementation
+/// style to presuming. "0" is string to some, an integer to others: as web developers
+/// we don't care when it comes to designing the interaction in affordance.
 ///  
 /// <hr />
 ///
@@ -137,6 +153,8 @@ button {}
 /// (links in markdown)
 /// 
 /// [vitals]: https://web.dev/patterns/web-vitals-patterns/carousels/
+/// [resthooks]: https://resthooks.org
+/// [pub]: https://www.w3.org/TR/activitypub/#create-activity-outbox
 /// [trap]: https://www.gnu.org/philosophy/javascript-trap.html
 /// [cachedjs]: https://www.webperf.tips/tip/cached-js-misconceptions/
 /// [controls]: https://linkeddatafragments.org/specification/quad-pattern-fragments/#controls
