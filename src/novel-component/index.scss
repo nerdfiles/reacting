@@ -63,11 +63,27 @@ button {}
 /// 
 /// ## naming
 ///
-/// [controls]
+/// [controls].
 ///  
 /// ## semantics-driven code design
 ///
-/// [schema]
+/// [schema] and [punning].
+///
+/// > ... we make use of punning of an OWL metamodeling capability that allows 
+/// > to treat model elements as classes and individual at the same time.
+/// >
+/// > "semantics-driven programming of self-adaptive reactive systems". [sdcd]
+///
+/// synechdoche, subscendence, metonymy, patanymy, pleonymy, ananymy, 
+/// nomonymy, monotonymy, automorphism, echo, etc., *not* "[metaphor]" and 
+/// "non-parodic [irony]" (*pretence*). y'know, the stuff happening in 
+/// morphological linguistics.
+///
+/// > Although a metaphorical utterance can be prefaced with the phrase To 
+/// > speak metaphorically, an ironical utterance cannot be prefaced with the 
+/// > phrase To speak ironically.
+/// >
+/// > "irony and metarepresentation". wilson, deirdre.
 /// 
 /// ## panalogy
 ///
@@ -89,6 +105,10 @@ button {}
 /// [cachedjs]: https://www.webperf.tips/tip/cached-js-misconceptions/
 /// [controls]: https://linkeddatafragments.org/specification/quad-pattern-fragments/#controls
 /// [schema]: https://apisyouwonthate.com/blog/common-hypermedia-patterns-with-json-hyper-schema
+/// [sdcd]: https://www.worldscientific.com/doi/10.1142/S0218194020400082
+/// [irony]: https://www.researchgate.net/publication/223333203_The_pragmatics_of_verbal_irony_Echo_or_pretence 
+/// [metaphor]: https://www.cambridge.org/core/journals/language-and-cognition/article/metonymies-are-more-literal-than-metaphors-evidence-from-ratings-of-german-idioms/1CBBCFF893235E161608B6834860FA69
+/// [punning]: https://www.w3.org/TR/owl2-new-features/#F12:_Punning
 /// @name index.css:molecule (class="m", class="m-...")
 /// @summary css molecule for an infocule. with what must the logging console 
 /// begin?
