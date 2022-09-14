@@ -56,6 +56,13 @@ of vision.
 > 
 > (wittgenstein)
 
+<hr />
+
+> "a good design is better than you think."
+>
+> (rex heftman)
+
+<hr />
 
 1. `<Form></Form>`
 1. `<Size></Size>`
@@ -217,4 +224,23 @@ of vision.
 1. `<ConjunctiveExclusion></ConjunctiveExlusion>`
 1. `<DisjunctiveInclusion></DisjunctiveInclusion>`
 1. `<DisjunctiveExlusion></DisjunctiveExlusion>`
+
+## footnotes
+
+1. christian leborg. visual grammar
+2. josef müller-brockman. grid systems. 
+3. jef raskin. the humane interface.
+4. christian bök. 'pataphysics: the poetics of an imaginary science.
+
+
+
+
+
+
+
+
+
+
+
+
 
