@@ -1,12 +1,12 @@
 /**
  * @name WPFooter
- * @description footer 
+ * @description footer
  * @param {Object.props}
  */
 const WPFooter = (props) => {
   return (
     <footer
-      id="lounge"
+      id='lounge'
       className='m-view--lounge__default__'
       itemScope
       itemType='https://schema.org/WPFooter'
@@ -17,8 +17,9 @@ const WPFooter = (props) => {
         itemType='https://schema.org/SiteNavigationElement'
       >
         <ul>
-          <li><a href="https://arrested.surge.sh/docs/index.html">docs</a></li>
-          <li><a href="https://arrested.surge.sh/report">analysis</a></li>
+          <li><a href='https://arrested.surge.sh/sassdoc/index.html'>sassdoc</a></li>
+          <li><a href='https://arrested.surge.sh/docs/index.html'>docs</a></li>
+          <li><a href='https://arrested.surge.sh/report'>analysis</a></li>
           <li>
             <a
               rev='schema'
