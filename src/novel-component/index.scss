@@ -39,6 +39,8 @@ button {}
 /// @name index.css:molecule (class="m", class="m-...")
 /// @summary css molecule for an infocule. with what must the logging console 
 /// begin?
+/// @see https://linkeddatafragments.org/specification/quad-pattern-fragments/#controls
+/// @see https://apisyouwonthate.com/blog/common-hypermedia-patterns-with-json-hyper-schema
 /// @description modeling a molecular class string, presents
 /// 
 ///   (a)   `*=_ as ._`
@@ -69,6 +71,15 @@ button {}
 /// ## naming
 ///  
 /// ## semantics-driven code design
+/// 
+/// ## panalogy
+///
+/// we consider a panalogy between n-quad's presented `/...{?s,p,o,g}` 
+/// formulation and atomic bem's `<...[class='a-b--e__m__'>`.
+/// 
+/// indeed,
+/// 
+/// `$$( concept )/{?s,p,o,g}` <> `<element[class="$$( concept )-...--...__...__"]>`
 ///  
 /// @example
 /// [class]*3<emmet:ctrl+y,\leader>
