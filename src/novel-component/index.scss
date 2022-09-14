@@ -36,27 +36,35 @@ input[type='number'] {}
 input[type='password'] {}
 button {}
 
+/// ```
 ///   (a)   `*=_ as ._`
 ///   (a.1) `._ as [class*='...']_` (assuming '*' and whatever name, '...')
 ///   (a.2) `._<ctrl+y,\leader> as [class='']_<ctrl+y,\leader>`/ 
 ///   (a.3) `. as _`/ 
-/// 
-/// [(a.2) returns no tag output with emmet where `[class='_-']` 
+/// ```
+///
+/// > [(a.2) returns no tag output with emmet where `[class='_-']` 
 /// literally does; namely `<div class="_-">_</div>`. `[class]` yields
 /// with an empty `@class` style value.]
 /// 
 /// either way (a) and (a.1) where the latter presupposes emmet is applied,
 /// where we expect 
 /// 
+/// ```
 ///   (b:emmet:@::[]) `<... @class "m-...--...__...__">...</...>`
+/// ```
 ///
 ///   that is,
 ///
+/// ```
 ///   (b) `<div class="m-...--...__...__">_</div>`
+/// ```
 /// 
 /// rendered
 /// 
+/// ```
 ///    (c) <... class="m-...--...__...__">...</...>
+/// ```
 ///
 /// non-space-delimited names enable normative level of description for naming 
 /// and semantics-driven code design in interaction modeling and processing.
@@ -79,6 +87,12 @@ button {}
 /// "non-parodic [irony]" (*pretence*). y'know, the stuff happening in 
 /// morphological linguistics.
 ///
+/// ![open problems](https://arrested.surge.sh/assets/content-images/open-problems.png)
+/// 
+/// <hr />
+///
+/// ![examples of domain dependent roles of patterns](https://arrested.surge.sh/assets/content-images/examples-domain-dependent-roles-of-patterns.png)
+///
 /// > Although a metaphorical utterance can be prefaced with the phrase To 
 /// > speak metaphorically, an ironical utterance cannot be prefaced with the 
 /// > phrase To speak ironically.
@@ -93,12 +107,16 @@ button {}
 /// 
 /// indeed, for `spog <> abem` with `emmet`,
 /// 
+/// ```
 /// `/$$( element ){?s,p,o,g}` <> `<$$( element )[class="a-b--e__m__"]>`
+/// ```
 ///
 /// so, we can model all interactions in css to produce pure css carousels, 
 /// etc., avoiding js traps like here [vitals] (see [trap] and [cachedjs])
 ///  
 /// ## footnotes
+/// 
+/// (links in markdown)
 /// 
 /// [vitals]: https://web.dev/patterns/web-vitals-patterns/carousels/
 /// [trap]: https://www.gnu.org/philosophy/javascript-trap.html
