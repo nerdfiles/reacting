@@ -47,7 +47,7 @@
   <div class="row">
     <div class="col-md-6">
       <h2 class="header">Maintainability <a href="http://blogs.msdn.com/b/codeanalysis/archive/2007/11/20/maintainability-index-range-and-meaning.aspx"><i class="icon icon-info-sign" rel="popover" data-placement="top" data-trigger="hover" data-content="A value between 0 and 100 that represents the relative ease of maintaining the code. A high value means better maintainability." data-original-title="Maintainability Index"  data-container="body"></i></a></h2>
-      <p class="stat">80.52</p>
+      <p class="stat">80.41</p>
     </div>
     <div class="col-md-6">
       <h2 class="header">Lines of code <i class="icon icon-info-sign" rel="popover" data-placement="top" data-trigger="hover" data-content="Source Lines of Code / Logical Lines of Code" data-original-title="SLOC/LSLOC" data-container="body"></i></h2>
@@ -97,18 +97,18 @@
  */
 import { connect } from &#039;react-redux&#039;
 import { bindActionCreators } from &#039;redux&#039;
-import { ACTION_NAME } from &#039;./actions&#039;
+import { GET_NAME } from &#039;./actions&#039;
 // import Cache from &#039;../infrastructure/cache&#039;
 import NovelComponent from &#039;./index&#039;
 
 export default connect((occasion) =&gt; {
-  const KEY = occasion.next || occasion[&#039;next&#039;]
-
-  return {
-    key: KEY
+  if (occasion &amp;&amp; occasion[&#039;next&#039;]) {
+    return {
+      key: occasion &amp;&amp; occasion.next
+    }
   }
 }, (dispatch) =&gt; {
-  return bindActionCreators({ ACTION_NAME }, dispatch)
+  return bindActionCreators({ GET_NAME }, dispatch)
 })(NovelComponent)
 
 // EOF
