@@ -1,6 +1,9 @@
-/**
- * @filepath ./src/novel-component/index.scss
- */
+////
+/// .
+/// @filepath ./src/novel-component/index.scss
+/// @group index
+/// @author aha <patagnome@protonmail.com>
+////
 :root {}
 
 body {}
@@ -14,27 +17,25 @@ body {}
 
 div {}
 
-/**
- * @name molecule.css
- * @summary css molecule for an infocule. with what must the logging console 
- * begin?
- * @description modeling a molecular class string, presents
- * 
- *   (a) `*=_- as ._`
- *
- * where we expect 
- *
- *   (b:emmet:@::[]) `<... @class "m-...--...__...__">...</...>`
- *
- * rendered
- *
- * <... class="m-...--...__...__">...</...>
- * @example
- * [class]*3<emmet:ctrl+y,\leader>
- * <div class="">_</div>
- * <div class=""></div>
- * <div class=""></div>
- */
+/// @name molecule.css
+/// @summary css molecule for an infocule. with what must the logging console 
+/// begin?
+/// @description modeling a molecular class string, presents
+/// 
+///   (a) `*=_- as ._`
+/// 
+/// where we expect 
+/// 
+///   (b:emmet:@::[]) `<... @class "m-...--...__...__">...</...>`
+/// 
+/// rendered
+/// 
+/// <... class="m-...--...__...__">...</...>
+/// @example
+/// [class]*3<emmet:ctrl+y,\leader>
+/// <div class="">_</div>
+/// <div class=""></div>
+/// <div class=""></div>
 .m,
 div[className*='m-'] {
   background-color: silver;
