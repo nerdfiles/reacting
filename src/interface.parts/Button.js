@@ -102,7 +102,7 @@ const Button = (props) => {
    * @constant
    * @default
    */
-  const DISABLED = 'false'
+  const DISABLED = false
 
   // const RANDBOTTOM = 1
   // const RANDTOP = 100
@@ -124,7 +124,7 @@ const Button = (props) => {
         props.act()
         e.preventDefault()
       }}
-      tabindex={TABINDEX}
+      tabIndex={TABINDEX}
     >
       <span
 				className='m-view--text-label__default__'

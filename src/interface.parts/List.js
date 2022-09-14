@@ -31,10 +31,10 @@ const List = (props) => {
    * @constant
    * @default
    */
-  const DATA_LIST = props.dataList && props.dataList.length
+  const DATA_LIST = props.dataList && props.dataList
 
   return (
-    DATA_LIST
+    DATA_LIST && DATA_LIST.length
       ? DATA_LIST.map((dataRef, keyRef) => {
         const NAME = dataRef.first_name || dataRef.name
         const nullPerson = {
