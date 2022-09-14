@@ -139,6 +139,24 @@ button {}
 /// hacking, only that `0` is not some answer we should fix our implementation
 /// style to presuming. "0" is string to some, an integer to others: as web developers
 /// we don't care when it comes to designing the interaction in affordance.
+///
+/// this posture of "data-agnosticism," if you will, allows web developers to
+/// see "data as code": the "initial" value for an InteractionCounter could 
+/// be anything, we could receive a script injection for all we know. the interface
+/// will at times require to be sensitive to this possibility, a situation of occasion.
+/// in most cases, inputs will have to be guarded by the interface from the server
+/// and vice versa, from the client. in this way, the client can send attribute-level
+/// information about itself for the server to determine its level of trustworthiness, 
+/// and so too here, can the client. we can send `disabled="true"` along with HTTP POST
+/// requests to "create" a "user" from some persons engaging with the API. in a sense,
+/// our assumption is that the server is receptive to non-javascript clients. the server
+/// tries to accomodate as many quality properties from the client, since the client
+/// itself is a mixed domain of software, like web browsers, and the bespoke code 
+/// corresponding to the server itself, the client. the client cannot be "trusted"
+/// in proportion to those ranges of capabilities the server is not interested in
+/// confirming nor understanding. a `disabled` state for a `<button>` may be interesting
+/// but the operating system settings information about the CPU or peripherals may not
+/// be (unless that's what the web service or produce is *about*).
 ///  
 /// <hr />
 ///
