@@ -1,18 +1,18 @@
 :root {
   --copy-text: white;
-  --depth: darkgreen;
+  --occasion: darkgreen;
   --lining: white;
 }
 
 button {
 	color: var(--copy-text);
-	background-color: var(--depth);
+	background-color: var(--occasion);
   border-color: var(--lining);
 }
 
 a {
 	color: white;
-	background-color: var(--depth);
+	background-color: var(--occasion);
 }
 
 .bg {

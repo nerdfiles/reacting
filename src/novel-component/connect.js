@@ -27,6 +27,3 @@ export default connect((occasion) => {
 })(NovelComponent)
 
 // EOF
-
-
-
