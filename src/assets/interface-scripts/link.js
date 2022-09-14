@@ -47,12 +47,15 @@ const link = (sub, byClass) => {
           const O = ref
           console.log(ref.first_name)
           return (
-            <li key={key}>
+            <li style='background-color: white;' key={key}>
               <span>{O.first_name}</span>
             </li>
           )
         })
-        $$element.innerHTML = JSON.stringify(DATA_LIST())
+        const CONTENT = DATA_LIST()
+        // @todo React.findDOMNode
+        $$element.innerHTML = CONTENT
+        console.table(CONTENT)
       })
     return SUBJECT
   }
