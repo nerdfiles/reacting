@@ -23,6 +23,8 @@ import WPFooter from './interfaces/WPFooter'
 import Button from './interface.parts/Button'
 import services from './infrastructure/services'
 import List from './interface.parts/List'
+import WPLocation from './interfaces/WPLocation'
+import WPWeather from './interfaces/WPWeather'
 
 /**
  * @name App
@@ -42,6 +44,10 @@ function App () {
       id='top'
     >
       <WPHeader />
+
+      <WPLocation />
+
+      <WPWeather />
 
       <main className='S-view--loci__default__'>
         <input
