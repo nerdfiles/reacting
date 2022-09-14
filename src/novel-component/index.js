@@ -4,7 +4,7 @@
  * @license wtfpl, version 2
  * @version 0.0.0-novel.0
  * @since 0.0.0-novel.0
- * @fileoverview a web component-ish thing for reactjs generally expected to 
+ * @fileoverview a web component-ish thing for reactjs generally expected to
  * present a https://schema.org/WebActivityHistory at some point.
  * @name NovelComponent
  * @kind Class
