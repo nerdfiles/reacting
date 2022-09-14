@@ -64,13 +64,13 @@ NovelComponent.propTypes = {
   interactionService: React.PropTypes.string
 }
 
-const task = {}
+const taskCommands = {}
 
-task['https://schema.org/InteractionCounter'] = {
+taskCommands['https://schema.org/InteractionCounter'] = {
   interactionCount: 0
 }
 
-NovelComponent.defaultProps = task
+NovelComponent.defaultProps = taskCommands
 
 export default NovelComponent
 
