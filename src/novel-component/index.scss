@@ -80,7 +80,15 @@ button {}
 /// indeed, for `spog <> abem` with `emmet`,
 /// 
 /// `/$$( element ){?s,p,o,g}` <> `<$$( element )[class="a-b--e__m__"]>`
+///
+/// so, we can model all interactions in css to produce pure css carousels, 
+/// etc., avoiding js traps like here [0] (see [1] and [2])
 ///  
+/// ## footnotes
+/// 
+/// [0]: https://web.dev/patterns/web-vitals-patterns/carousels/
+/// [1]: https://www.gnu.org/philosophy/javascript-trap.html
+/// [1]: https://www.webperf.tips/tip/cached-js-misconceptions/
 /// @example
 /// [class]*3<emmet:ctrl+y,\leader>
 /// <div class="">_</div>
