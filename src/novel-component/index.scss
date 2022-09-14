@@ -114,7 +114,7 @@ button {}
 /// so, we can model all interactions in css to produce pure css carousels, 
 /// etc., avoiding js traps like here [vitals] (see [trap] and [cachedjs])
 ///
-/// by "organic bem" we consider "organs", "molecules", "atoms", which are 
+/// by "[organic] bem" we consider "organs", "molecules", "atoms", which are 
 /// combined with control flow terms like `if` and `for`. similarly, from 
 /// a semantics-driven code design pattern modeling approach we can model
 /// domain dependent roles of patterns for certain models, those "composite",
@@ -276,6 +276,7 @@ button {}
 /// [irony]: https://www.researchgate.net/publication/223333203_The_pragmatics_of_verbal_irony_Echo_or_pretence 
 /// [metaphor]: https://www.cambridge.org/core/journals/language-and-cognition/article/metonymies-are-more-literal-than-metaphors-evidence-from-ratings-of-german-idioms/1CBBCFF893235E161608B6834860FA69
 /// [punning]: https://www.w3.org/TR/owl2-new-features/#F12:_Punning
+/// [organic]: https://krasimir.github.io/organic-css/
 /// [smddpi]: http://acmbulletin.fiit.stuba.sk/vol5num1/kajsa.pdf
 /// @name index.css:molecule (class="m", class="m-...")
 /// @summary css molecule for an infocule. with what must the logging console 
