@@ -18,7 +18,7 @@ const act = (occasion = [], action) => {
   switch (action.type) {
     case ACTION_KEY:
       return {
-        key: 'value'
+        next: 'value'
       }
     default:
       break

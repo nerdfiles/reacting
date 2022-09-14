@@ -1,11 +1,24 @@
 /**
+ * @filepath ./src/novel-component/index.js
+ * @author aha <patagnome@protonmail.com>
+ * @license wtfpl, version 2
+ * @version 0.0.0-novel.0
+ * @since 0.0.0-novel.0
+ * @fileoverview a web component-ish thing for reactjs generally expected to 
+ * present a https://schema.org/WebActivityHistory at some point.
  * @name NovelComponent
+ * @kind Class
+ * @description a web component which minimally presents an interactionCounter.
  */
 import React, { createStore } from 'react'
 import Cache from './web-cache'
 
 const __interface__ = createStore(Cache)
 
+/**
+ * @name task
+ * @param {CustomEvent} e - .
+ */
 const task = (e) => {
   const command = {
     type: 'ACTION_KEY'
@@ -16,9 +29,6 @@ const task = (e) => {
   e.preventDefault()
 }
 
-/**
- * @name NovelComponent
- */
 class NovelComponent extends React.Component {
   constructor (props) {
     super(props)
@@ -29,6 +39,7 @@ class NovelComponent extends React.Component {
     return (
       <div
         className='m-view--mycomponent__default__' {...this.props}
+        onClick={task}
       >
         component copy
       </div>
