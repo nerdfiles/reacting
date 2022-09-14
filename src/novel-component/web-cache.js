@@ -1,8 +1,8 @@
 /**
- * @name reducers
+ * @name web-cache
  */
 import { combineReducers } from 'redux'
-import occasion from './reducer-stub'
+import occasion from './cache-stub'
 
 const taskInterface = {
   stub: occasion

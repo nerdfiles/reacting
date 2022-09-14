@@ -5,11 +5,11 @@ import { Provider } from 'react-redux'
 import { createStore } from 'redux'
 import { Router, Route, IndexRoute, browserHistory } from 'react-router'
 
-import Cache from './novel-component/web-cache'
+import WebCache from './novel-component/web-cache'
 import NovelComponent from './novel-component'
 import './novel-component/connect'
 
-const __interface__ = createStore(Cache)
+const __interface__ = createStore(WebCache)
 
 const App = () => (
   <Provider store={__interface__}>

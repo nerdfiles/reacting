@@ -4,7 +4,7 @@
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 import { ACTION_NAME } from './actions'
-// import reducers from './reducers'
+// import Cache from '../infrastructure/cache'
 import NovelComponent from './index'
 
 export default connect((occasion) => {

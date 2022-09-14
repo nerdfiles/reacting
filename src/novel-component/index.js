@@ -11,9 +11,9 @@
  * @description a web component which minimally presents an interactionCounter.
  */
 import React, { createStore } from 'react'
-import Cache from './web-cache'
+import WebCache from './web-cache'
 
-const __interface__ = createStore(Cache)
+const __interface__ = createStore(WebCache)
 
 /**
  * @name task
