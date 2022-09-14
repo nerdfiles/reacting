@@ -18,11 +18,25 @@ const __interface__ = createStore(WebCache)
 
 /**
  * @name task
+ * @description example,
+ * ```
+ * { type: 'GET_KEY' }
+ * ```
+ * .
+ * @function
  * @param {CustomEvent} e - .
  */
 const task = (e) => {
+  /**
+   * @constant
+   * @default
+   * @example
+   * const COMMAND = 'GET_KEY'
+   */
+  const COMMAND = 'POST_KEY'
+
   const command = {
-    type: 'ACTION_KEY'
+    type: COMMAND
   }
 
   __interface__.dispatch(command)
