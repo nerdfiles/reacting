@@ -43,12 +43,16 @@ class NovelComponent extends React.Component {
 }
 
 NovelComponent.propTypes = {
-  someNumber: React.PropTypes.number
+  ID: React.PropTypes.number
 }
 
-NovelComponent.defaultProps = {
-  initialCount: 0
+const task = {}
+
+task['https://schema.org/InteractionCounter'] = {
+  interactionCount: 0
 }
+
+NovelComponent.defaultProps = task
 
 export default NovelComponent
 
