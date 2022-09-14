@@ -38,7 +38,7 @@ function App () {
     <div
       itemScope
       itemType='https://schema.org/WebApplication'
-      className='O-view--webapp__default__'
+      className='O-view--webapp__default__ bg'
       id='top'
     >
       <WPHeader />
