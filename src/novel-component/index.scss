@@ -34,8 +34,14 @@ div {}
 /// @example
 /// [class]*3<emmet:ctrl+y,\leader>
 /// <div class="">_</div>
-/// <div class=""></div>
-/// <div class=""></div>
+/// <div class="">_</div>
+/// <div class="">_</div>
+/// @example
+/// [class="m..."]*3<emmet:ctrl+y,\leader>
+/// <div class="m">_</div><!-- we're describing molecular style -->
+/// <div class="m-..."></div><!-- describing molecular block style -->
+/// <div class="m-...--..."></div><!-- describing {m...b} elemental style -->
+/// <div class="m-...--...__...__"></div><!-- describing {m...b, b...e} style modes -->
 .m,
 div[className*='m-'] {
   background-color: silver;
