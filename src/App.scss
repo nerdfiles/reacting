@@ -1,3 +1,20 @@
+:root {
+  --copy-text: white;
+  --depth: darkgreen;
+  --lining: white;
+}
+
+button {
+	color: var(--copy-text);
+	background-color: var(--depth);
+  border-color: var(--lining);
+}
+
+a {
+	color: white;
+	background-color: var(--depth);
+}
+
 .bg {
   background-image: url("./assets/interface-images/ab85baf464c52ac8de22402aacc1f23d_9d6abcf4_500.jpg")
 }
@@ -8,7 +25,7 @@
 }
 
 .O-view--webapp__default__ {
-  background-color: silver;
+  background-color: snow;
   outline: 1px solid darkblue;
 }
 .m-view--wpheader__default__ {}
