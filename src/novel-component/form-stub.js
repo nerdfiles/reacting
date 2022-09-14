@@ -20,6 +20,10 @@ import {
 
 const act = (occasion = [], action) => {
   switch (action.type) {
+    case OPTIONS_KEY:
+      return {
+        next: 'docs'
+      }
     case POST_KEY:
       return {
         next: 'value'
