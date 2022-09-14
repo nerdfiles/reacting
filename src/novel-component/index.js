@@ -43,7 +43,12 @@ class NovelComponent extends React.Component {
 }
 
 NovelComponent.propTypes = {
-  ID: React.PropTypes.number
+  ID: React.PropTypes.number,
+  startTime: React.PropTypes.string,
+  endTime: React.PropTypes.string,
+  location: React.PropTypes.string,
+  interactionType: React.PropTypes.string,
+  interactionService: React.PropTypes.string
 }
 
 const task = {}
