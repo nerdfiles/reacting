@@ -1,7 +1,20 @@
 /**
  * @name NovelComponent
  */
-import React from 'react'
+import React, { createStore } from 'react'
+import Cache from './web-cache'
+
+const __interface__ = createStore(Cache)
+
+const task = (e) => {
+  const command = {
+    type: 'ACTION_KEY'
+  }
+
+  __interface__.dispatch(command)
+
+  e.preventDefault()
+}
 
 /**
  * @name NovelComponent

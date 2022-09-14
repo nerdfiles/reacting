@@ -4,10 +4,10 @@
 import { combineReducers } from 'redux'
 import occasion from './reducer-stub'
 
-const list = {
+const taskInterface = {
   stub: occasion
 }
 
-export default combineReducers(list)
+export default combineReducers(taskInterface)
 
 // EOF

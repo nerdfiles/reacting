@@ -9,10 +9,10 @@ import Cache from './novel-component/web-cache'
 import NovelComponent from './novel-component'
 import './novel-component/connect'
 
-const cache = createStore(Cache)
+const __interface__ = createStore(Cache)
 
 const App = () => (
-  <Provider store={cache}>
+  <Provider store={__interface__}>
     <Router history={browserHistory}>
       <Route path='/'>
         <IndexRoute component={NovelComponent} />
