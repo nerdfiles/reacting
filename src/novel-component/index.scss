@@ -87,16 +87,6 @@ button {}
 /// "non-parodic [irony]" (*pretence*). y'know, the stuff happening in 
 /// morphological linguistics.
 ///
-/// <hr />
-///
-/// ![open problems](https://raw.githubusercontent.com/nerdfiles/reacting/develop/src/assets/content-images/open-problems.png)
-/// 
-/// ![examples of domain dependent roles of patterns](https://raw.githubusercontent.com/nerdfiles/reacting/develop/src/assets/content-images/examples-of-domain-dependent-roles-of-patterns.png)
-///
-/// > "semantics and model driven design patterns instantiation". kajsa, peter. [smddpi]
-///
-/// <hr />
-///
 /// > Although a metaphorical utterance can be prefaced with the phrase To 
 /// > speak metaphorically, an ironical utterance cannot be prefaced with the 
 /// > phrase To speak ironically.
@@ -117,7 +107,31 @@ button {}
 ///
 /// so, we can model all interactions in css to produce pure css carousels, 
 /// etc., avoiding js traps like here [vitals] (see [trap] and [cachedjs])
+///
+/// by "organic bem" we consider "organs", "moleculars", "atoms", which are 
+/// combined with control flow terms like `if` and `for`. similarly, from 
+/// a semantics-driven code design pattern modeling approach we can model
+/// domain dependent roles of patterns for certain models, those "composite",
+/// "flyweight", and "proxy" (or "subject").
+///
+/// 1. composite: "Leafs and their operations provide all domain dependent 
+///    functionality. Everything else is just infrastructure allowing the 
+///    hierarchical access to the leaf instances."
+/// 2. flyweight: "Concrete Flyweight provides all domain dependent 
+///    functionality. The rest is infrastructure for storing instances in 
+///    memory providing access to them."
+/// 3. proxy: "The domain dependent is the Real Sub ject (which often exists 
+///    before Proxy pattern application) and functionality of Proxy 
+///    participants that provide access to the Real Subject."
 ///  
+/// <hr />
+///
+/// ![open problems](https://raw.githubusercontent.com/nerdfiles/reacting/develop/src/assets/content-images/open-problems.png)
+/// 
+/// ![examples of domain dependent roles of patterns](https://raw.githubusercontent.com/nerdfiles/reacting/develop/src/assets/content-images/examples-of-domain-dependent-roles-of-patterns.png)
+///
+/// > "semantics and model driven design patterns instantiation". kajsa, peter. [smddpi]
+///
 /// ## footnotes
 /// 
 /// (links in markdown)
