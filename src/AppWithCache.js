@@ -5,14 +5,14 @@ import { Provider } from 'react-redux'
 import { createStore } from 'redux'
 import { Router, Route, IndexRoute, browserHistory } from 'react-router'
 
-import Store from './novel-component/reducers'
+import Cache from './novel-component/web-cache'
 import NovelComponent from './novel-component'
 import './novel-component/connect'
 
-const store = createStore(Store)
+const cache = createStore(Cache)
 
 const App = () => (
-  <Provider store={store}>
+  <Provider store={cache}>
     <Router history={browserHistory}>
       <Route path='/'>
         <IndexRoute component={NovelComponent} />
