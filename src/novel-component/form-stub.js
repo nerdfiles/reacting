@@ -22,11 +22,11 @@ const act = (occasion = [], action) => {
   switch (action.type) {
     case OPTIONS_KEY:
       return {
-        next: 'docs'
+        next: ''
       }
     case POST_KEY:
       return {
-        next: 'value'
+        next: ''
       }
     default:
       break
