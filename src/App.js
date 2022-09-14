@@ -26,6 +26,7 @@ import List from './interface.parts/List'
 import WPLocation from './interfaces/WPLocation'
 import WPWeather from './interfaces/WPWeather'
 import link from './assets/interface-scripts/link'
+import Link from './interface.parts/Link'
 
 /**
  * @name App
@@ -48,12 +49,10 @@ function App () {
 
       {/* @description preload test. */}
 
-      <link
-        className='l'
-        rel='preload'
-        onLoad={link('kite')}
+      <Link
+        init={link('kite', '.m-view--datalist__default__')}
+        byClass='m-view--datalist__default__'
         href='https://reqres.in/api/users?page=2'
-        as='script'
       />
 
       <WPLocation />

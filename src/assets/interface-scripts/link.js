@@ -9,7 +9,7 @@ import axios from 'axios'
  * @description consider [example].
  * [example]: https://reqres.in/api/users?page=2;http://example.com/kite{?s,p,o,g}
  */
-const link = (sub) => {
+const link = (sub, byClass) => {
   const GLUE = ''
   const S = 's'
   const P = 'p'
@@ -38,8 +38,21 @@ const link = (sub) => {
       .then((response) => {
         const RESPONSE = response?.data
         const DATA = RESPONSE?.data
-        const q = document.querySelector('.m-view--datalist__default__')
-        q.innerHTML = ['<code style="background-color: white;">', JSON.stringify(DATA), '</code>'].join(GLUE)
+        const SELECTOR = [
+          'ul',
+          (byClass ?? '')
+        ].join(GLUE)
+        const $$element = document.querySelector(SELECTOR)
+        const DATA_LIST = () => DATA.map((ref, key) => {
+          const O = ref
+          console.log(ref.first_name)
+          return (
+            <li key={key}>
+              <span>{O.first_name}</span>
+            </li>
+          )
+        })
+        $$element.innerHTML = JSON.stringify(DATA_LIST())
       })
     return SUBJECT
   }
