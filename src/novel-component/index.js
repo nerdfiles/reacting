@@ -13,6 +13,7 @@
 import React, { createStore } from 'react'
 import WebCache from './web-cache'
 import './index.scss'
+import './connect'
 
 const __interface__ = createStore(WebCache)
 

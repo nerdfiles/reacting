@@ -7,7 +7,7 @@ import { Router, Route, IndexRoute, browserHistory } from 'react-router'
 
 import WebCache from './novel-component/web-cache'
 import NovelComponent from './novel-component'
-import './novel-component/connect'
+// import './novel-component/connect'
 
 const __interface__ = createStore(WebCache)
 
