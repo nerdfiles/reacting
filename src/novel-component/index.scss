@@ -152,7 +152,7 @@ button {}
 /// used for domain dependent functionality pertaining to state management:
 /// interaction counters, form submission and error handling, etc. (3) concerns
 /// behaviors like creative, formative, adjustive, processive subscription and 
-/// hooking behaviors (see [resthooks] and [activitypub]). the idea is to think
+/// hooking behaviors (see [resthooks] and [activitypub][pub]). the idea is to think
 /// less so in terms of "states" and rather in terms of "occasions." there's never 
 /// really an `interactionCounter.count` set to `0`. it's "initial" value is
 /// even in intuitive examples *given* to a context in which someone is perceptually
