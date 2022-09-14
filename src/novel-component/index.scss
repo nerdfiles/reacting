@@ -249,6 +249,12 @@ button {}
 /// an element, but it's that *how* it's solved is out of sorts with 
 /// scaling the interface as much as out of sort with the goal of html itself.
 ///
+/// it goes without saying that also, if javascript is used at all, the developer
+/// must code out treating `text-color-red` and whatever other "classes" may
+/// appear *in javascript* whereas the splitting of similarity and difference
+/// in decomposing the behavior in question can be done *in css* prior to 
+/// solving the interaction problem in the first place.
+///
 /// ## footnotes
 /// 
 /// (links in markdown)
