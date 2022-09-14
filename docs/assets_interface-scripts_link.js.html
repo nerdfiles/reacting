@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Class: Emotionality</title>
+    <title>JSDoc: Source: assets/interface-scripts/link.js</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,150 +17,68 @@
 
 <div id="main">
 
-    <h1 class="page-title">Class: Emotionality</h1>
+    <h1 class="page-title">Source: assets/interface-scripts/link.js</h1>
 
     
 
 
 
-
-<section>
-
-<header>
     
-        <h2><span class="attribs"><span class="type-signature"></span></span>Emotionality<span class="signature">()</span><span class="type-signature"></span></h2>
-        
-    
-</header>
-
-<article>
-    <div class="container-overview">
-    
-        
-
-    
-
-    
-    <h4 class="name" id="Emotionality"><span class="type-signature"></span>new Emotionality<span class="signature">()</span><span class="type-signature"></span></h4>
-    
-
-    
-
-
-
-<div class="description">
-    an emotional infome.
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<dl class="details">
-
-    
-    <dt class="tag-version">Version:</dt>
-    <dd class="tag-version"><ul class="dummy"><li>0.0.0-novel.0</li></ul></dd>
-    
-
-    
-    <dt class="tag-since">Since:</dt>
-    <dd class="tag-since"><ul class="dummy"><li>0.0.0-novel.0</li></ul></dd>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-author">Author:</dt>
-    <dd class="tag-author">
-        <ul>
-            <li><a href="mailto:patagnome@protonmail.com">aha</a></li>
-        </ul>
-    </dd>
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="app.attitude_Emotionality_index.js.html">app.attitude/Emotionality/index.js</a>, <a href="app.attitude_Emotionality_index.js.html#line1">line 1</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    </div>
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-</article>
-
-</section>
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>import axios from 'axios'
+
+/**
+ * @name link
+ * @description link.
+ * @version 0.0.0-novel.0
+ * @since 0.0.0-novel.0
+ * @kind function
+ * @description consider [example].
+ * [example]: https://reqres.in/api/users?page=2;http://example.com/kite{?s,p,o,g}
+ */
+const link = (sub) => {
+  const GLUE = ''
+  const S = 's'
+  const P = 'p'
+  const O = 'o'
+  const G = 'g'
+  const SEP = '/'
+  const SUB = sub ?? '{noun:https://thenounproject.com/icons/}'
+  const endpoint = [
+    'http://example.com',
+    SEP,
+    SUB, 
+    '{', '?',
+    (S ?? S),
+    ',', P,
+    ',', O,
+    ',', G, '}'
+  ].join(GLUE)
+
+  return (e) => {
+    const ELEMENT = e?.target
+    const HREF = ELEMENT.href
+    const SUBJECT = [HREF, ';', endpoint].join(GLUE)
+    console.log('🔎 ' + SUBJECT + ' to say the least, the first GET should be "quicker" (more responsive because cached)')
+    axios
+      .get(SUBJECT)
+      .then((response) => {
+        const RESPONSE = response?.data
+        const DATA = RESPONSE?.data
+        const q = document.querySelector('.m-view--datalist__default__')
+        q.innerHTML = ['&lt;code style="background-color: white;">', JSON.stringify(DATA), '&lt;/code>'].join(GLUE)
+      })
+    return SUBJECT
+  }
+}
+
+export default link
+
+// EOF
+</code></pre>
+        </article>
+    </section>
 
 
 

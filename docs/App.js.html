@@ -51,6 +51,9 @@ import WPFooter from './interfaces/WPFooter'
 import Button from './interface.parts/Button'
 import services from './infrastructure/services'
 import List from './interface.parts/List'
+import WPLocation from './interfaces/WPLocation'
+import WPWeather from './interfaces/WPWeather'
+import link from './assets/interface-scripts/link'
 
 /**
  * @name App
@@ -70,6 +73,20 @@ function App () {
       id='top'
     >
       &lt;WPHeader />
+
+      {/* @description preload test. */}
+
+      &lt;link
+        className='l'
+        rel='preload'
+        onLoad={link('kite')}
+        href='https://reqres.in/api/users?page=2'
+        as='script'
+      />
+
+      &lt;WPLocation />
+
+      &lt;WPWeather />
 
       &lt;main className='S-view--loci__default__'>
         &lt;input
@@ -135,13 +152,13 @@ export default App
 </div>
 
 <nav>
-    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="Authority.html">Authority</a></li><li><a href="Emotionality.html">Emotionality</a></li></ul><h3>Global</h3><ul><li><a href="global.html#act">act</a></li><li><a href="global.html#App">App</a></li><li><a href="global.html#Button">Button</a></li><li><a href="global.html#cache-actions">cache-actions</a></li><li><a href="global.html#clientPostData">clientPostData</a></li><li><a href="global.html#clientUpdateData">clientUpdateData</a></li><li><a href="global.html#Code">Code</a></li><li><a href="global.html#connect">connect</a></li><li><a href="global.html#Culture">Culture</a></li><li><a href="global.html#DataTreeElement">DataTreeElement</a></li><li><a href="global.html#deleteData">deleteData</a></li><li><a href="global.html#EMPTY_TREE">EMPTY_TREE</a></li><li><a href="global.html#GET_NAME">GET_NAME</a></li><li><a href="global.html#getData">getData</a></li><li><a href="global.html#GLUE">GLUE</a></li><li><a href="global.html#HelpText">HelpText</a></li><li><a href="global.html#Icon">Icon</a></li><li><a href="global.html#Input">Input</a></li><li><a href="global.html#List">List</a></li><li><a href="global.html#Listing">Listing</a></li><li><a href="global.html#Logger">Logger</a></li><li><a href="global.html#OPTIONS">OPTIONS</a></li><li><a href="global.html#Person">Person</a></li><li><a href="global.html#POST_NAME">POST_NAME</a></li><li><a href="global.html#Profile">Profile</a></li><li><a href="global.html#reportWebVitals">reportWebVitals</a></li><li><a href="global.html#request">request</a></li><li><a href="global.html#task">task</a></li><li><a href="global.html#Trust">Trust</a></li><li><a href="global.html#web-cache">web-cache</a></li><li><a href="global.html#web-form">web-form</a></li><li><a href="global.html#WPFooter">WPFooter</a></li><li><a href="global.html#WPHeader">WPHeader</a></li><li><a href="global.html#WPTreeviewNavigation">WPTreeviewNavigation</a></li></ul>
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="Authority.html">Authority</a></li><li><a href="Emotionality.html">Emotionality</a></li></ul><h3>Global</h3><ul><li><a href="global.html#act">act</a></li><li><a href="global.html#App">App</a></li><li><a href="global.html#Button">Button</a></li><li><a href="global.html#cache-actions">cache-actions</a></li><li><a href="global.html#clientPostData">clientPostData</a></li><li><a href="global.html#clientUpdateData">clientUpdateData</a></li><li><a href="global.html#Code">Code</a></li><li><a href="global.html#connect">connect</a></li><li><a href="global.html#Culture">Culture</a></li><li><a href="global.html#DataTreeElement">DataTreeElement</a></li><li><a href="global.html#deleteData">deleteData</a></li><li><a href="global.html#EMPTY_TREE">EMPTY_TREE</a></li><li><a href="global.html#GET_NAME">GET_NAME</a></li><li><a href="global.html#getData">getData</a></li><li><a href="global.html#GLUE">GLUE</a></li><li><a href="global.html#HelpText">HelpText</a></li><li><a href="global.html#Icon">Icon</a></li><li><a href="global.html#Input">Input</a></li><li><a href="global.html#link">link</a></li><li><a href="global.html#List">List</a></li><li><a href="global.html#Listing">Listing</a></li><li><a href="global.html#Logger">Logger</a></li><li><a href="global.html#OPTIONS">OPTIONS</a></li><li><a href="global.html#Person">Person</a></li><li><a href="global.html#POST_NAME">POST_NAME</a></li><li><a href="global.html#Profile">Profile</a></li><li><a href="global.html#reportWebVitals">reportWebVitals</a></li><li><a href="global.html#request">request</a></li><li><a href="global.html#task">task</a></li><li><a href="global.html#Trust">Trust</a></li><li><a href="global.html#web-cache">web-cache</a></li><li><a href="global.html#web-form">web-form</a></li><li><a href="global.html#WPFooter">WPFooter</a></li><li><a href="global.html#WPHeader">WPHeader</a></li><li><a href="global.html#WPLocation">WPLocation</a></li><li><a href="global.html#WPTreeviewNavigation">WPTreeviewNavigation</a></li><li><a href="global.html#WPWeather">WPWeather</a></li></ul>
 </nav>
 
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.11</a> on Wed Sep 14 2022 12:12:15 GMT-0500 (Central Daylight Time)
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.11</a> on Wed Sep 14 2022 16:11:44 GMT-0500 (Central Daylight Time)
 </footer>
 
 <script> prettyPrint(); </script>
