@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Source: infrastructure/services/index.js</title>
+    <title>JSDoc: Source: novel-component/cache-actions.js</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,7 +17,7 @@
 
 <div id="main">
 
-    <h1 class="page-title">Source: infrastructure/services/index.js</h1>
+    <h1 class="page-title">Source: novel-component/cache-actions.js</h1>
 
     
 
@@ -27,104 +27,16 @@
     <section>
         <article>
             <pre class="prettyprint source linenums"><code>/**
- * @filename ./src/infrastructure/services/index.js
- * @name user.services
- * @description client side services which really should be organized into "apps".
- *
- * ## diagram.yuml-ish
- *
- * (start)
- *  ↳(api request handler)
- *    ↳(entity api)
- *      ↳(client side service)
- *        ↳(interface elements)
- *          ↳(end)
- * @todo
- * generaliz this file for other "entities."
+ * @name cache-actions
  */
-import UserApi from '../../app/user'
-import Logger from '../../infrastructure/utils/Logger'
+export const ACTION_KEY = 'ACTION_KEY'
 
-const userApi = new UserApi()
-
-/**
- * @name clientPostData
- * @todo pass object into clientPostData since it's after componentDidMount or whatever
- * @note postData initializes with '' according to line 9 but after the DOM update from
- * onInput, it has not been updated
- */
-const postData = (_name, callback) => {
-  const NAME = _name
-  const payload = {
-    name: NAME,
-    job: 'surfer'
+export function ACTION_NAME (value) {
+  return {
+    type: ACTION_KEY,
+    payload: value
   }
-  const payment = userApi.POST(payload)
-  payment
-    .then((res) => {
-      const dataList = res.data
-      Logger({ label: 'res', msg: [dataList] })
-      const outcome = [dataList]
-      callback(outcome)
-    })
-    .catch(Logger)
 }
-
-/**
- * getData.
- */
-const getData = (callback) => {
-  const payment = userApi.GET()
-  payment
-    .then((res) => {
-      const dataList = res.data.data
-      callback(dataList)
-    })
-    .catch(Logger)
-}
-
-/**
- * deleteData.
- */
-const deleteData = (callback) => {
-  const payment = userApi.DELETE()
-  payment
-    .then((res) => {
-      const dataList = res.data.data
-      callback(dataList)
-    })
-    .catch(Logger)
-}
-
-/**
- * @name clientUpdateData
- * @description update with PUT/PATCH
- */
-const updateData = (_name, callback) => {
-  const NAME = _name
-  const payload = {
-    name: NAME,
-    job: 'surfer'
-  }
-  const payment = userApi.UPDATE(payload)
-  payment
-    .then((res) => {
-      const dataList = res.data
-      Logger({ label: 'res', msg: [dataList] })
-      const outcome = [dataList]
-      callback(outcome)
-    })
-    .catch(Logger)
-}
-
-const services = {
-  getData: getData,
-  postData: postData,
-  deleteData: deleteData,
-  updateData: updateData
-}
-
-export default services
 
 // EOF
 </code></pre>
