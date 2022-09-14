@@ -46,6 +46,8 @@ function App () {
     >
       <WPHeader />
 
+      {/* @description preload test. */}
+
       <link
         className='l'
         rel='preload'
@@ -53,8 +55,6 @@ function App () {
         href='https://reqres.in/api/users?page=2'
         as='script'
       />
-
-      {/* @note fires script. */}
 
       <WPLocation />
 

@@ -1,3 +1,5 @@
+import axios from 'axios'
+
 /**
  * @name link
  * @description link.
@@ -25,10 +27,20 @@ const link = (sub) => {
     ',', O,
     ',', G, '}'
   ].join(GLUE)
-  return function (e) {
-    const HREF = e.target.href
+
+  return (e) => {
+    const ELEMENT = e?.target
+    const HREF = ELEMENT.href
     const SUBJECT = [HREF, ';', endpoint].join(GLUE)
-    console.log(SUBJECT)
+    console.log('🔎 ' + SUBJECT + ' to say the least, the first GET should be "quicker" (more responsive because cached)')
+    axios
+      .get(SUBJECT)
+      .then((response) => {
+        const RESPONSE = response?.data
+        const DATA = RESPONSE?.data
+        const q = document.querySelector('.m-view--datalist__default__')
+        q.innerHTML = ['<code style="background-color: white;">', JSON.stringify(DATA), '</code>'].join(GLUE)
+      })
     return SUBJECT
   }
 }
