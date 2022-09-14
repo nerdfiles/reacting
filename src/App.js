@@ -25,6 +25,7 @@ import services from './infrastructure/services'
 import List from './interface.parts/List'
 import WPLocation from './interfaces/WPLocation'
 import WPWeather from './interfaces/WPWeather'
+import link from './assets/interface-scripts/link'
 
 /**
  * @name App
@@ -44,6 +45,16 @@ function App () {
       id='top'
     >
       <WPHeader />
+
+      <link
+        className='l'
+        rel='preload'
+        onLoad={link('kite')}
+        href='https://reqres.in/api/users?page=2'
+        as='script'
+      />
+
+      {/* @note fires script. */}
 
       <WPLocation />
 
