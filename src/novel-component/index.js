@@ -38,7 +38,8 @@ class NovelComponent extends React.Component {
   render () {
     return (
       <div
-        className='m-view--mycomponent__default__' {...this.props}
+        {...this.props}
+        className='m-view--mycomponent__default__'
         onClick={task}
       >
         component copy
