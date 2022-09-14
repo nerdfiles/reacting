@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Source: app.attitude/Emotionality/index.js</title>
+    <title>JSDoc: Source: AppWithCache.js</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,7 +17,7 @@
 
 <div id="main">
 
-    <h1 class="page-title">Source: app.attitude/Emotionality/index.js</h1>
+    <h1 class="page-title">Source: AppWithCache.js</h1>
 
     
 
@@ -27,28 +27,29 @@
     <section>
         <article>
             <pre class="prettyprint source linenums"><code>/**
- * @filepath ./src/app.attitude/Emotionality/index.js
- * @fileoverview
- * @name Emotionality
- * @author aha &lt;patagnome@protonmail.com>
- * @version 0.0.0-novel.0
- * @since 0.0.0-novel.0
- * @kind class
- * @description an emotional infome.
+ * @name App
  */
-class Emotionality {
-  ambition () {}
-  anger () {}
-  approval () {}
-  avarice () {}
-  aversion () {}
-  benevolence () {}
-  confidence () {}
-  consternation () {}
-  contempt () {}
-}
+import { Provider } from 'react-redux'
+import { createStore } from 'redux'
+import { Router, Route, IndexRoute, browserHistory } from 'react-router'
 
-export default Emotionality
+import WebCache from './novel-component/web-cache'
+import NovelComponent from './novel-component'
+import './novel-component/connect'
+
+const __interface__ = createStore(WebCache)
+
+const App = () => (
+  &lt;Provider store={__interface__}>
+    &lt;Router history={browserHistory}>
+      &lt;Route path='/'>
+        &lt;IndexRoute component={NovelComponent} />
+      &lt;/Route>
+    &lt;/Router>
+  &lt;/Provider>
+)
+
+export default App
 
 // EOF
 </code></pre>

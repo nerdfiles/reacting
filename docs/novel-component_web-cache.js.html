@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Source: app.attitude/Emotionality/index.js</title>
+    <title>JSDoc: Source: novel-component/web-cache.js</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,7 +17,7 @@
 
 <div id="main">
 
-    <h1 class="page-title">Source: app.attitude/Emotionality/index.js</h1>
+    <h1 class="page-title">Source: novel-component/web-cache.js</h1>
 
     
 
@@ -27,28 +27,16 @@
     <section>
         <article>
             <pre class="prettyprint source linenums"><code>/**
- * @filepath ./src/app.attitude/Emotionality/index.js
- * @fileoverview
- * @name Emotionality
- * @author aha &lt;patagnome@protonmail.com>
- * @version 0.0.0-novel.0
- * @since 0.0.0-novel.0
- * @kind class
- * @description an emotional infome.
+ * @name web-cache
  */
-class Emotionality {
-  ambition () {}
-  anger () {}
-  approval () {}
-  avarice () {}
-  aversion () {}
-  benevolence () {}
-  confidence () {}
-  consternation () {}
-  contempt () {}
+import { combineReducers } from 'redux'
+import occasion from './cache-stub'
+
+const taskInterface = {
+  stub: occasion
 }
 
-export default Emotionality
+export default combineReducers(taskInterface)
 
 // EOF
 </code></pre>

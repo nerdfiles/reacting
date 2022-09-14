@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Source: app.attitude/Emotionality/index.js</title>
+    <title>JSDoc: Source: novel-component/cache-stub.js</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,7 +17,7 @@
 
 <div id="main">
 
-    <h1 class="page-title">Source: app.attitude/Emotionality/index.js</h1>
+    <h1 class="page-title">Source: novel-component/cache-stub.js</h1>
 
     
 
@@ -27,28 +27,34 @@
     <section>
         <article>
             <pre class="prettyprint source linenums"><code>/**
- * @filepath ./src/app.attitude/Emotionality/index.js
- * @fileoverview
- * @name Emotionality
+ * @filepath ./src/novel-component/cache-stub.js
+ * @fileoverview a task-based interface.
  * @author aha &lt;patagnome@protonmail.com>
+ * @description a task-based interface for https://schema.org/WebActivityHistory.
+ * @see https://twitchard.github.io/posts/2021-04-24-behavior-constraining-features.html
+ * @summary a task-based interface.
+ * @name act
+ * @function
  * @version 0.0.0-novel.0
  * @since 0.0.0-novel.0
- * @kind class
- * @description an emotional infome.
+ * @param {} occasion.
+ * @param {} action.
+ * @returns Array .
  */
-class Emotionality {
-  ambition () {}
-  anger () {}
-  approval () {}
-  avarice () {}
-  aversion () {}
-  benevolence () {}
-  confidence () {}
-  consternation () {}
-  contempt () {}
+import { ACTION_KEY } from './actions'
+const act = (occasion = [], action) => {
+  switch (action.type) {
+    case ACTION_KEY:
+      return {
+        next: 'value'
+      }
+    default:
+      break
+  }
+  return occasion
 }
 
-export default Emotionality
+export default act
 
 // EOF
 </code></pre>

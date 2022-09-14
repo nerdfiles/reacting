@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Source: app.attitude/Emotionality/index.js</title>
+    <title>JSDoc: Source: indexWithCache.js</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,7 +17,7 @@
 
 <div id="main">
 
-    <h1 class="page-title">Source: app.attitude/Emotionality/index.js</h1>
+    <h1 class="page-title">Source: indexWithCache.js</h1>
 
     
 
@@ -27,28 +27,14 @@
     <section>
         <article>
             <pre class="prettyprint source linenums"><code>/**
- * @filepath ./src/app.attitude/Emotionality/index.js
- * @fileoverview
- * @name Emotionality
- * @author aha &lt;patagnome@protonmail.com>
- * @version 0.0.0-novel.0
- * @since 0.0.0-novel.0
- * @kind class
- * @description an emotional infome.
+ * @name App
  */
-class Emotionality {
-  ambition () {}
-  anger () {}
-  approval () {}
-  avarice () {}
-  aversion () {}
-  benevolence () {}
-  confidence () {}
-  consternation () {}
-  contempt () {}
-}
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-export default Emotionality
+import App from './AppWithCache'
+
+ReactDOM.render(&lt;App />, document.getElementById('app'))
 
 // EOF
 </code></pre>
