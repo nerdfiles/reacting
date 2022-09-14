@@ -1,5 +1,9 @@
 /**
- * @name form-actions
+ * @filepath ./src/novel-component/form-actions
+ * @fileoverview a mess of message dispatch relays.
+ * @author aha <patagnome@protonmail.com>
+ * @version 0.0.0-novel.0
+ * @since 0.0.0-novel.0
  */
 export const GET_KEY = 'GET'
 export const POST_KEY = 'POST'
