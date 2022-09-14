@@ -62,12 +62,17 @@ button {}
 /// and semantics-driven code design in interaction modeling and processing.
 /// 
 /// ## naming
+///
+/// [controls]
 ///  
 /// ## semantics-driven code design
+///
+/// [schema]
 /// 
 /// ## panalogy
 ///
-/// we consider a panalogy between n-quad's presented `/...{?s,p,o,g}` 
+/// we consider a panalogy between [hypermedia-orientation][schema], in 
+/// general, and [n-quad][controls]'s, in particular, presented `/...{?s,p,o,g}` 
 /// formulation and atomic bem's `<...[class='a-b--e__m__'>`.
 /// 
 /// indeed, for `spog <> abem` with `emmet`,
@@ -82,11 +87,11 @@ button {}
 /// [vitals]: https://web.dev/patterns/web-vitals-patterns/carousels/
 /// [trap]: https://www.gnu.org/philosophy/javascript-trap.html
 /// [cachedjs]: https://www.webperf.tips/tip/cached-js-misconceptions/
+/// [controls]: https://linkeddatafragments.org/specification/quad-pattern-fragments/#controls
+/// [schema]: https://apisyouwonthate.com/blog/common-hypermedia-patterns-with-json-hyper-schema
 /// @name index.css:molecule (class="m", class="m-...")
 /// @summary css molecule for an infocule. with what must the logging console 
 /// begin?
-/// @see https://linkeddatafragments.org/specification/quad-pattern-fragments/#controls
-/// @see https://apisyouwonthate.com/blog/common-hypermedia-patterns-with-json-hyper-schema
 /// @example
 /// [class]*3<emmet:ctrl+y,\leader>
 /// <div class="">_</div>
