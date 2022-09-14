@@ -26,6 +26,8 @@
     "fora": "n.fora",
     "docs": "jsdoc -d docs -r src",
     "docs/open": "open docs/index.html",
+    "docs/sass": "sassdoc src",
+    "docs/open/sass": "open sassdoc/index.html",
     "print/@todo": "ack @todo -l | percol",
     "open/@todo": "vim $(ack @todo -l | percol)",
     "percol/alder": "alder src | percol",
