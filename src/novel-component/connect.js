@@ -3,7 +3,7 @@
  */
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
-import { GET_NAME } from './actions'
+import { GET_NAME } from './cache-actions'
 // import Cache from '../infrastructure/cache'
 import NovelComponent from './index'
 

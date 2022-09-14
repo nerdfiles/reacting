@@ -13,7 +13,7 @@
  * @param {} action.
  * @returns Array .
  */
-import { ACTION_KEY } from './actions'
+import { ACTION_KEY } from './cache-actions'
 const act = (occasion = [], action) => {
   switch (action.type) {
     case ACTION_KEY:

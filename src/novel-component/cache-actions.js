@@ -1,5 +1,5 @@
 /**
- * @name actions
+ * @name cache-actions
  */
 export const ACTION_KEY = 'ACTION_KEY'
 
