@@ -36,13 +36,6 @@ input[type='number'] {}
 input[type='password'] {}
 button {}
 
-/// @name index.css:molecule (class="m", class="m-...")
-/// @summary css molecule for an infocule. with what must the logging console 
-/// begin?
-/// @see https://linkeddatafragments.org/specification/quad-pattern-fragments/#controls
-/// @see https://apisyouwonthate.com/blog/common-hypermedia-patterns-with-json-hyper-schema
-/// @description modeling a molecular class string, presents
-/// 
 ///   (a)   `*=_ as ._`
 ///   (a.1) `._ as [class*='...']_` (assuming '*' and whatever name, '...')
 ///   (a.2) `._<ctrl+y,\leader> as [class='']_<ctrl+y,\leader>`/ 
@@ -82,13 +75,18 @@ button {}
 /// `/$$( element ){?s,p,o,g}` <> `<$$( element )[class="a-b--e__m__"]>`
 ///
 /// so, we can model all interactions in css to produce pure css carousels, 
-/// etc., avoiding js traps like here [0] (see [1] and [2])
+/// etc., avoiding js traps like here [vitals] (see [trap] and [cachedjs])
 ///  
 /// ## footnotes
 /// 
-/// [0]: https://web.dev/patterns/web-vitals-patterns/carousels/
-/// [1]: https://www.gnu.org/philosophy/javascript-trap.html
-/// [1]: https://www.webperf.tips/tip/cached-js-misconceptions/
+/// [vitals]: https://web.dev/patterns/web-vitals-patterns/carousels/
+/// [trap]: https://www.gnu.org/philosophy/javascript-trap.html
+/// [cachedjs]: https://www.webperf.tips/tip/cached-js-misconceptions/
+/// @name index.css:molecule (class="m", class="m-...")
+/// @summary css molecule for an infocule. with what must the logging console 
+/// begin?
+/// @see https://linkeddatafragments.org/specification/quad-pattern-fragments/#controls
+/// @see https://apisyouwonthate.com/blog/common-hypermedia-patterns-with-json-hyper-schema
 /// @example
 /// [class]*3<emmet:ctrl+y,\leader>
 /// <div class="">_</div>
