@@ -3,18 +3,18 @@
  */
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
-import { ACTION_NAME } from './actions'
+import { GET_NAME } from './actions'
 // import Cache from '../infrastructure/cache'
 import NovelComponent from './index'
 
 export default connect((occasion) => {
-  const KEY = occasion.next || occasion['next']
-
-  return {
-    key: KEY
+  if (occasion && occasion['next']) {
+    return {
+      key: occasion && occasion.next
+    }
   }
 }, (dispatch) => {
-  return bindActionCreators({ ACTION_NAME }, dispatch)
+  return bindActionCreators({ GET_NAME }, dispatch)
 })(NovelComponent)
 
 // EOF
