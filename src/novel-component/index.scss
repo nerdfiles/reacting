@@ -169,7 +169,7 @@ button {}
 /// so, compare the singular name above: `...-...--...__...__`:
 /// 
 /// ```
-/// `[∼]StereotypeName::Meta-attributeName::value;`
+/// [∼]StereotypeName::Meta-attributeName::value;
 /// ```
 ///
 /// that is,
@@ -177,6 +177,70 @@ button {}
 /// ```
 /// [...]...::...::...;
 /// ```
+///
+/// looks familiar, i'm sure. this tells us that frontend developers really 
+/// should be expected to answer questions about storage semantics, whether 
+/// nosql is faster than sql for some accessible web "vital" or systematically-
+/// enforced constraint or whatever else such pattern as "infinite scrolling" 
+/// and "tabbed" interface. if semantics-driven code design is assumed for the
+/// stylesheet, visual and visible design can be solved in a context without
+/// dependence on other languages or technologies. carousels, modal windows,
+/// accordians, and the rest of the interaction design space can be solved
+/// through interaction modeling strictly in css for many classes of problems
+/// once thought only solvable using javascript. we should good better at 
+/// detecting their benefits in terms of adjustability, incremental consistency,
+/// and traceability. these quality properties pertain to higher order fruits: 
+/// specializability and concretizability. the quality properties relate to 
+/// maintainability where the fruits, or emergent properties, pertain to estimation.
+/// how do specializability and specialization influence organizational 
+/// complexity and responsiveness to change within an organizational 
+/// structure, particularly relative to decision-maker and stake-holder interests?
+/// what is concretizable in the application? does concretization slow processes
+/// of onboarding? between angular and reactjs, a solution space may exist independently 
+/// of their implementation details which is continuation despite their presence. solution 
+/// spaces possess characteristics some of which may not be optimal relative to
+/// their combination with the limitations of language technologies or their goals in 
+/// original language design. are components easy to adjust? trace? test? all such 
+/// questions are implicated in daily planning and re-assessment of sprints or work 
+/// works to be considered. it's also important to understand how adjustability,
+/// consistency expectations of components, and traceability shape outcomes of 
+/// maintainability and maintenance in a reliable way. tools for reporting css 
+/// specificity can aid in revealing emergent complexity in stylesheet code relative 
+/// to named components. the problem with "utility classing" components is that
+/// the names assume a delivered ensemble of stylesheets at the document: any number
+/// of class string values can appear anywhere in the document's tags: `grid:md` here,
+/// `column-12` there, and `input-border-dashed` elsewhere. between these three 
+/// names we've expressed the concept of a "grid", a "column", adaptiveness, 
+/// layout, modality, and so much else. the "order" of these concepts or how they're 
+/// intended to be used isn't explicit by the space-delimited grammar common 
+/// to bootstrap, semanticui, tailwindcss, and the like: `Noun Noun Noun` is what
+/// is being communicated at the level of specializability and concretizability. "activity"
+/// as such has to be read from the styleesheet. at once, the posture of not wishing to
+/// open a "css" file jointly with an "html" file, reading and jumping between the two files,
+/// is not benefitted by employing the "utility classing" approach in 
+/// authorship *if* one is unfamiliar with the codebase. "column-small" doesn'
+/// t tell us what whatever is being made "small" is being made "small" 
+/// relative to, and if the markup surrounding that "small" element, after parsing and 
+/// processing, is not telling about what is to occur at the moment of reading, or readability.
+/// a developer can read `column-small column-medium ...` but this tells us nothing 
+/// about the context of application or presentation, how it was served, nor anything 
+/// about how to trace it if it doesn't work out and we must adjust it. a developer 
+/// may well take to `grep` and flagging down other bits of code if they seek
+/// to understand how it fits in as a feature, but again now multiple files must be opened.
+/// "utility" class frameworks are great for jotting out stylesheet code only to 
+/// forget about it not worrying about "evolution" of the design. about the only person
+/// who can become a specialist in such code, even immediately after authorship, is the person
+/// who wrote it. like a car loses value immediately upon leaving the lot,
+/// code by "utility" classes in documents like html barely enable developers to 
+/// "pick up" where they left off in comprehending it, specializing in it, detecting
+/// its concretizations, and so on. it's code that isn't "hard" like a rock, which
+/// we would be able to look at, study, change, and improve in a reliable way. so, 
+/// there are independent reasons for rejecting "utility" frameworks, and which
+/// partially explain why they have yet to payout for increasing the accessibility
+/// of the web. such frameworks reintroduce all patterns of using html tags 
+/// for presentation, only they do so at the class attribute moment in authoring 
+/// web documents. tags for presentation does not scale; doing the same thing 
+/// with class attribute strings is equally unscalable.
 ///
 /// ## footnotes
 /// 
