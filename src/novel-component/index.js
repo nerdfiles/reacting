@@ -12,6 +12,7 @@
  */
 import React, { createStore } from 'react'
 import WebCache from './web-cache'
+import './index.scss'
 
 const __interface__ = createStore(WebCache)
 
@@ -39,7 +40,7 @@ class NovelComponent extends React.Component {
     return (
       <div
         {...this.props}
-        className='m-view--mycomponent__default__'
+        className='m-view--novel-component__default__'
         onClick={task}
       >
         component copy
