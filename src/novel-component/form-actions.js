@@ -1,5 +1,5 @@
 /**
- * @name actions
+ * @name form-actions
  */
 export const GET_KEY = 'GET'
 export const POST_KEY = 'POST'
