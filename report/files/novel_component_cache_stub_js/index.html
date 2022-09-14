@@ -107,12 +107,12 @@
  * @param {} action.
  * @returns Array .
  */
-import { ACTION_KEY } from &#039;./actions&#039;
+import { ACTION_KEY } from &#039;./cache-actions&#039;
 const act = (occasion = [], action) =&gt; {
   switch (action.type) {
     case ACTION_KEY:
       return {
-        next: &#039;value&#039;
+        next: &#039;&#039;
       }
     default:
       break

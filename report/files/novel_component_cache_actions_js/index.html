@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Plato - interface.parts/List.js</title>
+  <title>Plato - novel-component/cache-actions.js</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
@@ -39,7 +39,7 @@
 
 <div class="jumbotron">
   <div class="container">
-    <h1>interface.parts/List.js</h1>
+    <h1>novel-component/cache-actions.js</h1>
   </div>
 </div>
 
@@ -47,11 +47,11 @@
   <div class="row">
     <div class="col-md-6">
       <h2 class="header">Maintainability <a href="http://blogs.msdn.com/b/codeanalysis/archive/2007/11/20/maintainability-index-range-and-meaning.aspx"><i class="icon icon-info-sign" rel="popover" data-placement="top" data-trigger="hover" data-content="A value between 0 and 100 that represents the relative ease of maintaining the code. A high value means better maintainability." data-original-title="Maintainability Index"  data-container="body"></i></a></h2>
-      <p class="stat">71.97</p>
+      <p class="stat">81.88</p>
     </div>
     <div class="col-md-6">
       <h2 class="header">Lines of code <i class="icon icon-info-sign" rel="popover" data-placement="top" data-trigger="hover" data-content="Source Lines of Code / Logical Lines of Code" data-original-title="SLOC/LSLOC" data-container="body"></i></h2>
-      <p class="stat">61</p>
+      <p class="stat">14</p>
     </div>
   </div>
   <div class="row historical">
@@ -65,11 +65,11 @@
   <div class="row">
     <div class="col-md-6">
       <h2 class="header">Difficulty  <a href="http://en.wikipedia.org/wiki/Halstead_complexity_measures"><i class="icon icon-info-sign" rel="popover" data-placement="top" data-trigger="hover" data-content="The difficulty measure is related to the difficulty of the program to write or understand." data-original-title="Difficulty" data-container="body"></i></a></h2>
-      <p class="stat">14.68</p>
+      <p class="stat">4.67</p>
     </div>
     <div class="col-md-6">
       <h2 class="header">Estimated Errors  <a href="http://en.wikipedia.org/wiki/Halstead_complexity_measures"><i class="icon icon-info-sign" rel="popover" data-placement="top" data-trigger="hover" data-content="Halstead's delivered bugs is an estimate for the number of errors in the implementation." data-original-title="Delivered Bugs" data-container="body"></i></a></h2>
-      <p class="stat">0.14</p>
+      <p class="stat">0.02</p>
     </div>
   </div>
 </div>
@@ -93,63 +93,16 @@
 <div class="container">
   <div class="row">
     <textarea id="file-source" class="col-md-12">/**
- * @filepath ./src/interface.parts/List.js
- * @fileoverview yet another list web component
- * @name List
- * @function
- * @description List.js.
- * @license wtfpl, version 2
- * @version 0.0.0-novel.0
- * @since 0.0.0-novel.0
- * @kind constant
- * @author aha &lt;patagnome@protonmail.com&gt;
- * @todo none
- * @param props - properties for a bespoke list element.
- * @param props[dataList] - yet another mapping.
- * @returns {HTMLLIElement} markup.
+ * @name cache-actions
  */
-import Listing from &#039;./Listing&#039;
-import Person from &#039;../domain/person&#039;
+export const ACTION_KEY = &#039;ACTION_KEY&#039;
 
-const EMPTY_LIST = (
-  &lt;p&gt;empty&lt;/p&gt;
-)
-
-/**
- * @name List
- * @description for data lists. it&#039;s probably in the living standard somewhere anyway. 
- * @param {} props
- */
-const List = (props) =&gt; {
-  /**
-   * @constant
-   * @default
-   */
-  const DATA_LIST = props.dataList &amp;&amp; props.dataList
-
-  return (
-    DATA_LIST &amp;&amp; DATA_LIST.length
-      ? DATA_LIST.map((dataRef, keyRef) =&gt; {
-        const NAME = dataRef.first_name || dataRef.name
-        const nullPerson = {
-          name: NAME,
-          age: 0,
-          tags: [&#039;human&#039;]
-        }
-        const person = new Person(nullPerson)
-
-        return (
-          &lt;Listing
-            key={keyRef}
-            concept={person}
-          /&gt;
-        )
-      })
-      : EMPTY_LIST
-  )
+export function ACTION_NAME (value) {
+  return {
+    type: ACTION_KEY,
+    payload: value
+  }
 }
-
-export default List
 
 // EOF
 </textarea>
