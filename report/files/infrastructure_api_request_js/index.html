@@ -99,11 +99,11 @@
  * @param {string} method
  * @param {object} payload
  */
-const request = (ent, method, payload) =&gt; {
+const request = (entityName, method, payload) =&gt; {
   return new Promise((resolve, reject) =&gt; {
     const task = axios[method]
     const baseUrl = &#039;https://reqres.in/api&#039;
-    const entity = ent || &#039;users&#039; // @todo generalize the entity to apps according to domain-driven design
+    const entity = entityName || &#039;users&#039; // @todo generalize the entity to apps according to domain-driven design
     const glue = &#039;/&#039;
     const endpoint = [baseUrl, entity].join(glue)
 
