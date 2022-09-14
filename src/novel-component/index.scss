@@ -16,21 +16,60 @@ body {}
 }
 
 div {}
+p {}
+P {}
+
+blockquote {}
+
+h1 {}
+h2, h3 {}
+h3, h6 {}
+
+form:not(:last-child),
+form[action=''] {
+  outline: 1px solid rgba(25, 25, 25, 0);
+}
+form {}
+fieldset {}
+input[type='text'] {}
+input[type='number'] {}
+input[type='password'] {}
+button {}
 
 /// @name molecule.css
 /// @summary css molecule for an infocule. with what must the logging console 
 /// begin?
 /// @description modeling a molecular class string, presents
 /// 
-///   (a) `*=_- as ._`
+///   (a)   `*=_ as ._`
+///   (a.1) `._ as [class*='...']_` (assuming '*' and whatever name, '...')
+///   (a.2) `._<ctrl+y,\leader> as [class='']_<ctrl+y,\leader>`/ 
+///   (a.3) `. as _`/ 
 /// 
+/// [(a.2) returns no tag output with emmet where `[class='_-']` 
+/// literally does; namely `<div class="_-">_</div>`. `[class]` yields
+/// with an empty `@class` style value.]
+/// 
+/// either way (a) and (a.1) where the latter presupposes emmet is applied,
 /// where we expect 
 /// 
 ///   (b:emmet:@::[]) `<... @class "m-...--...__...__">...</...>`
+///
+///   that is,
+///
+///   (b) `<div class="m-...--...__...__">_</div>`
 /// 
 /// rendered
 /// 
-/// <... class="m-...--...__...__">...</...>
+///    (c) <... class="m-...--...__...__">...</...>
+///
+/// non-space-delimited names enable normative level of description for naming 
+/// and semantics-driven code design in interaction modeling and processing.
+/// 
+/// ## naming
+///  
+/// ## semantics-driven code design
+///  
 /// @example
 /// [class]*3<emmet:ctrl+y,\leader>
 /// <div class="">_</div>
