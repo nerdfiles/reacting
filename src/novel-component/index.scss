@@ -77,9 +77,9 @@ button {}
 /// we consider a panalogy between n-quad's presented `/...{?s,p,o,g}` 
 /// formulation and atomic bem's `<...[class='a-b--e__m__'>`.
 /// 
-/// indeed,
+/// indeed, for `spog <> abem` with `emmet`,
 /// 
-/// `$$( concept )/{?s,p,o,g}` <> `<element[class="$$( concept )-...--...__...__"]>`
+/// `/$$( element ){?s,p,o,g}` <> `<$$( element )[class="a-b--e__m__"]>`
 ///  
 /// @example
 /// [class]*3<emmet:ctrl+y,\leader>
