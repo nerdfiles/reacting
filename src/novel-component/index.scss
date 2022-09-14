@@ -242,6 +242,13 @@ button {}
 /// web documents. tags for presentation does not scale; doing the same thing 
 /// with class attribute strings is equally unscalable.
 ///
+/// html has various "presentational" tags; e.g., `<font>`. using a class 
+/// `text-color-red` is no different from using html for this purpose. this 
+/// is the key antipattern: misuse by purpose. it's not just that the class
+/// being there doesn't achieve the end in question, applying some style to 
+/// an element, but it's that *how* it's solved is out of sorts with 
+/// scaling the interface as much as out of sort with the goal of html itself.
+///
 /// ## footnotes
 /// 
 /// (links in markdown)
