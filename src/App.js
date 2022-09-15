@@ -19,8 +19,6 @@
 import './App.scss'
 import { useState } from 'react'
 import petri from 'petri-net'
-import Ramda from 'ramda'
-import Ramdash from 'ramdash'
 import WPHeader from './interfaces/WPHeader'
 import WPFooter from './interfaces/WPFooter'
 import Button from './interface.parts/Button'
