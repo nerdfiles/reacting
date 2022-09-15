@@ -94,20 +94,13 @@ function App () {
    * @constant
    * @default
    */
-  class Act extends FC {
-    constructor (e) {
-      super(e)
-      e.preventDefault()
-    }
-
-    render () {
-      return (
-        <Button
-          textLabel='get'
-          act={act}
-        />
-      )
-    }
+  const Act = (props) => {
+    return (
+      <Button
+        textLabel='get'
+        act={act}
+      />
+    )
   }
 
   return (
@@ -121,11 +114,15 @@ function App () {
 
       {/* @description preload test. */}
 
+      {
+        /*
       <Link
         init={link('kite', '.m-view--datalist__default__')}
         byClass='m-view--datalist__default__'
         href='https://reqres.in/api/users?page=2'
       />
+        */
+      }
 
       <WPLocation />
 

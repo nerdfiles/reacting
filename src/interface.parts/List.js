@@ -18,7 +18,14 @@ import Listing from './Listing'
 import Person from '../domain/person'
 
 const EMPTY_LIST = (
-  <p>empty</p>
+  <ul>
+    <li>
+      <span
+        class='m-view-icon__default__'
+        aria-label='empty'
+      ></span>
+    </li>
+  </ul>
 )
 
 /**
@@ -31,10 +38,10 @@ const List = (props) => {
    * @constant
    * @default
    */
-  const DATA_LIST = props.dataList && props.dataList
+  const DATA_LIST = props?.dataList
 
   return (
-    DATA_LIST && DATA_LIST.length
+    DATA_LIST?.length
       ? DATA_LIST.map((dataRef, keyRef) => {
         const NAME = dataRef.first_name || dataRef.name
         const nullPerson = {

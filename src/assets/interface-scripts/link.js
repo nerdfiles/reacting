@@ -108,6 +108,9 @@ const link = (concept, byClass) => {
          * (syntax) → (meaning) mapping.
          */
         const DATA_LIST = () => DATA.map((ref, key) => {
+          // @note this is markup that upends reactjs's virtual dom 
+          // assumptions. breaks the app if both are interacting with each 
+          // other.
           const DATUM = `<li style='background-color: white;'>${ref.first_name}</li>`
           return DATUM
         })

@@ -121,8 +121,8 @@ const Button = (props) => {
       id={ID}
       name={NAME}
       onClick={(e) => {
-        props.act()
         e.preventDefault()
+        props.act()
       }}
       tabIndex={TABINDEX}
     >
