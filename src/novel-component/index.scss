@@ -382,7 +382,7 @@ div[className*='m-'] {
 
 /// `@mixin apply($s, $a) { @include $s($a); }`
 
-/// lispcast claims [invalidity][lispcast]. what's "invalid" here if `$a` is a list, not an 
+/// lispcast claims [invalidity][inv]. what's "invalid" here if `$a` is a list, not an 
 /// object? why does interpolation just work?
 
 /*
@@ -419,7 +419,7 @@ $ATTRS: (--a, --R, --b,)
 }
 ```
 
-[lispcast]: https://lispcast.com/css-and-the-lambda-calculus/
+[inv]: https://lispcast.com/css-and-the-lambda-calculus/
 
 */
 
