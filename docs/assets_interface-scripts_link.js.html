@@ -26,65 +26,134 @@
     
     <section>
         <article>
-            <pre class="prettyprint source linenums"><code>import axios from 'axios'
-
-/**
+            <pre class="prettyprint source linenums"><code>/**
+ * @filepath ./src/assets/interface.scripts/link.js
  * @name link
- * @description link.
+ * @function
+ * @author aha &lt;patagnome@protonmail.com>
  * @version 0.0.0-novel.0
  * @since 0.0.0-novel.0
- * @kind function
- * @description consider [example].
+ * @description String('🔎 ' + SUBJECT + ') to say the least, the first GET 
+ * should be "quicker" (more responsive because cached)'.
+ * 
+ * consider [example].
  * [example]: https://reqres.in/api/users?page=2;http://example.com/kite{?s,p,o,g}
  */
-const link = (sub, byClass) => {
+import axios from 'axios'
+import Ramda from 'ramda'
+import Ramdash from 'ramdash'
+
+const link = (concept, byClass) => {
+  /**
+   * @constant
+   * @default
+   */
   const GLUE = ''
-  const S = 's'
-  const P = 'p'
-  const O = 'o'
-  const G = 'g'
+
+  /**
+   * @constant
+   * @default
+   */
   const SEP = '/'
-  const SUB = sub ?? '{noun:https://thenounproject.com/icons/}'
+
+  /**
+   * @constant
+   * @default
+   */
+  const NOUN = '{NOUN:https://thenounproject.com/icon/ankh-3550481/}'
+
+  const Subject = ''
+  const Predicate = ''
+  const Objet = ''
+  const Graph = ''
+  const domain = concept ?? NOUN
+
   const endpoint = [
     'http://example.com',
     SEP,
-    SUB, 
+    domain, 
     '{', '?',
-    (S ?? S),
-    ',', P,
-    ',', O,
-    ',', G, '}'
+    (Subject ?? Subject),
+    ',', Predicate,
+    ',', Objet,
+    ',', Graph, '}'
   ].join(GLUE)
 
-  return (e) => {
-    const ELEMENT = e?.target
+  return (event) => {
+    /**
+     * @constant
+     * @default
+     */
+    const ELEMENT = event?.target
+
+    /**
+     * @constant
+     * @default
+     */
     const HREF = ELEMENT.href
-    const SUBJECT = [HREF, ';', endpoint].join(GLUE)
-    console.log('🔎 ' + SUBJECT + ' to say the least, the first GET should be "quicker" (more responsive because cached)')
+
+    /**
+     * @constant
+     * @default
+     */
+    const SUBJECT = [
+      HREF,
+      ';',
+      endpoint
+    ].join(GLUE)
+
     axios
       .get(SUBJECT)
       .then((response) => {
+        /**
+         * @constant
+         * @default
+         */
         const RESPONSE = response?.data
+
+        /**
+         * @constant
+         * @default
+         */
         const DATA = RESPONSE?.data
+
+        /**
+         * @constant
+         * @default
+         */
         const SELECTOR = [
           'ul',
           (byClass ?? '')
         ].join(GLUE)
-        const $$element = document.querySelector(SELECTOR)
+
+        /**
+         * @name DATA_LIST
+         * @constant
+         * @default
+         * @function
+         * @description a templating function.
+         * @returns {HTMLLIElement} tag for a List element; i.e, String as 
+         * (syntax) → (meaning) mapping.
+         */
         const DATA_LIST = () => DATA.map((ref, key) => {
-          const O = ref
-          console.log(ref.first_name)
-          return (
-            &lt;li style='background-color: white;' key={key}>
-              &lt;span>{O.first_name}&lt;/span>
-            &lt;/li>
-          )
+          const DATUM = `&lt;li style='background-color: white;'>${ref.first_name}&lt;/li>`
+          return DATUM
         })
+
+        /**
+         * @constant
+         * @default
+         */
         const CONTENT = DATA_LIST()
+
+        const $$element = document.querySelector(SELECTOR)
+
         // @todo React.findDOMNode
         $$element.innerHTML = CONTENT
-        console.table(CONTENT)
+
+        console.table(DATA)
       })
+
     return SUBJECT
   }
 }
@@ -102,13 +171,13 @@ export default link
 </div>
 
 <nav>
-    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="Authority.html">Authority</a></li><li><a href="Emotionality.html">Emotionality</a></li></ul><h3>Global</h3><ul><li><a href="global.html#act">act</a></li><li><a href="global.html#App">App</a></li><li><a href="global.html#Button">Button</a></li><li><a href="global.html#cache-actions">cache-actions</a></li><li><a href="global.html#clientPostData">clientPostData</a></li><li><a href="global.html#clientUpdateData">clientUpdateData</a></li><li><a href="global.html#Code">Code</a></li><li><a href="global.html#connect">connect</a></li><li><a href="global.html#Culture">Culture</a></li><li><a href="global.html#DataTreeElement">DataTreeElement</a></li><li><a href="global.html#deleteData">deleteData</a></li><li><a href="global.html#EMPTY_TREE">EMPTY_TREE</a></li><li><a href="global.html#GET_NAME">GET_NAME</a></li><li><a href="global.html#getData">getData</a></li><li><a href="global.html#GLUE">GLUE</a></li><li><a href="global.html#HelpText">HelpText</a></li><li><a href="global.html#Icon">Icon</a></li><li><a href="global.html#Input">Input</a></li><li><a href="global.html#link">link</a></li><li><a href="global.html#Link">Link</a></li><li><a href="global.html#List">List</a></li><li><a href="global.html#Listing">Listing</a></li><li><a href="global.html#Logger">Logger</a></li><li><a href="global.html#OPTIONS">OPTIONS</a></li><li><a href="global.html#Person">Person</a></li><li><a href="global.html#POST_NAME">POST_NAME</a></li><li><a href="global.html#Profile">Profile</a></li><li><a href="global.html#reportWebVitals">reportWebVitals</a></li><li><a href="global.html#request">request</a></li><li><a href="global.html#task">task</a></li><li><a href="global.html#Trust">Trust</a></li><li><a href="global.html#web-cache">web-cache</a></li><li><a href="global.html#web-form">web-form</a></li><li><a href="global.html#WPFooter">WPFooter</a></li><li><a href="global.html#WPHeader">WPHeader</a></li><li><a href="global.html#WPLocation">WPLocation</a></li><li><a href="global.html#WPTreeviewNavigation">WPTreeviewNavigation</a></li><li><a href="global.html#WPWeather">WPWeather</a></li></ul>
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="Authority.html">Authority</a></li><li><a href="Emotionality.html">Emotionality</a></li></ul><h3>Global</h3><ul><li><a href="global.html#act">act</a></li><li><a href="global.html#App">App</a></li><li><a href="global.html#Button">Button</a></li><li><a href="global.html#cache-actions">cache-actions</a></li><li><a href="global.html#clientPostData">clientPostData</a></li><li><a href="global.html#clientUpdateData">clientUpdateData</a></li><li><a href="global.html#Code">Code</a></li><li><a href="global.html#connect">connect</a></li><li><a href="global.html#Culture">Culture</a></li><li><a href="global.html#DATA_LIST">DATA_LIST</a></li><li><a href="global.html#DataTreeElement">DataTreeElement</a></li><li><a href="global.html#deleteData">deleteData</a></li><li><a href="global.html#EMPTY_TREE">EMPTY_TREE</a></li><li><a href="global.html#GET_NAME">GET_NAME</a></li><li><a href="global.html#getData">getData</a></li><li><a href="global.html#GLUE">GLUE</a></li><li><a href="global.html#HelpText">HelpText</a></li><li><a href="global.html#Icon">Icon</a></li><li><a href="global.html#Input">Input</a></li><li><a href="global.html#link">link</a></li><li><a href="global.html#Link">Link</a></li><li><a href="global.html#List">List</a></li><li><a href="global.html#Listing">Listing</a></li><li><a href="global.html#Logger">Logger</a></li><li><a href="global.html#OPTIONS">OPTIONS</a></li><li><a href="global.html#Person">Person</a></li><li><a href="global.html#POST_NAME">POST_NAME</a></li><li><a href="global.html#Profile">Profile</a></li><li><a href="global.html#reportWebVitals">reportWebVitals</a></li><li><a href="global.html#request">request</a></li><li><a href="global.html#task">task</a></li><li><a href="global.html#Trust">Trust</a></li><li><a href="global.html#web-cache">web-cache</a></li><li><a href="global.html#web-form">web-form</a></li><li><a href="global.html#WPFooter">WPFooter</a></li><li><a href="global.html#WPHeader">WPHeader</a></li><li><a href="global.html#WPLocation">WPLocation</a></li><li><a href="global.html#WPTreeviewNavigation">WPTreeviewNavigation</a></li><li><a href="global.html#WPWeather">WPWeather</a></li></ul>
 </nav>
 
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.11</a> on Wed Sep 14 2022 17:24:10 GMT-0500 (Central Daylight Time)
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.11</a> on Thu Sep 15 2022 09:47:15 GMT-0500 (Central Daylight Time)
 </footer>
 
 <script> prettyPrint(); </script>
