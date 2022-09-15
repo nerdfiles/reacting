@@ -17,8 +17,8 @@
  * @returns {HTMLDivElement} markup.
  */
 import './App.scss'
-import { useState, useEffect } from 'react'
-import petri from 'petri-net'
+import { FC, useState } from 'react'
+// import petri from 'petri-net'
 import WPHeader from './interfaces/WPHeader'
 import WPFooter from './interfaces/WPFooter'
 import Button from './interface.parts/Button'
@@ -85,16 +85,29 @@ function App () {
     CLIENTDELETESETDATA
   ] = useState('')
 
+  const act = () => {
+    services.getData(CLIENTGETSETDATA)
+  }
+
   /**
    * @name Act
-   * @function
    * @constant
    * @default
    */
-  const Act = () => {
-    useEffect(() => {
-      services.getData(CLIENTGETSETDATA)
-    }, [])
+  class Act extends FC {
+    constructor (e) {
+      super(e)
+      e.preventDefault()
+    }
+
+    render () {
+      return (
+        <Button
+          textLabel='get'
+          act={act}
+        />
+      )
+    }
   }
 
   return (
@@ -137,10 +150,7 @@ function App () {
       >
         <ul className='m-view--list__default__'>
           <li className='m-view--listing__default__'>
-            <Button
-              textLabel='get'
-              act={Act}
-            />
+            <Act />
           </li>
           <li className='m-view--listing__default__'>
             <Button
