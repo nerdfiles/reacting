@@ -46,4 +46,23 @@ a {
   outline: rgba(90, 180, 100, 0.5);
 }
 
+@mixin test ($aRb, $aRc) {
+  .#{$aRb} {border: 1px solid #{$aRb};}
+  // @example
+  // .#{aRb} {
+  //   @if $aRc == $aRd {
+  //     propa: $aRb
+  //   }
+  // }
+  // .#{aRb} {
+  //   propb: #{aRc};
+  //   propc: #{aRb};
+  // }
+  // .#{aRb} {(...??)}; // @fails probably
+  // @include aRb((aRc, cRa, ...)); // organic css
+  // @include $aRb($aRb); // @fails
+}
+
+/// @fails `@mixin apply($s, $a) { @include $s($a); }`
+
 /// EOF.

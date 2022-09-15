@@ -371,4 +371,47 @@ div[className*='m-'] {
   background-color: silver;
 }
 
+/// `@mixin apply($s, $a) { @include $s($a); }`
+
+/// claims invalidity[0]. what's "invalid" here if `$a` is a list, not an 
+/// object? why does interpolation just work?
+
+/*
+
+```perfectly-valid.scss
+$ATOMS: "ATOMS";
+$DEFAULTS: ();
+$ATTRS: (--a, --R, --b,)
+
+@mixin apply($s, $a) {
+  @include $s($a);
+  // ———
+  .#{$ATOMS} () {}
+  // @include #{$ATOMS}($ATTRS); // interpolation is invalid??
+}
+```
+
+```still-perfectly-valid.scss
+@mixin SCOPE ($a, $R, $b) {
+  @include ATOMS($DEFAULTS); // anyway: a but of 
+                                             // extending classes
+}
+
+// ... "later" in a file ...
+@include SCOPE('', '', '');
+
+// @see https://krasimir.github.io/organic-css/
+@mixin header {
+    @include atoms((
+        block,
+        clearfix,
+        font-family
+    ));
+}
+```
+
+[0]: https://lispcast.com/css-and-the-lambda-calculus/
+
+*/
+
 // EOF
