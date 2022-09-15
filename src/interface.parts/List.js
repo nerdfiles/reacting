@@ -46,8 +46,8 @@ const List = (props) => {
 
         return (
           <Listing
-            key={keyRef}
             concept={person}
+            key={keyRef}
           />
         )
       })
