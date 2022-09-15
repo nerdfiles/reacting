@@ -392,7 +392,9 @@ button {}
 /// [sdrt]: https://www.slideserve.com/chelsey/segmented-discourse-representation-theory-a-theory-of-discourse-interpretation
 /// [time]: https://www.w3.org/TR/owl-time/
 /// [psych]: https://pubmed.ncbi.nlm.nih.gov/23167123/
-/// @name index.css:molecule (class="m", class="m-...")
+///
+/// @group namespace
+/// @name index.css:molecule (in emmet: `.m-`, `[class="m-"]`; in html: `class="m-"`; in css: `.m- {}`, `div[classname*='m-'] {}`)
 /// @summary css molecule for an infocule. with what must the logging console 
 /// begin?
 /// @example
@@ -406,7 +408,7 @@ button {}
 /// <div class="m-..."></div><!-- describing molecular block style -->
 /// <div class="m-...--..."></div><!-- describing {m...b} elemental style -->
 /// <div class="m-...--...__...__"></div><!-- describing {m...b, b...e} style modes -->
-/// @name .m, div[classname*='m-']
+
 .m,
 div[classname*='m-'] {
   background-color: silver;
@@ -414,7 +416,7 @@ div[classname*='m-'] {
 
 /// `@mixin apply($s, $a) { @include $s($a); }`
 
-/// lispcast claims [invalidity][inv]. what's "invalid" here if `$a` is a list, not an 
+/// lispcast claims [invalidity]. what's "invalid" here if `$a` is a list, not an 
 /// object? why does interpolation just work?
 
 /*
@@ -435,7 +437,6 @@ $ATTRS: (--a, --R, --b,)
 ```still-perfectly-valid.scss
 @mixin SCOPE ($a, $R, $b) {
   @include ATOMS($DEFAULTS); // anyway: a but of 
-                                             // extending classes
 }
 
 // ... "later" in a file ...
@@ -451,7 +452,7 @@ $ATTRS: (--a, --R, --b,)
 }
 ```
 
-[inv]: https://lispcast.com/css-and-the-lambda-calculus/
+[invalidity]: https://lispcast.com/css-and-the-lambda-calculus/
 
 */
 
