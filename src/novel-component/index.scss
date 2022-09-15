@@ -301,7 +301,11 @@ button {}
 /// in decomposing the behavior in question can be done *in css* prior to 
 /// solving the interaction problem in the first place.
 ///
-/// ## "functional css"[0][funcss][deccss]
+/// ## "functional css"
+///
+/// 1. "lambda" css [lispcast]
+/// 2. "functional" css [funcss]
+/// 3. "declarative" css [deccss]
 ///
 /// the concept of declarative, disorderly programming invites semantic design 
 /// to model monotonymy and monotonicity. a case for monotonymy is the related
@@ -313,13 +317,15 @@ button {}
 /// incrementation, or incremental mediation, purification, translation) and 
 /// concretizability (trainability: traceability and adjustability).
 ///
+/// [lispcast]: https://lispcast.com/css-and-the-lambda-calculus/
+///
 /// ### antipatterns
 ///
 /// 1. https://critter.blog/2018/06/08/in-defense-of-functional-css/
 /// 2. https://rangle.io/blog/styling-with-functional-css/
 /// 3. https://lispcast.com/css-and-the-lambda-calculus/
 ///
-/// [0]: https://www.webperf.tips/tip/performance-timing-markers/
+/// [perf]: https://www.webperf.tips/tip/performance-timing-markers/
 /// [1]: https://www.w3.org/TR/owl2-new-features/#F12:_Punning
 /// [funcss]: https://lispcast.com/css-and-the-lambda-calculus/
 /// [deccss]: http://lambda-the-ultimate.org/node/4222
