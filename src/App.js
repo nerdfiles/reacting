@@ -18,6 +18,9 @@
  */
 import './App.scss'
 import { useState } from 'react'
+import petri from 'petri-net'
+import Ramda from 'ramda'
+import Ramdash from 'ramdash'
 import WPHeader from './interfaces/WPHeader'
 import WPFooter from './interfaces/WPFooter'
 import Button from './interface.parts/Button'
@@ -27,6 +30,24 @@ import WPLocation from './interfaces/WPLocation'
 import WPWeather from './interfaces/WPWeather'
 import link from './assets/interface-scripts/link'
 import Link from './interface.parts/Link'
+
+// var hash = new petri.Place('hash')
+// var hash = new petri.Place('hash')
+// var hash = new petri.Place('hash')
+// var tHash = new petri.Transition('hash', [hash], [hash, hash])
+// var net = new petri.Net(p1)
+
+// net.ingest(10)
+
+// t1.on('fire', async () => {
+//  console.log('t1 fired')
+// })
+
+// _.times(5, () => {
+//   console.log(net.describe())
+//   console.log('----')
+//   net.execute()
+// })
 
 /**
  * @name App

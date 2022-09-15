@@ -1,14 +1,18 @@
-import axios from 'axios'
-
 /**
+ * @filepath ./src/assets/interface.scripts/link.js
  * @name link
- * @description link.
+ * @function
+ * @author aha <patagnome@protonmail.com>
  * @version 0.0.0-novel.0
  * @since 0.0.0-novel.0
- * @kind function
- * @description consider [example].
+ * @description String('🔎 ' + SUBJECT + ') to say the least, the first GET 
+ * should be "quicker" (more responsive because cached)'.
+ * 
+ * consider [example].
  * [example]: https://reqres.in/api/users?page=2;http://example.com/kite{?s,p,o,g}
  */
+import axios from 'axios'
+
 const link = (sub, byClass) => {
   const GLUE = ''
   const S = 's'
@@ -16,7 +20,7 @@ const link = (sub, byClass) => {
   const O = 'o'
   const G = 'g'
   const SEP = '/'
-  const SUB = sub ?? '{noun:https://thenounproject.com/icons/}'
+  const SUB = sub ?? '{NOUN:https://thenounproject.com/icon/ankh-3550481/}'
   const endpoint = [
     'http://example.com',
     SEP,
@@ -32,7 +36,6 @@ const link = (sub, byClass) => {
     const ELEMENT = e?.target
     const HREF = ELEMENT.href
     const SUBJECT = [HREF, ';', endpoint].join(GLUE)
-    console.log('🔎 ' + SUBJECT + ' to say the least, the first GET should be "quicker" (more responsive because cached)')
     axios
       .get(SUBJECT)
       .then((response) => {
@@ -44,18 +47,13 @@ const link = (sub, byClass) => {
         ].join(GLUE)
         const $$element = document.querySelector(SELECTOR)
         const DATA_LIST = () => DATA.map((ref, key) => {
-          const O = ref
-          console.log(ref.first_name)
-          return (
-            <li style='background-color: white;' key={key}>
-              <span>{O.first_name}</span>
-            </li>
-          )
+          const DATUM = `<li style='background-color: white;'>${ref.first_name}</li>`
+          return DATUM
         })
         const CONTENT = DATA_LIST()
         // @todo React.findDOMNode
         $$element.innerHTML = CONTENT
-        console.table(CONTENT)
+        console.table(DATA)
       })
     return SUBJECT
   }
