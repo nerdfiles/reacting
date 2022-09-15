@@ -47,11 +47,11 @@
   <div class="row">
     <div class="col-md-6">
       <h2 class="header">Maintainability <a href="http://blogs.msdn.com/b/codeanalysis/archive/2007/11/20/maintainability-index-range-and-meaning.aspx"><i class="icon icon-info-sign" rel="popover" data-placement="top" data-trigger="hover" data-content="A value between 0 and 100 that represents the relative ease of maintaining the code. A high value means better maintainability." data-original-title="Maintainability Index"  data-container="body"></i></a></h2>
-      <p class="stat">92.19</p>
+      <p class="stat">91.36</p>
     </div>
     <div class="col-md-6">
       <h2 class="header">Lines of code <i class="icon icon-info-sign" rel="popover" data-placement="top" data-trigger="hover" data-content="Source Lines of Code / Logical Lines of Code" data-original-title="SLOC/LSLOC" data-container="body"></i></h2>
-      <p class="stat">85</p>
+      <p class="stat">110</p>
     </div>
   </div>
   <div class="row historical">
@@ -65,11 +65,11 @@
   <div class="row">
     <div class="col-md-6">
       <h2 class="header">Difficulty  <a href="http://en.wikipedia.org/wiki/Halstead_complexity_measures"><i class="icon icon-info-sign" rel="popover" data-placement="top" data-trigger="hover" data-content="The difficulty measure is related to the difficulty of the program to write or understand." data-original-title="Difficulty" data-container="body"></i></a></h2>
-      <p class="stat">3.47</p>
+      <p class="stat">3.63</p>
     </div>
     <div class="col-md-6">
       <h2 class="header">Estimated Errors  <a href="http://en.wikipedia.org/wiki/Halstead_complexity_measures"><i class="icon icon-info-sign" rel="popover" data-placement="top" data-trigger="hover" data-content="Halstead's delivered bugs is an estimate for the number of errors in the implementation." data-original-title="Delivered Bugs" data-container="body"></i></a></h2>
-      <p class="stat">0.04</p>
+      <p class="stat">0.06</p>
     </div>
   </div>
 </div>
@@ -149,6 +149,31 @@ const WPFooter = (props) =&gt; {
               title=&#039;ossificability, fragmentability&#039;
             &gt;
             concretizability
+            &lt;/a&gt;
+          &lt;/li&gt;
+
+          &lt;li&gt;
+            &lt;a
+              rev=&#039;unit and integration test&#039;
+              href=&#039;https://example.com&#039;
+            &gt;
+              incremental (or &lt;em&gt;&lt;abbr title=&#039;application programming interface&#039;&gt;api&lt;/abbr&gt;-centric&lt;/em&gt;), domain-focused &lt;em&gt;behavior&lt;/em&gt; test (wip)
+            &lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;a
+              rev=&#039;unit and integration test&#039;
+              href=&#039;&#039;
+            &gt;
+              monolithic (or &lt;em&gt;data-centric&lt;/em&gt;), feature-focused &lt;em&gt;unit&lt;/em&gt; test (wip)
+            &lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;a
+              rev=&#039;behavior testing (cypress)&#039;
+              href=&#039;https://example.com&#039;
+            &gt;
+              usability test (wip)
             &lt;/a&gt;
           &lt;/li&gt;
           &lt;li&gt;
