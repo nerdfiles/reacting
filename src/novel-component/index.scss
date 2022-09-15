@@ -1,11 +1,13 @@
 ////
+/// @filepath ./src/novel-component/index.scss
 /// @since 0.0.0-novel.0
 /// @name nowhere
 /// @group namespace
 ////
 
-/// @name :root.
-/// @filepath ./src/novel-component/index.scss
+/// css molecule for an infocule. with what must the logging console 
+/// begin?
+/// @name :root
 /// @group index
 /// @author aha <patagnome@protonmail.com>
 /// @todo passing lists to `@mixin`s like in grammuelle.
@@ -395,9 +397,6 @@ button {}
 ///
 /// @group namespace
 /// @name index.css:molecule (in emmet: `.m-`, `[class="m-"]`; in html: `class="m-"`; in css: `.m- {}`, `div[classname*='m-'] {}`)
-/// @summary css molecule for an infocule. with what must the logging console 
-/// begin?
-///
 /// @example
 /// [class]*3<emmet:ctrl+y,\leader>
 /// <div class="">_</div>
