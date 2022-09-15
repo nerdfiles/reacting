@@ -121,14 +121,15 @@ const Button = (props) => {
       id={ID}
       name={NAME}
       onClick={(e) => {
-        e.preventDefault()
         props.act()
+        e.preventDefault()
       }}
       tabIndex={TABINDEX}
     >
       <span
 				className='m-view--text-label__default__'
 			>{props.textLabel}</span>
+
 			{hasIcon 
 				? <Icon symbol={hasIcon} />
 				: <></>
