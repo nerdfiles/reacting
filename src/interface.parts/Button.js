@@ -32,25 +32,25 @@ const Icon = (props) => {
    * @constant
    * @default
    */
-	const SYMBOL = props && props.symbol 
+  const SYMBOL = props && props.symbol 
 
   /**
    * @constant
    * @default
    */
-	const NAMED_SYMBOL = ['#icon-', SYMBOL].join(GLUE)
+  const NAMED_SYMBOL = ['#icon-', SYMBOL].join(GLUE)
 
   /**
    * @constant
    * @default
    */
-	const FOCUSABLE = 'false'
+  const FOCUSABLE = 'false'
 
   /**
    * @constant
    * @default
    */
-	const HIDDEN = 'true'
+  const HIDDEN = 'true'
 
   /**
    * @constant
@@ -58,15 +58,15 @@ const Icon = (props) => {
    */
   const CLASSNAME = 'm-view--icon-label__default__'
 
-	return (
-		<svg
-			ariaHidden={HIDDEN}
+  return (
+    <svg
+      ariaHidden={HIDDEN}
       className={CLASSNAME}
-			focusable={FOCUSABLE}
-		>
-			<use xlinkHref={NAMED_SYMBOL}></use>
-		</svg>
-	)
+      focusable={FOCUSABLE}
+    >
+      <use xlinkHref={NAMED_SYMBOL}></use>
+    </svg>
+  )
 }
 
 /**
@@ -113,7 +113,7 @@ const Button = (props) => {
   // frontend console output
   // Logger({ label: 'value', msg: [value] })
 
-	const hasIcon = props?.concept && props.concept.icon
+  const hasIcon = props?.concept && props.concept.icon
 
   return (
     <button
@@ -127,13 +127,13 @@ const Button = (props) => {
       tabIndex={TABINDEX}
     >
       <span
-				className='m-view--text-label__default__'
-			>{props.textLabel}</span>
+        className='m-view--text-label__default__'
+      >{props.textLabel}</span>
 
-			{hasIcon 
-				? <Icon symbol={hasIcon} />
-				: <></>
-			}
+      {hasIcon 
+        ? <Icon symbol={hasIcon} />
+        : <></>
+      }
     </button>
   )
 }
