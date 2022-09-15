@@ -57,29 +57,22 @@ const WPFooter = (props) => {
             concretizability
             </a>
           </li>
-
           <li>
             <a
-              rev='unit and integration test'
+              rev='non-functional'
+              title='cypress and api storytelling test (typically associated with "non-functional" testing)'
               href='https://example.com'
             >
-              incremental (or <em><abbr title='application programming interface'>api</abbr>-centric</em>), domain-focused <em>behavior</em> test (wip)
+              typically considered <em>non-functional testing</em>: incremental (or <em><abbr title='application programming interface'>api</abbr>-centric</em>), domain-focused <em>behavior</em> testing (wip)
             </a>
           </li>
           <li>
             <a
-              rev='unit and integration test'
-              href=''
-            >
-              monolithic (or <em>data-centric</em>), feature-focused <em>unit</em> test (wip)
-            </a>
-          </li>
-          <li>
-            <a
-              rev='behavior testing (cypress)'
+              rev='functional'
+              title='unit, regression, and integration test (typically associated with "functional" testing)'
               href='https://example.com'
             >
-              usability test (wip)
+              <em>functional testing</em>: monolithic (or <em>data-centric</em>), feature-focused <em>unit</em> testing (wip)
             </a>
           </li>
           <li>
