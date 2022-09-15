@@ -15,7 +15,7 @@ import axios from 'axios'
 import Ramda from 'ramda'
 import Ramdash from 'ramdash'
 
-const link = (domain, byClass) => {
+const link = (concept, byClass) => {
   /**
    * @constant
    * @default
@@ -38,7 +38,7 @@ const link = (domain, byClass) => {
   const Predicate = ''
   const Objet = ''
   const Graph = ''
-  const domain = domain ?? NOUN
+  const domain = concept ?? NOUN
 
   const endpoint = [
     'http://example.com',
