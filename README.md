@@ -31,6 +31,10 @@ since the api☂︎ is
 [not][misc] [itself][hateoas] [rest-ful][siren] that we're hitting, we'll eventually show 
 what it looks like for a client to suggest and encourage it civilly.
 
+## misc
+
+run `$ npm run help` to see the needful. or review project files with `$ npm run ~`.
+
 ## footnotes
 
 1. ☂︎ application programming interface (you might hate *better*)
