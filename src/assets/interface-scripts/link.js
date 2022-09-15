@@ -34,8 +34,8 @@ const link = (sub, byClass) => {
     ',', Graph, '}'
   ].join(GLUE)
 
-  return (e) => {
-    const ELEMENT = e?.target
+  return (event) => {
+    const ELEMENT = event?.target
     const HREF = ELEMENT.href
     const SUBJECT = [HREF, ';', endpoint].join(GLUE)
     axios
