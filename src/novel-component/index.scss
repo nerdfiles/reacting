@@ -317,6 +317,7 @@ button {}
 ///
 /// 1. https://critter.blog/2018/06/08/in-defense-of-functional-css/
 /// 2. https://rangle.io/blog/styling-with-functional-css/
+/// 3. https://lispcast.com/css-and-the-lambda-calculus/
 ///
 /// [0]: https://www.webperf.tips/tip/performance-timing-markers/
 /// [1]: https://www.w3.org/TR/owl2-new-features/#F12:_Punning
@@ -373,7 +374,7 @@ div[className*='m-'] {
 
 /// `@mixin apply($s, $a) { @include $s($a); }`
 
-/// claims invalidity[0]. what's "invalid" here if `$a` is a list, not an 
+/// lispcast claims [invalidity][lispcast]. what's "invalid" here if `$a` is a list, not an 
 /// object? why does interpolation just work?
 
 /*
@@ -410,7 +411,7 @@ $ATTRS: (--a, --R, --b,)
 }
 ```
 
-[0]: https://lispcast.com/css-and-the-lambda-calculus/
+[lispcast]: https://lispcast.com/css-and-the-lambda-calculus/
 
 */
 
