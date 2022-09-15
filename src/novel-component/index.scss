@@ -1,39 +1,70 @@
 ////
+/// @since 0.0.0-novel.0
+/// @author aha <patagnome@protonmail.com>
+/// @name nowhere
+/// @group namespace
+////
+
 /// @name :root.
 /// @filepath ./src/novel-component/index.scss
 /// @group index
-/// @author aha <patagnome@protonmail.com>
 ////
 :root {}
 
+/// @name body
 body {}
 
+/// @name #top
 #top {}
 
+/// @name .m-view--novel-component__default__, 
 .m-view--novel-component__default__,
 [className='m-view--novel-component__default__'] {
 
 }
 
+/// @name div
 div {}
+/// @name p
 p {}
+
+/// @name P
 P {}
 
+/// @name blockquote
 blockquote {}
 
+/// @name h1
 h1 {}
+
+/// @name h2, h3
 h2, h3 {}
+
+/// @name h3, h6
 h3, h6 {}
 
+/// @name form:not(:last-child), form[action='']
 form:not(:last-child),
 form[action=''] {
   outline: 1px solid rgba(25, 25, 25, 0);
 }
+
+/// @name form
 form {}
+
+/// @name fieldset
 fieldset {}
+
+/// @name input[type='text']
 input[type='text'] {}
+
+/// @name input[type='number']
 input[type='number'] {}
+
+/// @name input[type='password']
 input[type='password'] {}
+
+/// @name button
 button {}
 
 /// ```
@@ -375,8 +406,9 @@ button {}
 /// <div class="m-..."></div><!-- describing molecular block style -->
 /// <div class="m-...--..."></div><!-- describing {m...b} elemental style -->
 /// <div class="m-...--...__...__"></div><!-- describing {m...b, b...e} style modes -->
+/// @name .m, div[classname*='m-']
 .m,
-div[className*='m-'] {
+div[classname*='m-'] {
   background-color: silver;
 }
 
