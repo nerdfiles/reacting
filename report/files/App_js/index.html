@@ -47,11 +47,11 @@
   <div class="row">
     <div class="col-md-6">
       <h2 class="header">Maintainability <a href="http://blogs.msdn.com/b/codeanalysis/archive/2007/11/20/maintainability-index-range-and-meaning.aspx"><i class="icon icon-info-sign" rel="popover" data-placement="top" data-trigger="hover" data-content="A value between 0 and 100 that represents the relative ease of maintaining the code. A high value means better maintainability." data-original-title="Maintainability Index"  data-container="body"></i></a></h2>
-      <p class="stat">91.89</p>
+      <p class="stat">87.65</p>
     </div>
     <div class="col-md-6">
       <h2 class="header">Lines of code <i class="icon icon-info-sign" rel="popover" data-placement="top" data-trigger="hover" data-content="Source Lines of Code / Logical Lines of Code" data-original-title="SLOC/LSLOC" data-container="body"></i></h2>
-      <p class="stat">135</p>
+      <p class="stat">200</p>
     </div>
   </div>
   <div class="row historical">
@@ -65,11 +65,11 @@
   <div class="row">
     <div class="col-md-6">
       <h2 class="header">Difficulty  <a href="http://en.wikipedia.org/wiki/Halstead_complexity_measures"><i class="icon icon-info-sign" rel="popover" data-placement="top" data-trigger="hover" data-content="The difficulty measure is related to the difficulty of the program to write or understand." data-original-title="Difficulty" data-container="body"></i></a></h2>
-      <p class="stat">10.62</p>
+      <p class="stat">13.75</p>
     </div>
     <div class="col-md-6">
       <h2 class="header">Estimated Errors  <a href="http://en.wikipedia.org/wiki/Halstead_complexity_measures"><i class="icon icon-info-sign" rel="popover" data-placement="top" data-trigger="hover" data-content="Halstead's delivered bugs is an estimate for the number of errors in the implementation." data-original-title="Delivered Bugs" data-container="body"></i></a></h2>
-      <p class="stat">0.33</p>
+      <p class="stat">0.46</p>
     </div>
   </div>
 </div>
@@ -111,8 +111,8 @@
  * @returns {HTMLDivElement} markup.
  */
 import &#039;./App.scss&#039;
-import { useState } from &#039;react&#039;
-import petri from &#039;petri-net&#039;
+import { FC, useState } from &#039;react&#039;
+// import petri from &#039;petri-net&#039;
 import WPHeader from &#039;./interfaces/WPHeader&#039;
 import WPFooter from &#039;./interfaces/WPFooter&#039;
 import Button from &#039;./interface.parts/Button&#039;
@@ -141,15 +141,79 @@ import Link from &#039;./interface.parts/Link&#039;
 //   net.execute()
 // })
 
+class Concept {
+  constructor (list) {
+    return (list) =&gt; {
+      console.log(list)
+      return [
+        list
+      ]
+    }
+  }
+}
+const ALL = []
+const LIST = Promise.all(ALL)
+const concept = new Concept()
+const CELL = Promise.all(concept({
+  ...LIST
+}))
+console.log(CELL)
+
 /**
  * @name App
  * @function
  */
 function App () {
-  const [clientGetData, clientGetSetData] = useState([])
-  const [clientPostData, clientPostSetData] = useState({})
-  const [clientUpdateData, clientUpdateSetData] = useState({})
-  const [clientDeleteData, clientDeleteSetData] = useState(&#039;&#039;)
+  /**
+   * @constant
+   * @default
+   */
+  const [CLIENTGETDATA, CLIENTGETSETDATA] = useState([])
+
+  /**
+   * @constant
+   * @default
+   */
+  const [
+    CLIENTPOSTDATA,
+    CLIENTPOSTSETDATA
+  ] = useState({})
+
+  /**
+   * @constant
+   * @default
+   */
+  const [
+    CLIENTUPDATEDATA,
+    CLIENTUPDATESETDATA
+  ] = useState({})
+
+  /**
+   * @constant
+   * @default
+   */
+  const [
+    CLIENTDELETEDATA,
+    CLIENTDELETESETDATA
+  ] = useState(&#039;&#039;)
+
+  const act = () =&gt; {
+    services.getData(CLIENTGETSETDATA)
+  }
+
+  /**
+   * @name Act
+   * @constant
+   * @default
+   */
+  const Act = (props) =&gt; {
+    return (
+      &lt;Button
+        textLabel=&#039;get&#039;
+        act={act}
+      /&gt;
+    )
+  }
 
   return (
     &lt;div
@@ -162,11 +226,15 @@ function App () {
 
       {/* @description preload test. */}
 
+      {
+        /*
       &lt;Link
         init={link(&#039;kite&#039;, &#039;.m-view--datalist__default__&#039;)}
         byClass=&#039;m-view--datalist__default__&#039;
         href=&#039;https://reqres.in/api/users?page=2&#039;
       /&gt;
+        */
+      }
 
       &lt;WPLocation /&gt;
 
@@ -176,11 +244,11 @@ function App () {
         &lt;input
           id=&#039;datapoint-entry&#039;
           name=&#039;datapoint-entry&#039;
-          onInput={(e) =&gt; clientPostSetData(e.currentTarget.value)}
+          onInput={(e) =&gt; CLIENTPOSTSETDATA(e.currentTarget.value)}
           className=&#039;m-view--datapoint-entry__default__&#039;
         /&gt;
         &lt;ul className=&#039;m-view--datalist__default__&#039;&gt;
-          &lt;List dataList={clientGetData} /&gt;
+          &lt;List dataList={CLIENTGETDATA} /&gt;
         &lt;/ul&gt;
       &lt;/main&gt;
 
@@ -191,28 +259,25 @@ function App () {
       &gt;
         &lt;ul className=&#039;m-view--list__default__&#039;&gt;
           &lt;li className=&#039;m-view--listing__default__&#039;&gt;
-            &lt;Button
-              textLabel=&#039;get&#039;
-              act={() =&gt; services.getData(clientGetSetData)}
-            /&gt;
+            &lt;Act /&gt;
           &lt;/li&gt;
           &lt;li className=&#039;m-view--listing__default__&#039;&gt;
             &lt;Button
               textLabel=&#039;create&#039;
-              act={() =&gt; services.postData(clientPostData, clientPostSetData)}
-              onChange={() =&gt; services.updateData(clientPostData, clientUpdateSetData)}
+              act={() =&gt; services.postData(CLIENTPOSTDATA, CLIENTPOSTSETDATA)}
+              onChange={() =&gt; services.updateData(CLIENTPOSTDATA, CLIENTUPDATESETDATA)}
             /&gt;
           &lt;/li&gt;
           &lt;li className=&#039;m-view--listing__default__&#039;&gt;
             &lt;Button
               textLabel=&#039;update&#039;
-              act={() =&gt; services.updateData(clientUpdateData, clientUpdateSetData)}
+              act={() =&gt; services.updateData(CLIENTUPDATEDATA, CLIENTUPDATESETDATA)}
             /&gt;
           &lt;/li&gt;
           &lt;li className=&#039;m-view--listing__default__&#039;&gt;
             &lt;Button
               textLabel=&#039;delete&#039;
-              act={() =&gt; services.deleteData(clientDeleteData, clientDeleteSetData)}
+              act={() =&gt; services.deleteData(CLIENTDELETEDATA, CLIENTDELETESETDATA)}
             /&gt;
           &lt;/li&gt;
         &lt;/ul&gt;

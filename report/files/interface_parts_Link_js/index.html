@@ -112,11 +112,11 @@
 const Link = (props) =&gt; {
   return (
     &lt;link
+      as=&#039;script&#039;
       className={props.byClass}
+      href={props.href}
       rel=&#039;preload&#039;
       onLoad={props.init}
-      href={props.href}
-      as=&#039;script&#039;
     /&gt;
   )
 }
