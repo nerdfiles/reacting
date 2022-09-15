@@ -15,18 +15,30 @@ import axios from 'axios'
 import Ramda from 'ramda'
 import Ramdash from 'ramdash'
 
-const link = (sub, byClass) => {
+const link = (domain, byClass) => {
+  /**
+   * @constant
+   * @default
+   */
   const GLUE = ''
+
+  /**
+   * @constant
+   * @default
+   */
+  const SEP = '/'
+  const NOUN = '{NOUN:https://thenounproject.com/icon/ankh-3550481/}'
+
   const Subject = ''
   const Predicate = ''
   const Objet = ''
   const Graph = ''
-  const SEP = '/'
-  const SUB = sub ?? '{NOUN:https://thenounproject.com/icon/ankh-3550481/}'
+  const domain = domain ?? NOUN
+
   const endpoint = [
     'http://example.com',
     SEP,
-    SUB, 
+    domain, 
     '{', '?',
     (Subject ?? Subject),
     ',', Predicate,
@@ -35,9 +47,28 @@ const link = (sub, byClass) => {
   ].join(GLUE)
 
   return (event) => {
+    /**
+     * @constant
+     * @default
+     */
     const ELEMENT = event?.target
+
+    /**
+     * @constant
+     * @default
+     */
     const HREF = ELEMENT.href
-    const SUBJECT = [HREF, ';', endpoint].join(GLUE)
+
+    /**
+     * @constant
+     * @default
+     */
+    const SUBJECT = [
+      HREF,
+      ';',
+      endpoint
+    ].join(GLUE)
+
     axios
       .get(SUBJECT)
       .then((response) => {
