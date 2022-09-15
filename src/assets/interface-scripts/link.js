@@ -17,10 +17,10 @@ import Ramdash from 'ramdash'
 
 const link = (sub, byClass) => {
   const GLUE = ''
-  const S = 's'
-  const P = 'p'
-  const O = 'o'
-  const G = 'g'
+  const Subject = ''
+  const Predicate = ''
+  const Objet = ''
+  const Graph = ''
   const SEP = '/'
   const SUB = sub ?? '{NOUN:https://thenounproject.com/icon/ankh-3550481/}'
   const endpoint = [
@@ -28,10 +28,10 @@ const link = (sub, byClass) => {
     SEP,
     SUB, 
     '{', '?',
-    (S ?? S),
-    ',', P,
-    ',', O,
-    ',', G, '}'
+    (Subject ?? Subject),
+    ',', Predicate,
+    ',', Objet,
+    ',', Graph, '}'
   ].join(GLUE)
 
   return (e) => {
