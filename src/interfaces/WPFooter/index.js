@@ -17,9 +17,46 @@ const WPFooter = (props) => {
         itemType='https://schema.org/SiteNavigationElement'
       >
         <ul>
-          <li><a href='https://arrested.surge.sh/sassdoc/index.html'>sassdoc</a></li>
-          <li><a href='https://arrested.surge.sh/docs/index.html'>docs</a></li>
-          <li><a href='https://arrested.surge.sh/report'>analysis</a></li>
+          <li>
+            <a
+              href='https://arrested.surge.sh/docs/index.html'
+              title='cyclomatic complexity, mereological density'
+            >
+            docs
+            </a>
+          </li>
+          <li>
+            <a
+              href='https://arrested.surge.sh/sassdoc/index.html'
+              title='cyclomatic complexity, mereological density'
+            >
+            sassdoc
+            </a>
+          </li>
+          <li>
+            <a
+              href='https://arrested.surge.sh/css-report/App.scss/index.html'
+              title='traceability, adjustability, incrementation'
+            >
+            WebApp specializability
+            </a>
+          </li>
+          <li>
+            <a
+              href='https://arrested.surge.sh/css-report/index.scss/index.html'
+              title='traceability, adjustability, incrementation'
+            >
+            index specializability
+            </a>
+          </li>
+          <li>
+            <a
+              href='https://arrested.surge.sh/report'
+              title='ossificability, fragmentability'
+            >
+            concretizability
+            </a>
+          </li>
           <li>
             <a
               rev='schema'
