@@ -27,6 +27,11 @@ const link = (domain, byClass) => {
    * @default
    */
   const SEP = '/'
+
+  /**
+   * @constant
+   * @default
+   */
   const NOUN = '{NOUN:https://thenounproject.com/icon/ankh-3550481/}'
 
   const Subject = ''
