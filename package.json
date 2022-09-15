@@ -35,7 +35,7 @@
     "open/@todo": "vim $(ack @todo -l | percol)",
     "percol/alder": "alder src | percol",
     "start": "react-scripts start",
-    "publish": "cp -R sassdoc build/sassdoc && cp -R docs build/docs && cp -R report build/report && echo 'arrested.surge.sh' > ./build/CNAME && cd build && surge .",
+    "publish": "cp -R css-report/ build/css-report && cp -R sassdoc build/sassdoc && cp -R docs build/docs && cp -R report build/report && echo 'arrested.surge.sh' > ./build/CNAME && cd build && surge .",
     "build": "react-scripts build",
     "build/dev": "NODE_ENV=dev npm run build --dev --configuration=dev",
     "eject": "react-scripts eject",
