@@ -18,7 +18,6 @@ const Input = (props) => {
         className={CLASSNAME}
         id={props.id}
         name={props.name}
-        title={helpText}
         module={props.perceptual[```
           ()[implements]->|a|->()->|b|->()
           ()[implements]->|a|->()->|b|->()
@@ -30,6 +29,7 @@ const Input = (props) => {
         module={props['rdfa://']}
         onInput={(e) => {}}
         required
+        title={helpText}
       />
     </label>
   )
