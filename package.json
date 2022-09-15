@@ -68,6 +68,7 @@
     ]
   },
   "devDependencies": {
+    "css-specificity": "^0.1.0",
     "es6-plato": "^1.2.3",
     "gulp": "^4.0.2",
     "jasmine": "^4.4.0",
@@ -75,6 +76,7 @@
     "jsdoc-api": "^7.1.1",
     "sass": "^1.54.9",
     "sass-true": "^6.1.0",
+    "specificity": "^0.4.1",
     "specificity-graph": "^0.1.7"
   }
 }
