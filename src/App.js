@@ -47,6 +47,24 @@ import Link from './interface.parts/Link'
 //   net.execute()
 // })
 
+class Concept {
+  constructor (list) {
+    return (list) => {
+      console.log(list)
+      return [
+        list
+      ]
+    }
+  }
+}
+const ALL = []
+const LIST = Promise.all(ALL)
+const concept = new Concept()
+const CELL = Promise.all(concept({
+  ...LIST
+}))
+console.log(CELL)
+
 /**
  * @name App
  * @function
