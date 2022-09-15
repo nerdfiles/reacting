@@ -46,6 +46,7 @@ a {
   outline: rgba(90, 180, 100, 0.5);
 }
 
+/// @name mixin test ($aRb, $aRc)
 @mixin test ($aRb, $aRc) {
   .#{$aRb} {border: 1px solid #{$aRb};}
   // @example
