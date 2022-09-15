@@ -17,7 +17,7 @@
  * @returns {HTMLDivElement} markup.
  */
 import './App.scss'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import petri from 'petri-net'
 import WPHeader from './interfaces/WPHeader'
 import WPFooter from './interfaces/WPFooter'
@@ -52,10 +52,50 @@ import Link from './interface.parts/Link'
  * @function
  */
 function App () {
-  const [clientGetData, clientGetSetData] = useState([])
-  const [clientPostData, clientPostSetData] = useState({})
-  const [clientUpdateData, clientUpdateSetData] = useState({})
-  const [clientDeleteData, clientDeleteSetData] = useState('')
+  /**
+   * @constant
+   * @default
+   */
+  const [CLIENTGETDATA, CLIENTGETSETDATA] = useState([])
+
+  /**
+   * @constant
+   * @default
+   */
+  const [
+    CLIENTPOSTDATA,
+    CLIENTPOSTSETDATA
+  ] = useState({})
+
+  /**
+   * @constant
+   * @default
+   */
+  const [
+    CLIENTUPDATEDATA,
+    CLIENTUPDATESETDATA
+  ] = useState({})
+
+  /**
+   * @constant
+   * @default
+   */
+  const [
+    CLIENTDELETEDATA,
+    CLIENTDELETESETDATA
+  ] = useState('')
+
+  /**
+   * @name Act
+   * @function
+   * @constant
+   * @default
+   */
+  const Act = () => {
+    useEffect(() => {
+      services.getData(CLIENTGETSETDATA)
+    }, [])
+  }
 
   return (
     <div
@@ -82,11 +122,11 @@ function App () {
         <input
           id='datapoint-entry'
           name='datapoint-entry'
-          onInput={(e) => clientPostSetData(e.currentTarget.value)}
+          onInput={(e) => CLIENTPOSTSETDATA(e.currentTarget.value)}
           className='m-view--datapoint-entry__default__'
         />
         <ul className='m-view--datalist__default__'>
-          <List dataList={clientGetData} />
+          <List dataList={CLIENTGETDATA} />
         </ul>
       </main>
 
@@ -99,26 +139,26 @@ function App () {
           <li className='m-view--listing__default__'>
             <Button
               textLabel='get'
-              act={() => services.getData(clientGetSetData)}
+              act={Act}
             />
           </li>
           <li className='m-view--listing__default__'>
             <Button
               textLabel='create'
-              act={() => services.postData(clientPostData, clientPostSetData)}
-              onChange={() => services.updateData(clientPostData, clientUpdateSetData)}
+              act={() => services.postData(CLIENTPOSTDATA, CLIENTPOSTSETDATA)}
+              onChange={() => services.updateData(CLIENTPOSTDATA, CLIENTUPDATESETDATA)}
             />
           </li>
           <li className='m-view--listing__default__'>
             <Button
               textLabel='update'
-              act={() => services.updateData(clientUpdateData, clientUpdateSetData)}
+              act={() => services.updateData(CLIENTUPDATEDATA, CLIENTUPDATESETDATA)}
             />
           </li>
           <li className='m-view--listing__default__'>
             <Button
               textLabel='delete'
-              act={() => services.deleteData(clientDeleteData, clientDeleteSetData)}
+              act={() => services.deleteData(CLIENTDELETEDATA, CLIENTDELETESETDATA)}
             />
           </li>
         </ul>
