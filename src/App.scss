@@ -1,47 +1,47 @@
-/// @name index.scss:tags:\:root
+/// @name ./src/App.scss:tags::root
 :root {
   --copy-text: white;
   --occasion: darkgreen;
   --lining: white;
 }
 
-/// @name index.scss:tags:button
+/// @name ./src/App.scss:tags:button
 button {
 	color: var(--copy-text);
 	background-color: var(--occasion);
   border-color: var(--lining);
 }
 
-/// @name index.scss:tags:a
+/// @name ./src/App.scss:tags:a
 a {
 	color: white;
 	background-color: var(--occasion);
 }
 
-/// @name index.scss:className:.bg
+/// @name ./src/App.scss:classes:.bg
 .bg {
   background-image: url("./assets/interface-images/ab85baf464c52ac8de22402aacc1f23d_9d6abcf4_500.jpg")
 }
 
-/// @name index.scss:attrName:[class*="line"]
+/// @name ./src/App.scss:attrs:[class*="line"]
 [class*="line"] {
   outline: 1px solid black;
   background: gray;
 }
 
-/// @name index.scss:className:.O-view--webapp__default__
+/// @name ./src/App.scss:classes:.O-view--webapp__default__
 .O-view--webapp__default__ {
   background-color: snow;
   outline: 1px solid darkblue;
 }
 
-/// @name index.scss:className:.m-view--wpheader__default__
+/// @name ./src/App.scss:classes:.m-view--wpheader__default__
 .m-view--wpheader__default__ {}
 
-/// @name index.scss:className:.m-view--line__default__
+/// @name ./src/App.scss:classes:.m-view--line__default__
 .m-view--line__default__ {}
 
-/// @name index.scss:className:.l
+/// @name ./src/App.scss:classes:.l
 .l {
   outline: rgba(90, 180, 100, 0.5);
 }
