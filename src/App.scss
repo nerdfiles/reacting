@@ -66,4 +66,9 @@ a {
 
 /// @fails `@mixin apply($s, $a) { @include $s($a); }`
 
+.S-view--loci__default__ {
+  background-color: #fff;
+  padding: 1.75rem;
+}
+
 /// EOF.

@@ -27,7 +27,7 @@ const WPFooter = (props) => {
           </li>
           <li>
             <a
-              href='https://arrested.surge.sh/sassdoc/index.html'
+              href='https://bit.ly/3S8KhND'
               title='cyclomatic complexity, mereological density'
             >
             sassdoc
@@ -63,7 +63,8 @@ const WPFooter = (props) => {
               title='cypress and api storytelling test (typically associated with "non-functional" testing)'
               href='https://example.com'
             >
-              typically considered <em>non-functional testing</em>: incremental (or <em><abbr title='application programming interface'>api</abbr>-centric</em>), domain-focused <em>behavior</em> testing (wip)
+              the word you're looking for is "behavior," test-driven developer. typically considered <em>non-functional testing</em>:<br />
+              incremental (or <em><abbr title='application programming interface'>api</abbr>-centric</em>), domain-focused <em>behavior</em> testing (wip)
             </a>
           </li>
           <li>
@@ -72,7 +73,8 @@ const WPFooter = (props) => {
               title='unit, regression, and integration test (typically associated with "functional" testing)'
               href='https://example.com'
             >
-              <em>functional testing</em>: monolithic (or <em>data-centric</em>), feature-focused <em>unit</em> testing (wip)
+              <em>functional testing</em>:<br />
+              monolithic (or <em>data-centric</em>), feature-focused <em>unit</em> testing (wip)
             </a>
           </li>
           <li>
