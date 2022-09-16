@@ -1,5 +1,8 @@
-// @filepath ./src/reducers/auth/index.js
-// @note src/reducers/auth is instead a directory
+/**
+ * @filepath ./src/cache/auth/index.js
+ * @name cache/auth
+ * @description src/cache/auth is instead a directory
+ */
 import { combineReducers } from 'redux'
 
 const EMPTY_LIST = {

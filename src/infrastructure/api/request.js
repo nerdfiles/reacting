@@ -1,10 +1,15 @@
-import axios from 'axios'
-
 /**
+ * @filepath ./src/infrastructure/api/request.js
+ * @author aha <patagnome@protonmail.com>
+ * @version 0.0.0-novel.0
+ * @since 0.0.0-novel.0
  * @name request
+ * @description request handler.
  * @param {string} method
  * @param {object} payload
  */
+import axios from 'axios'
+
 const request = (entityName, method, payload) => {
   return new Promise((resolve, reject) => {
     const task = axios[method]

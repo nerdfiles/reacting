@@ -11,8 +11,7 @@
  *      ↳(client side service)
  *        ↳(interface elements)
  *          ↳(end)
- * @todo
- * generaliz this file for other "entities."
+ * @todo generaliz this file for other "entities."
  */
 import UserApi from '../../app/user'
 import Logger from '../../infrastructure/utils/Logger'
