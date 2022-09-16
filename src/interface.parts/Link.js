@@ -21,8 +21,8 @@ const Link = (props) => {
       as='script'
       className={props.byClass}
       href={props.href}
-      rel='preload'
       onLoad={props.init}
+      rel='preload'
     />
   )
 }
