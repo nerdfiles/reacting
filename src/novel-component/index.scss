@@ -433,8 +433,11 @@ button {}
 ///   (a)include $s($a);
 ///   // ———
 ///   .#{$ATOMS} () {}
-///   // (a)include #{$ATOMS}($ATTRS); // interpolation is invalid??
+///   // (a)include [.]#{$ATOMS}($ATTRS); // interpolation is invalid?? see the "."!
 /// }
+///
+/// lesson: passing around names of other mixins: error! passing around lists 
+/// like `(a,R,b)`: great!
 /// ```
 ///
 /// but passing arounds around: *good!*:
