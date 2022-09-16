@@ -6,7 +6,7 @@
  * @author aha <patagnome@protonmail.com>
  * @version 0.0.0-novel.0
  * @since 0.0.0-novel.0
- * @description a singular `<button>` implementation in reactjs.
+ * @description a singular `❮button❯` implementation in reactjs.
  * @summary a <button>.
  */
 // import exec from 'exec'
