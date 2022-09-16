@@ -19,7 +19,7 @@ body {}
 /// @name #top
 #top {}
 
-/// @name .m-view--novel-component__default__, 
+/// @name .m-view--novel-component__default__, [className='m-view--novel-component__default__']
 .m-view--novel-component__default__,
 [className='m-view--novel-component__default__'] {
 
@@ -462,7 +462,7 @@ button {}
 /// 
 /// [invalidity]: https://lispcast.com/css-and-the-lambda-calculus/
 
-.m,
+.m-,
 div[classname*='m-'] {
   background-color: silver;
 }
