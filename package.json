@@ -43,6 +43,7 @@
     "test:coverage": "CI=true npm test -- --env=jsdom --coverage",
     "test/sass": "echo 'implement sass-true'",
     "test/behavior": "echo 'implement cypress'",
+    "report/@lines": "npm run report.module.lines",
     "report.module.lines": "ack 'm-' src -C 3 | less",
     "report.module.files": "ack 'm-' src -l -c | less",
     "report.review": "cat ./.module.report.json | $HOME/Utilities/jq-osx-amd64 '.'",
