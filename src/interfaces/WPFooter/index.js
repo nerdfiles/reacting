@@ -91,6 +91,14 @@ const WPFooter = (props) => {
               audit #a11y
             </a>
           </li>
+          <li>
+            <a
+              rev='repo'
+              href='https://github.com/nerdfiles/reacting'
+            >
+              repo
+            </a>
+          </li>
         </ul>
       </nav>
     </footer>
