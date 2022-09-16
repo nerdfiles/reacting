@@ -46,6 +46,7 @@
     "report/@lines": "npm run report.module.lines",
     "report.module.lines": "ack 'm-' src -C 3 | percol",
     "report.module.files": "ack 'm-' src -l -c | percol",
+    "p": "npm run report/complexity && npm run docs && npm run docs/sass && npm run build && npm run publish && git acm 'docs update' && git up",
     "report.review": "cat ./.module.report.json | $HOME/Utilities/jq-osx-amd64 '.'",
     "report.count": "npm run report/ModuleCounter.count",
     "report/ModuleCounter.count": "rm -rf .count && ack 'm-' src -l -c | cut -d\":\" -f2 >> .count && cat .count && node ./read.js",
