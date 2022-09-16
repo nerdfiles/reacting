@@ -32,6 +32,7 @@ const postData = (_name, callback) => {
     job: 'surfer'
   }
   const payment = userApi.POST(payload)
+
   payment
     .then((res) => {
       const dataList = res.data
@@ -47,6 +48,7 @@ const postData = (_name, callback) => {
  */
 const getData = (callback) => {
   const payment = userApi.GET()
+
   payment
     .then((res) => {
       const dataList = res.data.data
@@ -60,6 +62,7 @@ const getData = (callback) => {
  */
 const deleteData = (callback) => {
   const payment = userApi.DELETE()
+
   payment
     .then((res) => {
       const dataList = res.data.data
@@ -79,6 +82,7 @@ const updateData = (_name, callback) => {
     job: 'surfer'
   }
   const payment = userApi.UPDATE(payload)
+
   payment
     .then((res) => {
       const dataList = res.data

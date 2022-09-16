@@ -9,7 +9,8 @@ const request = (entityName, method, payload) => {
   return new Promise((resolve, reject) => {
     const task = axios[method]
     const baseUrl = 'https://reqres.in/api'
-    const entity = entityName || 'users' // @todo generalize the entity to apps according to domain-driven design
+    // @todo generalize the entity to apps according to domain-driven design
+    const entity = entityName || 'users'
     const glue = '/'
     const endpoint = [baseUrl, entity].join(glue)
 
