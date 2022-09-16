@@ -1,5 +1,5 @@
 /**
- * @name web-form
+ * @name web/form
  */
 import { combineReducers } from 'redux'
 import occasion from './form-stub'

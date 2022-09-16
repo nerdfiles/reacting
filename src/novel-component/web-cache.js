@@ -1,5 +1,5 @@
 /**
- * @name web-cache
+ * @name web/cache
  */
 import { combineReducers } from 'redux'
 import occasion from './cache-stub'
