@@ -201,8 +201,6 @@ button {}
 /// 5. specializability 
 /// 6. concretizability
 ///
-/// <hr /> 
-///
 /// (1) is often used in interaction models presenting tree structure: tree 
 /// maps, proof trees, binary trees, file directory trees, etc. (2) can be 
 /// used for domain dependent functionality pertaining to state management:
@@ -418,7 +416,7 @@ button {}
 /// is not a tag but it might be. fuck around and find out. 🏴‍☠️)
 ///
 /// ```
-/// (a)mixin apply($s, $a) { @include $s($a); }
+/// (a)mixin apply($s, $a) { (a)include $s($a); }
 /// ```
 ///
 /// lispcast claims [invalidity]. what's "invalid" here if `$a` is a list, not an 
@@ -426,39 +424,40 @@ button {}
 ///
 /// perfectly valid.
 ///
-/// ```perfectly-valid.scss
+/// ```not-quite-perfectly-valid.scss
 /// $ATOMS: "ATOMS";
 /// $DEFAULTS: ();
 /// $ATTRS: (--a, --R, --b,)
 /// 
 /// (a)mixin apply($s, $a) {
-///   @include $s($a);
+///   (a)include $s($a);
 ///   // ———
 ///   .#{$ATOMS} () {}
-///   // @include #{$ATOMS}($ATTRS); // interpolation is invalid??
+///   // (a)include #{$ATOMS}($ATTRS); // interpolation is invalid??
 /// }
 /// ```
 ///
-/// and:
+/// but passing arounds around: *good!*:
 /// 
-/// ```still-perfectly-valid.scss
+/// ```not-as-powerful-but-useful.scss
 /// (a)mixin SCOPE ($a, $R, $b) {
-///   @include ATOMS($DEFAULTS); // anyway: a but of 
+///   (a)include ATOMS($DEFAULTS); // anyway
 /// }
 /// 
 /// // ... "later" in a file ...
+///
 /// (a)include SCOPE('', '', '');
-/// 
-/// // (a)see https://krasimir.github.io/organic-css/
 ///
 /// (a)mixin header {
-///     @include atoms((
+///     (a)include atoms((
 ///         block,
 ///         clearfix,
 ///         font-family
 ///     ));
 /// }
 /// ```
+///
+/// browse https://krasimir.github.io/organic-css/
 /// 
 /// [invalidity]: https://lispcast.com/css-and-the-lambda-calculus/
 
