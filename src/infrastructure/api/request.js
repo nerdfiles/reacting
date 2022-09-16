@@ -25,3 +25,5 @@ const request = (entityName, method, payload) => {
 }
 
 export default request
+
+// EOF
