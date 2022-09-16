@@ -51,7 +51,7 @@
     </div>
     <div class="col-md-6">
       <h2 class="header">Lines of code <i class="icon icon-info-sign" rel="popover" data-placement="top" data-trigger="hover" data-content="Source Lines of Code / Logical Lines of Code" data-original-title="SLOC/LSLOC" data-container="body"></i></h2>
-      <p class="stat">102</p>
+      <p class="stat">106</p>
     </div>
   </div>
   <div class="row historical">
@@ -126,6 +126,7 @@ const postData = (_name, callback) =&gt; {
     job: &#039;surfer&#039;
   }
   const payment = userApi.POST(payload)
+
   payment
     .then((res) =&gt; {
       const dataList = res.data
@@ -141,6 +142,7 @@ const postData = (_name, callback) =&gt; {
  */
 const getData = (callback) =&gt; {
   const payment = userApi.GET()
+
   payment
     .then((res) =&gt; {
       const dataList = res.data.data
@@ -154,6 +156,7 @@ const getData = (callback) =&gt; {
  */
 const deleteData = (callback) =&gt; {
   const payment = userApi.DELETE()
+
   payment
     .then((res) =&gt; {
       const dataList = res.data.data
@@ -173,6 +176,7 @@ const updateData = (_name, callback) =&gt; {
     job: &#039;surfer&#039;
   }
   const payment = userApi.UPDATE(payload)
+
   payment
     .then((res) =&gt; {
       const dataList = res.data
