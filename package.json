@@ -34,6 +34,7 @@
     "print/@todo": "ack @todo -l | percol",
     "open/@todo": "vim $(ack @todo -l | percol)",
     "~": "alder src | ack '─' | percol # maybe run this twic??",
+    "~~": "vim $(fzf-tmux)",
     "start": "react-scripts start",
     "add/@todo": "/usr/local/bin/todo.sh add \"$(ack @todo -l | percol)\"",
     "publish": "cp -R css-report/ build/css-report && cp -R sassdoc build/sassdoc && cp -R docs build/docs && cp -R report build/report && echo 'arrested.surge.sh' > ./build/CNAME && cd build && surge .",
