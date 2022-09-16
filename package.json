@@ -25,8 +25,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "fora.new": "n.fora.new",
-    "fora": "n.fora",
     "docs": "jsdoc -d docs -r src",
     "docs/@open": "open docs/index.html",
     "docs/sass": "sassdoc src && cp -R sassdoc build/sassdoc",
