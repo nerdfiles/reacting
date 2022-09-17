@@ -2,16 +2,24 @@
 
 see [mamund] and [hateoas].
 
-## related
-## used
-## watched
-## submitted
-## navigation
-## fixtures
-## profiles
-## ignores
-## forwards
-## queue
+so imagine instead of the `if-then`[la] formulation `ℜ-relations`, 
+`×-used`, `∃-watched`, `∃-subscription`, `∅-navigation`, `∞-fixtures`, 
+`👤-profiles`, `⚠-ignores`, `ℹ-forwards`, `💤-queues`, ...
+
+## relating .relations
+## most recently .used
+## .push and .watched
+## .subscription
+## .navigation
+## .fixtures
+## .profiles
+## .ignores
+## .forwards
+## .queues
+## .routes
+## .estimations
+## .events
+## .locks
 
 [mamund]: http://www.amundsen.com/talks/2016-04-sacon-patterns/2016-04-sacon-patterns.pdf
 [hateoas]: https://apisyouwonthate.com/blog/common-hypermedia-patterns-with-json-hyper-schema
