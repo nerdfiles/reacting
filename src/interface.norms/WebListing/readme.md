@@ -35,7 +35,7 @@ so imagine instead of the [`if-then`][hateoas] formulation `ℜ-relations`,
 
 1. adjustability
 2. incremental consistency
-3. domain-focused
+3. domain-focused (algorithmicizability)
 4. traceability
 
 ##### specializability
