@@ -33,25 +33,32 @@ const WPCarousel = () => {
 
       <main className='o-view--carousel__default__'>
         <ul className='m-view--carousel-list__default__'>
-          <li
-            ariaCurrent='step'
-            className='m-view--listing__default__'>
-            <WPArticle>
-              <h3 className='a-view--title__default__'>
-                title
-              </h3>
-              <figure className='a-view-detail__default__'>
-                <img
-                  className='a-view-image__default__'
-                  alt='title'
-                  src='./assets/content-images/0.png'
-                />
-                <figcaption className='a-view-caption__default__'>
-                  title
-                </figcaption>
-              </figure>
-            </WPArticle>
-          </li>
+          {[].map((m, k) => {
+            return (
+              <li
+                key={k}
+                ariaCurrent='step'
+                className='m-view--listing__default__'
+              >
+                <WPArticle>
+                  <h3 className='a-view--title__default__'>
+                    title
+                  </h3>
+                  <figure className='a-view-detail__default__'>
+                    <img
+                      className='a-view-image__default__'
+                      alt='title'
+                      src='./assets/content-images/0.png'
+                    />
+                    <figcaption className='a-view-caption__default__'>
+                      title
+                    </figcaption>
+                  </figure>
+                </WPArticle>
+              </li>
+            )
+          }
+          )}
         </ul>
       </main>
 
@@ -77,6 +84,121 @@ const WPCarousel = () => {
             </ul>
           </li>
           <li className='m-view--listing__default__'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             <h3 className='m-view-title__default__'>&lt;rel='used'&gt;</h3>
             <ul className='m-view--list__default__'>
               <li className='m-view--listing__default__'>...</li>
@@ -138,119 +260,5 @@ const WPCarousel = () => {
 }
 
 export default WPCarousel
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // EOF
