@@ -112,6 +112,7 @@ and so on —
   7. *To speak analogically*
   8. etc. (see [Discourse-Pragmatic Variation in Context][dpvic])
   9. elsewhere "[punning]" is described (*To speak autonymically*)
+  10. obviously, consider: *To speak metonymically*
 
 *is society prepared for the critique of the storytelling from the author of
 history?*
