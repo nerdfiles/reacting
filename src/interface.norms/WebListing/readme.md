@@ -2,7 +2,7 @@
 
 see [mamund] and [hateoas].
 
-so imagine instead of the `if-then`[la] formulation `ℜ-relations`, 
+so imagine instead of the [`if-then`][hateoas] formulation `ℜ-relations`, 
 `×-used`, `∃-watched`, `∃-subscription`, `∅-navigation`, `∞-fixtures`, 
 `👤-profiles`, `⚠-ignores`, `ℹ-forwards`, `💤-queues`, ...
 
