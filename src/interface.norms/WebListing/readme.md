@@ -29,7 +29,9 @@ so imagine instead of the [`if-then`][hateoas] formulation `ℜ-relations`,
 4. blockability
 5. diminutability
 
-#### .
+#### periodic table of information
+
+![periodic table of information: browse https://github.com/nerdfiles/douadevops/blob/master/images/periodic-table-of-information.pdf](https://raw.githubusercontent.com/nerdfiles/douadevops/master/images/periodic-table-of-information.png)
 
 ##### concretizability
 
@@ -40,8 +42,11 @@ preferring metonymysis, echoic, epochic
 3. domain-focused (algorithmicizability)
 4. traceability
 5. catopticonicity (hologeneric personites)
-6. possibilizability
+6. possibilizability (describing the possibility of the possible or the 
+    structure of the space of possibility)
 7. fragmentability/ossificability
+8. sustainability of the sustainable
+9. accessibility of the accessible
 
 borges' library, meinong's jungle, le objet petit a morte.
 
@@ -58,11 +63,12 @@ substance"; etc.
 4. rationalizability
 5. panopticonicity
 6. irreversibilizability
-
-.
-
-1. singularization
-2. necessitization
+7. singularization
+8. necessitization
+9. virtual cheating, circumventing integrity/consistency
+10. sustainability of the unsustainable ("living oil") 
+   e.g., how pa will probably become a desert-faring hypertext debugger
+   for off-world and outer world browsers.
 
 ### categorical and ontological heterogeneous
 ### categorical and ontological homogeneity
