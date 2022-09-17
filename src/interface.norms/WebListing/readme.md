@@ -51,15 +51,39 @@ streams/graphql/blah/etc. patterns.
 
 #### transformability
 
+*performability*, *performation*, *performational* (contra objectification;
+i.e., reduction of subject-form to object-form; e.g., saying-by-doing,
+doing-by-saying, being-by-saying, saying-by-being, nothing-by-being,
+appearing-by-saying, saying-by-appearing, nothing-by-doing, doing-by-nothing,
+etc.).
+
+performativity (see dictionary of non-philosophy à la austin et 
+al.):
+
+1. transformed::performed
+2. transformation::performation
+3. transformational::performational
+
+data has *perlocutionary force* or *modal force* (see "a theory of modal function" 
+à la nanay; in ijiri's language: *data has momentum* in historical cost; e.g.,
+"cx...xxxdyyyb...d", or record with logic alphabet).
+
+> you data model is not your object model is not your resource model is not 
+> your affordance model.
+>
+> (amundsen.)
+
 #### interactability
+
+patalysis (catopticonic analysis, dualysis, etc.). *patalyzability*. 
 
 #### replicability
 
-cloning
+cloning (contra modeling/copying). clonability.
 
 #### blockability
 
-link relation types
+typicality. *algorithmicizability*.
 
 after motherfuckingwebsite.com givens:
 
@@ -80,6 +104,8 @@ algorithmic layout but is it algebra? (see *algorithmicizability*)
 4. models
 
 #### diminutability
+
+criticality. *criticizability*.
 
 ### periodic table of information
 

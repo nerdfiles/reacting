@@ -46,6 +46,8 @@ $variableList: ();
 .Party {}
 .Operator {}
 
+/// @todo blockability?
+///
 /// why not an <Element>? here's why: [rel={Operator} className={Operator}]
 /// @example
 /// .Operator+.Operator
