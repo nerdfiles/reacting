@@ -83,16 +83,20 @@ $variableList: ();
 $time: 'before';
 
 
-/// @name Q
+/// @name Q($n)
 /// @kind mixin
-@mixin Q ($n) {
+@mixin Q ($relation: 'before') {
   /// @name Q
   /// @kind token
   .Q {
-    &:#{$n} {}
+    &:#{$relation} {
+      @content;
+    }
   }
 
-  @content;
+  & {
+    [rel='#{$relation}'] {}
+  }
 }
 
 /// @todo sass
@@ -102,12 +106,21 @@ $time: 'before';
   }
 }
 /// .P .Q:before { color: orange; }
-
+/// .P [rel='before'] {}
+///
+/// @todo sass
+.Z {
+  @include Q('active') {
+    color: orange;
+  }
+}
+/// .Z .Q:active { color: orange; }
+/// .Z [rel='active'] {}
+///
 /// @todo sass
 .T {
   &:#{$time} {}
 }
-/// .T {}
 /// .T:before {}
 
 #ID {}
