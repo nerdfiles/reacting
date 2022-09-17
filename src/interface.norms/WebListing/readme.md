@@ -84,12 +84,14 @@ data has *perlocutionary force* or *modal force* (see "a theory of modal functio
 5. nanay: pragmatic representation.
 6. la caze: generosity (common basis for action, obligation, etc.).
 7. universalizability.
-8. etc.
+8. moss: probabilistic contents, inward positionality toward a thought
+   (*involutional credence*).
 
-so here, we study as an object of web science, *pragmatic* or *perlocutionary
-metonymysis* and *transformative metonymy* as a *genre of transclusivity* in
-patasemiosis. other genres would be "performative metaphor" or "non-parodic
-irony" of which the present study's object may conflict or cohere in meaning.
+so here, we study as an object of web science, *attitudinal 
+metarepresentation*, *pragmatic echo* or *perlocutionary metonymysis* and
+*transformative metonymy* as a *genre of transclusivity* in patasemiosis. 
+other genres would be "performative metaphor" or "non-parodic irony" of which 
+the present study's object may conflict or cohere in meaning.
 
 #### interactability
 
