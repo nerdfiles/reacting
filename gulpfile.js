@@ -9,10 +9,10 @@
 const gulp = require('gulp')
 const plato = require('es6-plato')
 
-const src = './src/**/**/**/*.js'
-const outputDir = './artifacts/plato'
+const SRC = './src/**/**/**/*.js'
+const DIR = './artifacts/plato'
 
-const lintRules = {
+const LINT = {
   rules: {
     indent: [2, 'tab'],
     quotes: [2, 'single'],
@@ -36,16 +36,16 @@ const lintRules = {
   }
 }
 
-const complexityRules = {}
+const RULES = {}
 
-const platoArgs = {
+const CONFIG = {
   title: 'reacting',
-  eslint: lintRules,
-  complexity: complexityRules
+  eslint: LINT,
+  complexity: RULES
 }
 
 gulp.task('analysis', async function () {
-  return plato.inspect(src, outputDir, platoArgs)
+  return plato.inspect(SRC, DIR, CONFIG)
 })
 
 // EOF

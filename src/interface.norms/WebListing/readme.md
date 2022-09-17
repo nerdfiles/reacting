@@ -55,6 +55,8 @@ streams/graphql/blah/etc. patterns.
 
 #### replicability
 
+cloning
+
 #### blockability
 
 link relation types
