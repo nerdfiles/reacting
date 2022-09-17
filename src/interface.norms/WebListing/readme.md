@@ -73,6 +73,15 @@ data has *perlocutionary force* or *modal force* (see "a theory of modal functio
 >
 > (amundsen.)
 
+1. gibson: affordance.
+2. garson: str nets.
+3. laruelle: opposing to a transcendent object.
+4. ijiri: economic time.
+5. nanay: pragmatic representation.
+6. la caze: generosity (common basis for action, obligation, etc.).
+7. universalizability.
+8. etc.
+
 #### interactability
 
 patalysis (catopticonic analysis, dualysis, etc.). *patalyzability*. 
