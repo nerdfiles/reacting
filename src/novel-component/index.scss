@@ -469,4 +469,27 @@ div[classname*='m-'] {
   background-color: silver;
 }
 
+/// @include Do('wpheader') {
+///   @include If($type: "form") {
+///     @include Then($type: "modal");
+///   };
+/// }
+
+.__wpheader__ form [capabillity="cancel"] {
+  background: #777; }
+.__wpheader__ form [role] {
+  outline: 1px solid gold; }
+.__wpheader__ form [rel] {
+  background: limegreen;
+  color: #fff; }
+.__wpheader__ form [cancel] {
+  color: red; }
+.__wpheader__ modal [role] {
+  outline: 1px solid gold; }
+.__wpheader__ modal [rel] {
+  background: limegreen;
+  color: #fff; }
+.__wpheader__ modal [cancel] {
+  color: red; }
+
 // EOF

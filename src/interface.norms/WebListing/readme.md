@@ -7,36 +7,86 @@ so imagine instead of the [`if-then`][hateoas] formulation `ℜ-relations`,
 `👤-profiles`, `⚠-ignores`, `ℹ-forwards`, `💤-queues`, ...
 
 ## relating .relations
+
 ## most recently .used
+
 ## .push and .watched
+
 ## .subscription
+
+see [resthooks]. observable, subject, SAM, redux, reactive 
+streams/graphql/blah/etc. patterns.
+
 ## .navigation
+
+`$ npm i react-router`?? ugh field.
+
 ## .fixtures
+
 ## .profiles
+
 ## .ignores
+
 ## .forwards
+
 ## .queues
+
 ## .routes
+
 ## .estimations
+
 ## .events
+
 ## .locks
+
+## .apologies
+
+## .memories
+
+## .pingbacks
+
+## .wh-\* (interactability)
 
 ### value layer
 
-1. transformability
-2. interactability
-3. replicability
-4. blockability
-5. diminutability
+#### transformability
 
-#### periodic table of information
+#### interactability
+
+#### replicability
+
+#### blockability
+
+link relation types
+
+after motherfuckingwebsite.com givens:
+
+1. Ifs
+2. Onces
+3. Spreads
+4. Classes
+5. Withs
+6. Responses
+7. Wraps
+8. Rules
+
+algorithmic layout but is it algebra? (see *algorithmicizability*)
+
+1. grids
+2. displays
+3. hooks (before, after order serializations)
+4. models
+
+#### diminutability
+
+### periodic table of information
 
 ![periodic table of information: browse https://github.com/nerdfiles/douadevops/blob/master/images/periodic-table-of-information.pdf](https://raw.githubusercontent.com/nerdfiles/douadevops/master/images/periodic-table-of-information.png)
 
-##### concretizability
+#### concretizability
 
 preferring performative metonymy (metonymysis), the echoic, 
-epochic/synechdochic.
+epochic/synechdochic, [literalness][metonymy]
 
 > "communication performs. actions express."
 >
@@ -49,7 +99,7 @@ epochic/synechdochic.
 1. borges' library
 2. meinong's jungle
 3. le objet petit a morte
-4. aleatorial cosmoturgy
+4. aleatorial cosmoturgy cosmogony, cosmodicy, cosmology
 5. ...
 
 1. adjustability
@@ -65,7 +115,7 @@ epochic/synechdochic.
 
 ![transversality](https://raw.githubusercontent.com/nerdfiles/reacting/develop/src/assets/content-images/transversality.png)
 
-##### specializability
+#### specializability
 
 preferring pretence, the ironic, conceptual metaphor
 
@@ -86,13 +136,18 @@ substance"; etc.
    for off-world and outer world browsers.
 
 ### categorical and ontological heterogeneous
+
 ### categorical and ontological homogeneity
+
 ### non-autorepresentational humaneity
+
 ### mereological and performational indigeneity
 
 [mamund]: http://www.amundsen.com/talks/2016-04-sacon-patterns/2016-04-sacon-patterns.pdf
 [hateoas]: https://apisyouwonthate.com/blog/common-hypermedia-patterns-with-json-hyper-schema
 [algebratizability]: https://kb.osu.edu/bitstream/handle/1811/86640/OJSM_18_Spring1990_22.pdf
+[metonymy]: https://www.cambridge.org/core/journals/language-and-cognition/article/metonymies-are-more-literal-than-metaphors-evidence-from-ratings-of-german-idioms/1CBBCFF893235E161608B6834860FA69
+[resthooks]: https://resthooks.org
 
 ```html
 <footer className='o-view--[]__default__'>
