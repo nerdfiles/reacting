@@ -21,8 +21,33 @@ so imagine instead of the [`if-then`][hateoas] formulation `ℜ-relations`,
 ## .events
 ## .locks
 
+### value layer
+
+1. transformability
+2. interactability
+3. replicability
+4. blockability
+5. diminutability
+
+#### .
+
+##### concretizability
+
+1. adjustability
+2. incremental consistency
+3. domain-focused
+4. traceability
+
+##### specializability
+
+1. feature-focused
+2. architectural complexity
+3. [algebratizability]
+4. rationalizability
+
 [mamund]: http://www.amundsen.com/talks/2016-04-sacon-patterns/2016-04-sacon-patterns.pdf
 [hateoas]: https://apisyouwonthate.com/blog/common-hypermedia-patterns-with-json-hyper-schema
+[algebratizability]: https://kb.osu.edu/bitstream/handle/1811/86640/OJSM_18_Spring1990_22.pdf
 
 ```html
 <footer className='o-view--[]__default__'>
