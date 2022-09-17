@@ -47,6 +47,8 @@ streams/graphql/blah/etc. patterns.
 
 ## .wh-\* (interactability)
 
+think ".well-known" but for [logical foundations for question answering][logic]. remko j.h. scha.
+
 ### value layer
 
 #### transformation/transformative
@@ -228,6 +230,7 @@ substance"; etc.
 [dpvic]: https://drive.google.com/file/d/1Jwoy5BevUu1sHFxmN0jN-coMgAFQzxoj/view?usp=sharing
 [apistorytelling]: https://apievangelist.com/2019/07/28/api-storytelling-within-the-enterprise/
 [punning]: https://www.w3.org/TR/owl2-new-features/#F12:_Punning
+[logic]: https://drive.google.com/file/d/1rlhnLVVSz-oNUoeaC_901JxE9waKTH-b/view?usp=sharing
 [mis]: https://twobithistory.org/2020/06/28/rest.html
 
 ```html
