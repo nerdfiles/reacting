@@ -33,14 +33,24 @@ so imagine instead of the [`if-then`][hateoas] formulation `ℜ-relations`,
 
 ##### concretizability
 
+preferring metonymysis, echoic, epochic
+
 1. adjustability
 2. incremental consistency
 3. domain-focused (algorithmicizability)
 4. traceability
 5. catopticonicity (hologeneric personites)
 6. possibilizability
+7. fragmentability/ossificability
+
+borges' library, meinong's jungle, le objet petit a morte.
 
 ##### specializability
+
+preferring pretence, ironic, metaphoric
+
+"argument is war"; "linguistic expression is a container"; "time is a 
+substance"; etc.
 
 1. feature-focused
 2. architectural complexity
@@ -48,6 +58,8 @@ so imagine instead of the [`if-then`][hateoas] formulation `ℜ-relations`,
 4. rationalizability
 5. panopticonicity
 6. irreversibilizability
+
+.
 
 1. singularization
 2. necessitization
