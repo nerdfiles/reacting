@@ -123,7 +123,7 @@ preferring pretence, the ironic, conceptual metaphor
 substance"; etc.
 
 1. feature-focused
-2. architectural complexity
+2. mereological/cyclomatic/non-metacomputational/architectural complexity
 3. [algebratizability]
 4. rationalizability
 5. panopticonicity
