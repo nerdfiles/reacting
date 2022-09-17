@@ -463,18 +463,29 @@ button {}
 /// browse https://krasimir.github.io/organic-css/
 /// 
 /// [invalidity]: https://lispcast.com/css-and-the-lambda-calculus/
-
-.m-,
-div[classname*='m-'] {
-  background-color: silver;
-}
-
+///
 /// @include Do('wpheader') {
 ///   @include If($type: "form") {
 ///     @include Then($type: "modal");
 ///   };
 /// }
+///
+/// <form>
+///
+///   <aRb capabillity='cancel'></aRb>
+///   <aRb role></aRb>
+///   <aRb rel></aRb>
+///   <aRb cancel></aRb>
+///   <aRc role></aRc>
+///   <aRc rel></aRc>
+///   <aRc cancel></aRc>
+///
+/// </form>
 
+.m-,
+div[classname*='m-'] {
+  background-color: silver;
+}
 .__wpheader__ form [capabillity="cancel"] {
   background: #777; }
 .__wpheader__ form [role] {

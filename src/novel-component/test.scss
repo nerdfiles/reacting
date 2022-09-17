@@ -1,0 +1,135 @@
+/// describing the nature of the content and describing the possible. does the 
+/// structure of the space of possibility have a nature or a content?
+/// is the structure itself nature? is it content? 
+///
+/// @group markup
+
+@mixin Thing () {}
+@function () {
+  @return false;
+}
+--variable: '';
+$variable: '';
+$variableList: ();
+.Odd {}
+.Thing {
+  @extend .Odd;
+  @if {}
+  @else {}
+  @else {}
+  @include Thing();
+}
+
+/// @todo sass
+$t: 'before';
+
+
+/// @name Q
+/// @kind mixin
+@mixin Q ($n) {
+  /// @name Q
+  /// @kind token
+  .Q {
+    &:#{$n} {}
+  }
+
+  @content;
+}
+
+/// @todo sass
+.P {
+  @include Q($t) {
+    color: orange;
+  }
+}
+/// .P .Q:before { color: orange; }
+
+/// @todo sass
+.T {
+  &:#{$t} {}
+}
+/// .T {}
+/// .T:before {}
+
+div {}
+[class] {}
+#ID {}
+div + div {}
+::root {}
+body {}
+header {}
+aside {}
+section {}
+table {}
+thead {}
+tfoot {}
+tr {}
+td {}
+th {}
+tbody {}
+col {}
+colgroup {}
+figure {}
+figcaption {}
+caption {}
+blockquote {}
+q {}
+video {}
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+h6 {}
+dl {}
+dt {}
+dd {}
+ul {}
+ol {}
+li {}
+
+kbd {}
+code {}
+footer {}
+span {}
+form {}
+optgroup {}
+output {}
+meter {}
+progress {}
+option {}
+datalist {}
+select {}
+label {}
+input {}
+fieldset {}
+button {}
+legend {}
+textarea {}
+em {}
+i {}
+strong {}
+b {}
+cite {}
+small {}
+a {}
+mark {}
+u {}
+sub {}
+sup {}
+var {}
+samp {}
+rp {}
+rt {}
+ruby {}
+abbr {}
+dfn {}
+p {}
+
+hr {}
+pre {}
+main {}
+nav {}
+address {}
+hgroup {}
+
