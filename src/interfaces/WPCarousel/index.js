@@ -16,6 +16,7 @@
  */
 import WPArticle from './WPArticle'
 import WPRolodex from './WPRolodex'
+import WebListing from '../../interface.norms/WebListing'
 
 const WPCarousel = (props) => {
   return (
@@ -87,121 +88,6 @@ const WPCarousel = (props) => {
             </ul>
           </li>
           <li className='m-view--listing__default__'>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             <h3 className='m-view-title__default__'>&lt;rel='used'&gt;</h3>
             <ul className='m-view--list__default__'>
               <li className='m-view--listing__default__'>...</li>
@@ -249,12 +135,15 @@ const WPCarousel = (props) => {
               <li className='m-view--listing__default__'>...</li>
             </ul>
           </li>
+
           <li className='m-view--listing__default__'>
             <h3 className='m-view-title__default__'>&lt;rel='queue'&gt;</h3>
             <ul className='m-view--list__default__'>
               <li className='m-view--listing__default__'>...</li>
             </ul>
           </li>
+
+          <WebListing />
         </ul>
       </footer>
 
