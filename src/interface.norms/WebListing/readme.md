@@ -93,6 +93,13 @@ metarepresentation*, *pragmatic echo* or *perlocutionary metonymysis* and
 other genres would be "performative metaphor" or "non-parodic irony" of which 
 the present study's object may conflict or cohere in meaning.
 
+an "api storytelling" should tell us a narrative and its constituency; i.e.,
+narrativization. it's not all and only "conceptual metaphor" or "conduit 
+metaphor" as the industry would lead one to think. echo, irony, metonym,
+metaphor, analogy, anaphor; i.e., *To speak ironically*, *To speak 
+figuratively*, *To speak echoically*, *To speak synechdochically*, *To speak 
+anaphorically*, *To speak literally*, *To speak analogically*, etc.
+
 #### interactability
 
 patalysis (catopticonic analysis, dualysis, etc.). *patalyzability*. 
