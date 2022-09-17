@@ -98,7 +98,8 @@ narrativization. it's not all and only "conceptual metaphor" or "conduit
 metaphor" as the industry would lead one to think. echo, irony, metonym,
 metaphor, analogy, anaphor; i.e., *To speak ironically*, *To speak 
 figuratively*, *To speak echoically*, *To speak synechdochically*, *To speak 
-anaphorically*, *To speak literally*, *To speak analogically*, etc.
+anaphorically*, *To speak literally*, *To speak analogically*, etc. (see 
+[Discourse-Pragmatic Variation in Context][dpvic]).
 
 #### interactability
 
@@ -206,6 +207,7 @@ substance"; etc.
 [algebratizability]: https://kb.osu.edu/bitstream/handle/1811/86640/OJSM_18_Spring1990_22.pdf
 [metonymy]: https://www.cambridge.org/core/journals/language-and-cognition/article/metonymies-are-more-literal-than-metaphors-evidence-from-ratings-of-german-idioms/1CBBCFF893235E161608B6834860FA69
 [resthooks]: https://resthooks.org
+[dpvic]: https://drive.google.com/file/d/1Jwoy5BevUu1sHFxmN0jN-coMgAFQzxoj/view?usp=sharing
 
 ```html
 <footer className='o-view--[]__default__'>
