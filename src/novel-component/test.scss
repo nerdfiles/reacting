@@ -26,12 +26,20 @@ $variableList: ();
 ///   <p class='constraint::*'>whateverness</p>
 /// </div>
 
+/// @see https://www.w3.org/TR/odrl-model/#terminology
 .Capability {}
+/// @see https://www.w3.org/TR/owl-time/
 .Temporality {}
 .Spatiality {}
-.Presentation {}
+/// @see https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#AgentClass
 .Attribute {}
 .Relationship {}
+.Presentation {}
+
+/// now for some upper ontolgy!
+
+.Name {}
+.Operator {}
 .Rule {}
 .Set {}
 .Offer {}
@@ -44,7 +52,6 @@ $variableList: ();
 .Obligation {}
 .Prohibition {}
 .Party {}
-.Operator {}
 
 /// @todo blockability?
 ///
@@ -58,9 +65,12 @@ $variableList: ();
 /// <div class="plus"></div>
 /// <div class="quus"></div>
 [class="plus quus"] {}
+
 /// does not tell anything about the media query specificity nor containing 
 /// properties, just "plus" and "quus" relayed to a client.
-
+///
+/// @see http://dbpedia.org/resource/Thing
+/// @see https://schema.org/Thing
 .Thing {
   @extend .Behavior;
   @if {}
