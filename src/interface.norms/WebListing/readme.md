@@ -49,20 +49,24 @@ streams/graphql/blah/etc. patterns.
 
 ### value layer
 
-#### transformability
+#### transformation/transformative
 
 *performability*, *performation*, *performational* (contra objectification;
 i.e., reduction of subject-form to object-form; e.g., saying-by-doing,
 doing-by-saying, being-by-saying, saying-by-being, nothing-by-being,
 appearing-by-saying, saying-by-appearing, nothing-by-doing, doing-by-nothing,
-etc.).
-
-performativity (see dictionary of non-philosophy à la austin et 
-al.):
+etc.), *transformability*, *transformativity*, *transversativity*,
+*transversality*, *perversativity*, *performativity* (see dictionary of
+non-philosophy à la austin et al.):
 
 1. transformed::performed
 2. transformation::performation
 3. transformational::performational
+4. transformative::performative
+5. transformability::performability
+6. transformativity::performativity
+
+see w. b. arthur. (visitivity, visuability.)
 
 data has *perlocutionary force* or *modal force* (see "a theory of modal function" 
 à la nanay; in ijiri's language: *data has momentum* in historical cost; e.g.,
