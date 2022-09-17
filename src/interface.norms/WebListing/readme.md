@@ -86,6 +86,8 @@ data has *perlocutionary force* or *modal force* (see "a theory of modal functio
 7. universalizability.
 8. etc.
 
+so here, we study as an object of web science, *transformative metonymy*.
+
 #### interactability
 
 patalysis (catopticonic analysis, dualysis, etc.). *patalyzability*. 
