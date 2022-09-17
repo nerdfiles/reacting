@@ -99,14 +99,18 @@ an "[api storytelling][apistorytelling]" should inform a narrative and its
 constituency; i.e., invite, describe, and elaborate an ontodicy, ontoturgy,
 ontogony, ontology of and for narrativization. "conceptual metaphor" or
 "conduit metaphor" as the industry would lead one to think, plus *echo*,
-*irony*, *metonym*, *metaphor*, *analogy*, *anaphor*; what [it] is, where,
-when, how, i.e., 
+*irony*, *metonym*, *metaphor*, *analogy*, *anaphor*; e.g., *what* [it] is-,
+*where*-, *when*-, *how* one goes on-, *why* one ought-, *what* one must needs-
 
-  1. *To speak ironically*,
-  2. *To speak figuratively*,
-  3. *To speak echoically*, *To speak synechdochically*, *To speak anaphorically*, *To speak
-literally*, *To speak analogically*, etc. (see [Discourse-Pragmatic Variation
-in Context][dpvic]). elsewhere "[punning]" is described (*To speak autonymically*).
+  1. *To speak ironically*
+  2. *To speak figuratively*
+  3. *To speak echoically*
+  4. *To speak synechdochically*
+  5. *To speak anaphorically*
+  6. *To speak literally*
+  7. *To speak analogically*
+  8. etc. (see [Discourse-Pragmatic Variation in Context][dpvic])
+  9. elsewhere "[punning]" is described (*To speak autonymically*)
 
 *is society prepared for the critique of the storytelling from the author of
 history?*
