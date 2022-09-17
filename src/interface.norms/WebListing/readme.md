@@ -114,6 +114,7 @@ and so on —
   8. etc. (see [Discourse-Pragmatic Variation in Context][dpvic])
   9. elsewhere "[punning]" is described (*To speak autonymically*)
   10. obviously, consider: *To speak metonymically*
+  11. "[*To speak narrowly*][narrowly]"??
 
 *is society prepared for the critique of the storytelling from the author of
 history?*
@@ -241,6 +242,7 @@ substance"; etc.
 [core]: https://docs.zephyrproject.org/latest/connectivity/networking/api/coap.html?highlight=coap#c.COAP_WELL_KNOWN_CORE_PATH
 [mis]: https://twobithistory.org/2020/06/28/rest.html
 [ham]: https://www.semanticscholar.org/paper/HAM%3A-a-general-purpose-hypertext-abstract-machine-Campbell-Goodman/63138c844fda3661a74ec464f8dda1428ad987e9
+[narrowly]: https://plato.stanford.edu/entries/truth-correspondence/
 
 ```html
 <footer className='o-view--[]__default__'>
