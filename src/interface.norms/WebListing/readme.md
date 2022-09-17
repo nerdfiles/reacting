@@ -2,8 +2,8 @@
 
 see [mamund] and [hateoas].
 
-so imagine instead of the [`if-then`][hateoas] formulation `ℜ-relations`, 
-`×-used`, `∃-watched`, `∃-subscription`, `∅-navigation`, `∞-fixtures`, 
+so imagine instead of the [`if-then`][hateoas] formulation `ℜ-relations`,
+`×-used`, `∃-watched`, `∃-subscription`, `∅-navigation`, `∞-fixtures`,
 `👤-profiles`, `⚠-ignores`, `ℹ-forwards`, `💤-queues`, ...
 
 ## relating .relations
@@ -14,7 +14,7 @@ so imagine instead of the [`if-then`][hateoas] formulation `ℜ-relations`,
 
 ## .subscription
 
-see [resthooks]. observable, subject, SAM, redux, reactive 
+see [resthooks]. observable, subject, SAM, redux, reactive
 streams/graphql/blah/etc. patterns.
 
 ## .navigation
@@ -70,17 +70,17 @@ non-philosophy à la austin et al.):
 
 see w. b. arthur. (visitivity, visuability.)
 
-data has *perlocutionary force* or *modal force* (see "a theory of modal function" 
+data has *perlocutionary force* or *modal force* (see "a theory of modal function"
 à la nanay; in ijiri's language: *data has momentum* in historical cost; e.g.,
 "cx...xxxdyyyb...d", or record with logic alphabet).
 
-> you data model is not your object model is not your resource model is not 
+> you data model is not your object model is not your resource model is not
 > your affordance model.
 >
 > (amundsen.)
 
-> [...] we should cease viewing Nash optimization as the universal conception 
-of rational behavior in games, but think of rather as representing the 
+> [...] we should cease viewing Nash optimization as the universal conception
+of rational behavior in games, but think of rather as representing the
 individualistic ethos that is part and parcel of capitalism.
 >
 > "what is socialism today? conceptions of a cooperative economy". j. roemer.
@@ -92,21 +92,21 @@ individualistic ethos that is part and parcel of capitalism.
 5. nanay: pragmatic representation.
 6. la caze: generosity (common basis for action, obligation, etc.).
 7. richard m. hare: universalizability.
-8. john e. [roemer]: property relatabilizability (conditons for the possibility or 
-   realizability of cooperative ethos; historiography and historicity aside). 
+8. john e. [roemer]: property relatabilizability (conditons for the possibility or
+   realizability of cooperative ethos; historiography and historicity aside).
    not (just) "relatability", obviously.
 9. nelson goodman: predicate projectability.
-10. donellan: referential-attributive implicativability. e.g., *abstractive 
-   transindividuation* or (code) *data's* *abstractive performance* as 
+10. donellan: referential-attributive implicativability. e.g., *abstractive
+   transindividuation* or (code) *data's* *abstractive performance* as
    attributive use in language
 11. moss: probabilistic contents, inward positionality toward a thought
    (*involutional credence*).
 12. logic alphabet in [ham]s
 
-so here, we study as an object of web science, *attitudinal 
+so here, we study as an object of web science, *attitudinal
 metarepresentation*, *pragmatic echo* or *perlocutionary metonymysis* and
-*transformative metonymy* as a *genre of transclusivity* in patasemiosis. 
-other genres would be "performative metaphor" or "non-parodic irony" of which 
+*transformative metonymy* as a *genre of transclusivity* in patasemiosis.
+other genres would be "performative metaphor" or "non-parodic irony" of which
 the present study's object may conflict or cohere in meaning.
 
 an "[api storytelling][apistorytelling]" should inform a narrative and its
@@ -132,7 +132,7 @@ and so on —
 *is society prepared for the critique of the storytelling from the author of
 history?*
 
-*recall*: dr. fielding says "don't [only tell] me your api is rest-ful. it 
+*recall*: dr. fielding says "don't [only tell] me your api is rest-ful. it
 insults the intelligence. makes me very angry."
 
 *with what must the storytelling begin?*
@@ -144,7 +144,7 @@ incoherence of *educological omission* and [*misappropriation*][mis].
 
 #### interactability
 
-patalysis (catopticonic analysis, dualysis, etc.). *patalyzability*. 
+patalysis (catopticonic analysis, dualysis, etc.). *patalyzability*.
 
 #### replicability
 
@@ -172,9 +172,22 @@ algorithmic layout but is it algebra? (see *algorithmicizability*)
 3. hooks (before, after order serializations)
 4. models
 
+see [grammuelle]. i'm not much sure what "algorithmic layout" would
+look like except that the `./api` would issue *metonymic meta-re-presentation*,
+*paradigmatic re-presentation* and *pragmatic re-presentation*,
+*non-auto-re-presentational presentation*, etc. some of which
+should say something about the goings-on of the interface, buttons
+and what not, along with bits about interprocess communication 
+(*interformative communication*, *communicative intra-processuality*,
+*intra-adjustive communication*, *inter-traceability*, *intraformative 
+communication*). *transformability* begets *transformativeness* and the
+*transformational* with *transformedness*. the confluence of 
+meta-re-presentational communication begets *holophrasic and 
+hologeneric transversality* and *immanent performational collectivivity*.
+
 #### diminutability
 
-criticality. *criticizability*.
+[criticality]. *criticizability*.
 
 ### periodic table of information
 
@@ -182,7 +195,7 @@ criticality. *criticizability*.
 
 #### concretizability
 
-preferring performative metonymy (metonymysis), the echoic, 
+preferring performative metonymy (metonymysis), the echoic,
 epochic/synechdochic, [literalness][metonymy]
 
 > "communication performs. actions express."
@@ -204,7 +217,7 @@ epochic/synechdochic, [literalness][metonymy]
 3. domain-focused (algorithmicizability)
 4. traceability
 5. catopticonicity (hologeneric personites)
-6. possibilizability (describing the possibility of the possible or the 
+6. possibilizability (describing the possibility of the possible or the
     structure of the space of possibility)
 7. fragmentability/ossificability
 8. sustainability of the sustainable
@@ -216,7 +229,7 @@ epochic/synechdochic, [literalness][metonymy]
 
 preferring pretence, the ironic, conceptual metaphor
 
-"argument is war"; "linguistic expression is a container"; "time is a 
+"argument is war"; "linguistic expression is a container"; "time is a
 substance"; etc.
 
 1. feature-focused
@@ -228,7 +241,7 @@ substance"; etc.
 7. singularization
 8. necessitization
 9. virtual cheating, circumventing integrity/consistency
-10. sustainability of the unsustainable ("living oil") 
+10. sustainability of the unsustainable ("living oil")
    e.g., how pa will probably become a desert-faring hypertext debugger
    for off-world and outer world browsers.
 11. objectifiability
@@ -251,6 +264,8 @@ substance"; etc.
 [dpvic]: https://drive.google.com/file/d/1Jwoy5BevUu1sHFxmN0jN-coMgAFQzxoj/view?usp=sharing
 [apistorytelling]: https://apievangelist.com/2019/07/28/api-storytelling-within-the-enterprise/
 [punning]: https://www.w3.org/TR/owl2-new-features/#F12:_Punning
+[criticality]: https://comdig.unam.mx/2022/08/02/heterogeneity-extends-criticality/
+[grammuelle]: https://github.com/nerdfiles/grammuelle#example
 [logic]: https://drive.google.com/file/d/1rlhnLVVSz-oNUoeaC_901JxE9waKTH-b/view?usp=sharing
 [core]: https://docs.zephyrproject.org/latest/connectivity/networking/api/coap.html?highlight=coap#c.COAP_WELL_KNOWN_CORE_PATH
 [mis]: https://twobithistory.org/2020/06/28/rest.html
