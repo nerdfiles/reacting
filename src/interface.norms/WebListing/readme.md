@@ -35,7 +35,22 @@ so imagine instead of the [`if-then`][hateoas] formulation `ℜ-relations`,
 
 ##### concretizability
 
-preferring metonymysis, echoic, epochic
+preferring performative metonymy (metonymysis), the echoic, 
+epochic/synechdochic.
+
+> "communication performs. actions express."
+>
+> (calvin o. schrag)
+
+> "a good design is better than you think."
+>
+> (rex heftman)
+
+1. borges' library
+2. meinong's jungle
+3. le objet petit a morte
+4. aleatorial cosmoturgy
+5. ...
 
 1. adjustability
 2. incremental consistency
@@ -48,12 +63,11 @@ preferring metonymysis, echoic, epochic
 8. sustainability of the sustainable
 9. accessibility of the accessible
 
-borges' library, meinong's jungle, le objet petit a morte, aleatorial 
-cosmoturgy.
+![transversality](https://raw.githubusercontent.com/nerdfiles/reacting/develop/src/assets/content-images/transversality.png)
 
 ##### specializability
 
-preferring pretence, ironic, conceptual metaphor
+preferring pretence, the ironic, conceptual metaphor
 
 "argument is war"; "linguistic expression is a container"; "time is a 
 substance"; etc.
