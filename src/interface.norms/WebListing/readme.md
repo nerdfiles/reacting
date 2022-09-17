@@ -56,7 +56,7 @@ i.e., reduction of subject-form to object-form; e.g., saying-by-doing,
 doing-by-saying, being-by-saying, saying-by-being, nothing-by-being,
 appearing-by-saying, saying-by-appearing, nothing-by-doing, doing-by-nothing,
 etc.), *transformability*, *transformativity*, *transversativity*,
-*transversality*, *perversativity*, *performativity* (see dictionary of
+*transversality*, *perversality*, *perversativity*, *performativity* (see dictionary of
 non-philosophy à la austin et al.):
 
 1. transformed::performed
