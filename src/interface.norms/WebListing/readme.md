@@ -85,7 +85,12 @@ data has *perlocutionary force* or *modal force* (see "a theory of modal functio
 4. ijiri: economic time (recall "psychological time" has been experimentally demonstrated).
 5. nanay: pragmatic representation.
 6. la caze: generosity (common basis for action, obligation, etc.).
-7. universalizability.
+7. richard m. hare: universalizability.
+8. j. roemer: property relatabilizability.
+9. n. goodman: predicate projectability.
+10. donellan: referential-attributive implicativability. e.g., *abstractive 
+   transindividuation* or (code) *data's* *abstractive performance* as 
+   attributive use in language
 8. moss: probabilistic contents, inward positionality toward a thought
    (*involutional credence*).
 9. logic alphabet in [ham]s
