@@ -95,7 +95,9 @@ $time: 'before';
   }
 
   & {
-    [rel='#{$relation}'] {}
+    [rel='#{$relation}'] {
+      outline: 1px solid gold;
+    }
   }
 }
 
@@ -106,8 +108,8 @@ $time: 'before';
   }
 }
 /// .P .Q:before { color: orange; }
-/// .P [rel='before'] {}
-///
+/// .P [rel='before'] { outline: 1px solid gold; }
+
 /// @todo sass
 .Z {
   @include Q('active') {
@@ -115,8 +117,8 @@ $time: 'before';
   }
 }
 /// .Z .Q:active { color: orange; }
-/// .Z [rel='active'] {}
-///
+/// .Z [rel='active'] { outline: 1px solid gold; }
+
 /// @todo sass
 .T {
   &:#{$time} {}
