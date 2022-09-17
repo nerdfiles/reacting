@@ -48,11 +48,12 @@ preferring metonymysis, echoic, epochic
 8. sustainability of the sustainable
 9. accessibility of the accessible
 
-borges' library, meinong's jungle, le objet petit a morte.
+borges' library, meinong's jungle, le objet petit a morte, aleatorial 
+cosmoturgy.
 
 ##### specializability
 
-preferring pretence, ironic, metaphoric
+preferring pretence, ironic, conceptual metaphor
 
 "argument is war"; "linguistic expression is a container"; "time is a 
 substance"; etc.
