@@ -79,6 +79,12 @@ data has *perlocutionary force* or *modal force* (see "a theory of modal functio
 >
 > (amundsen.)
 
+> [...] we should cease viewing Nash optimization as the universal conception 
+of rational behavior in games, but think of rather as representing the 
+individualistic ethos that is part and parcel of capitalism.
+>
+> "what is socialism today? conceptions of a cooperative economy". j. roemer.
+
 1. gibson: affordance.
 2. garson: str nets.
 3. laruelle: opposing to a transcendent object.
@@ -86,14 +92,16 @@ data has *perlocutionary force* or *modal force* (see "a theory of modal functio
 5. nanay: pragmatic representation.
 6. la caze: generosity (common basis for action, obligation, etc.).
 7. richard m. hare: universalizability.
-8. j. roemer: property relatabilizability.
-9. n. goodman: predicate projectability.
+8. john e. [roemer]: property relatabilizability (conditons for the possibility or 
+   realizability of cooperative ethos; historiography and historicity aside). 
+   not (just) "relatability", obviously.
+9. nelson goodman: predicate projectability.
 10. donellan: referential-attributive implicativability. e.g., *abstractive 
    transindividuation* or (code) *data's* *abstractive performance* as 
    attributive use in language
-8. moss: probabilistic contents, inward positionality toward a thought
+11. moss: probabilistic contents, inward positionality toward a thought
    (*involutional credence*).
-9. logic alphabet in [ham]s
+12. logic alphabet in [ham]s
 
 so here, we study as an object of web science, *attitudinal 
 metarepresentation*, *pragmatic echo* or *perlocutionary metonymysis* and
@@ -248,6 +256,7 @@ substance"; etc.
 [mis]: https://twobithistory.org/2020/06/28/rest.html
 [ham]: https://www.semanticscholar.org/paper/HAM%3A-a-general-purpose-hypertext-abstract-machine-Campbell-Goodman/63138c844fda3661a74ec464f8dda1428ad987e9
 [narrowly]: https://plato.stanford.edu/entries/truth-correspondence/
+[roemer]: https://www.academia.edu/85456631/What_Is_Socialism_Today_Conceptions_of_a_Cooperative_Economy
 
 ```html
 <footer className='o-view--[]__default__'>
