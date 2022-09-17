@@ -86,8 +86,10 @@ data has *perlocutionary force* or *modal force* (see "a theory of modal functio
 7. universalizability.
 8. etc.
 
-so here, we study as an object of web science, *perlocutionary metonymysis* 
-and *transformative metonymy* as *generic transclusivity*.
+so here, we study as an object of web science, *pragmatic* or *perlocutionary
+metonymysis* and *transformative metonymy* as a *genre of transclusivity* in
+patasemiosis. other genres would be "performative metaphor" or "non-parodic
+irony" of which the present study's object may conflict or cohere in meaning.
 
 #### interactability
 
