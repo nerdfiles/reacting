@@ -88,6 +88,7 @@ data has *perlocutionary force* or *modal force* (see "a theory of modal functio
 7. universalizability.
 8. moss: probabilistic contents, inward positionality toward a thought
    (*involutional credence*).
+9. logic alphabet in [ham]s
 
 so here, we study as an object of web science, *attitudinal 
 metarepresentation*, *pragmatic echo* or *perlocutionary metonymysis* and
@@ -239,6 +240,7 @@ substance"; etc.
 [logic]: https://drive.google.com/file/d/1rlhnLVVSz-oNUoeaC_901JxE9waKTH-b/view?usp=sharing
 [core]: https://docs.zephyrproject.org/latest/connectivity/networking/api/coap.html?highlight=coap#c.COAP_WELL_KNOWN_CORE_PATH
 [mis]: https://twobithistory.org/2020/06/28/rest.html
+[ham]: https://www.semanticscholar.org/paper/HAM%3A-a-general-purpose-hypertext-abstract-machine-Campbell-Goodman/63138c844fda3661a74ec464f8dda1428ad987e9
 
 ```html
 <footer className='o-view--[]__default__'>
