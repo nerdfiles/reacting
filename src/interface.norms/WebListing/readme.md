@@ -134,6 +134,9 @@ substance"; etc.
 10. sustainability of the unsustainable ("living oil") 
    e.g., how pa will probably become a desert-faring hypertext debugger
    for off-world and outer world browsers.
+11. objectifiability
+12. self-identity
+13. universalizability ("universality-without-collectivity")
 
 ### categorical and ontological heterogeneous
 
