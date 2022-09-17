@@ -1,6 +1,6 @@
 /**
  * @filepath ./src/interfaces/WPToolbar/index.js
- * @fileoverview trying out a possible web component for a tree-grid-email-inbox.
+ * @fileoverview trying out a possible web component for a toolbar.
  * @name WPToolbar
  * @license wtfpl, version 2
  * @author aha <patagnome@protonmail.com>
