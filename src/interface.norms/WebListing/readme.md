@@ -98,13 +98,21 @@ constituency; i.e., invite, describe, and elaborate an ontodicy, ontoturgy,
 ontogony, ontology of and for narrativization. "conceptual metaphor" or
 "conduit metaphor" as the industry would lead one to think, plus *echo*,
 *irony*, *metonym*, *metaphor*, *analogy*, *anaphor*; what [it] is, where,
-when, how, i.e., *To speak ironically*, *To speak figuratively*, *To speak
-echoically*, *To speak synechdochically*, *To speak anaphorically*, *To speak
+when, how, i.e., 
+
+  1. *To speak ironically*,
+  2. *To speak figuratively*,
+  3. *To speak echoically*, *To speak synechdochically*, *To speak anaphorically*, *To speak
 literally*, *To speak analogically*, etc. (see [Discourse-Pragmatic Variation
 in Context][dpvic]). elsewhere "[punning]" is described (*To speak autonymically*).
 
 *is society prepared for the critique of the storytelling from the author of
 history?*
+
+*recall*: fielding says "don't [only tell] me your api is rest-ful. it insults the
+intelligence. makes me very angry."
+
+*with what must the storytelling begin?*
 
 #### interactability
 
