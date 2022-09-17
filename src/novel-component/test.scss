@@ -22,6 +22,7 @@ $variableList: ();
 [class$='constraint://example.app'] p {
   background-color: silver;
 }
+/// @example
 /// <div class='constraint::*'>
 ///   <p class='constraint::*'>whateverness</p>
 /// </div>
@@ -101,28 +102,31 @@ $time: 'before';
 }
 
 /// @todo sass
+/// @example
+/// .P .Q:before { color: orange; }
+/// .P [rel='before'] { outline: 1px solid gold; }
 .P {
   @include Q($time) {
     color: orange;
   }
 }
-/// .P .Q:before { color: orange; }
-/// .P [rel='before'] { outline: 1px solid gold; }
 
 /// @todo sass
+/// @example
+/// .Z .Q:active { color: orange; }
+/// .Z [rel='active'] { outline: 1px solid gold; }
 .Z {
   @include Q('active') {
     color: orange;
   }
 }
-/// .Z .Q:active { color: orange; }
-/// .Z [rel='active'] { outline: 1px solid gold; }
 
 /// @todo sass
+/// @example
+/// .T:before {}
 .T {
   &:#{$time} {}
 }
-/// .T:before {}
 
 #ID {}
 [class] {}
