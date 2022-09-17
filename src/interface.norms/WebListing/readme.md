@@ -76,7 +76,7 @@ data has *perlocutionary force* or *modal force* (see "a theory of modal functio
 1. gibson: affordance.
 2. garson: str nets.
 3. laruelle: opposing to a transcendent object.
-4. ijiri: economic time.
+4. ijiri: economic time (recall "psychological time" has been experimentally demonstrated).
 5. nanay: pragmatic representation.
 6. la caze: generosity (common basis for action, obligation, etc.).
 7. universalizability.
