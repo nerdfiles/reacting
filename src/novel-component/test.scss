@@ -100,15 +100,35 @@ $time: 'before';
 /// .T {}
 /// .T:before {}
 
-div {}
-[class] {}
 #ID {}
+[class] {}
+[class*=''] {}
+div {}
 div + div {}
+
 ::root {}
+
 body {}
+
+hgroup {}
 header {}
-aside {}
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+h6 {}
+
+p {}
+
+article {}
+menu {}
+nav {}
+main {}
 section {}
+aside {}
+footer {}
+
 table {}
 thead {}
 tfoot {}
@@ -118,18 +138,44 @@ th {}
 tbody {}
 col {}
 colgroup {}
+caption {}
+
 figure {}
 figcaption {}
-caption {}
+
 blockquote {}
 q {}
+
 video {}
-h1 {}
-h2 {}
-h3 {}
-h4 {}
-h5 {}
-h6 {}
+audio {}
+area {}
+img {}
+map {}
+track {}
+
+embed {}
+iframe {}
+object {}
+picture {}
+portal {}
+source {}
+
+svg {}
+math {}
+
+canvas {}
+noscript {}
+
+del {}
+ins {}
+
+details {}
+dialog {}
+summary {}
+
+slot {}
+template {}
+
 dl {}
 dt {}
 dd {}
@@ -137,48 +183,65 @@ ul {}
 ol {}
 li {}
 
-kbd {}
-code {}
-footer {}
-span {}
 form {}
+textarea {}
+input {}
 optgroup {}
 output {}
 meter {}
 progress {}
 option {}
+time {}
+data {}
 datalist {}
 select {}
 label {}
-input {}
 fieldset {}
 button {}
 legend {}
-textarea {}
+
+a {}
+a:hover {}
+a:visited {}
+a:link {}
+a:focus {}
+a:active {}
+
+s {}
 em {}
 i {}
 strong {}
 b {}
-cite {}
+
 small {}
-a {}
+cite {}
 mark {}
 u {}
-sub {}
-sup {}
+
 var {}
 samp {}
 rp {}
 rt {}
 ruby {}
-abbr {}
-dfn {}
-p {}
 
+sub {}
+sup {}
+
+abbr {}
+
+dfn {}
+
+wbr {}
+kbd {}
+bdo {}
+code {}
+
+span {}
+
+br {}
 hr {}
+
 pre {}
-main {}
-nav {}
+
 address {}
-hgroup {}
 
