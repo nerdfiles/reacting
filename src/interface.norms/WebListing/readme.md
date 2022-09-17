@@ -47,7 +47,7 @@ streams/graphql/blah/etc. patterns.
 
 ## .wh-\* (interactability)
 
-think ".well-known" but for [logical foundations for question answering][logic]. remko j.h. scha.
+think "[.well-known/core][core]" but for [logical foundations for question answering][logic]. remko j.h. scha.
 
 ### value layer
 
@@ -231,6 +231,7 @@ substance"; etc.
 [apistorytelling]: https://apievangelist.com/2019/07/28/api-storytelling-within-the-enterprise/
 [punning]: https://www.w3.org/TR/owl2-new-features/#F12:_Punning
 [logic]: https://drive.google.com/file/d/1rlhnLVVSz-oNUoeaC_901JxE9waKTH-b/view?usp=sharing
+[core]: https://docs.zephyrproject.org/latest/connectivity/networking/api/coap.html?highlight=coap#c.COAP_WELL_KNOWN_CORE_PATH
 [mis]: https://twobithistory.org/2020/06/28/rest.html
 
 ```html
