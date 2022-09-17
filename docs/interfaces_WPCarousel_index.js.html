@@ -27,15 +27,36 @@
     <section>
         <article>
             <pre class="prettyprint source linenums"><code>/**
+ * @filepath ./src/interfaces/WPCarousel/index.js
+ * @fileoverview WPCarousel
+ * @author aha &lt;patagnome@protonmail.com>
+ * @license wtfpl, version 2
+ * @since 0.0.0-novel.0
+ * @version 0.0.0-novel.0
+ * @kind React.FC
+ * @todo browse _
  * @name WPCarousel
+ * @function
+ * @see web.dev/apply-instant-loading-with-prpl/
+ * @see web.dev/rail/
+ * @description a function component.
+ * @returns {Object} markup.
  */
 import WPArticle from './WPArticle'
 import WPRolodex from './WPRolodex'
+import WebListing from '../../interface.norms/WebListing'
 
-const WPCarousel = () => {
-
+const WPCarousel = (props) => {
   return (
-    &lt;section className='O-view--carousel__default__'>
+    &lt;section
+      ariaDisabled={props.disabled}
+      ariaLabel={props.label}
+      ariaHidden={props.hidden}
+      ariaControls={props.controls}
+      className='O-view--carousel__default__'
+      id={props.ID}
+      name={props.name}
+    >
 
       &lt;header className='o-view--title-line__default__'>
         &lt;h2 className='m-view--carousel-title'>wpcarousel&lt;/h2>
@@ -43,24 +64,37 @@ const WPCarousel = () => {
 
       &lt;main className='o-view--carousel__default__'>
         &lt;ul className='m-view--carousel-list__default__'>
-          &lt;li className='m-view--listing__default__'>
-            &lt;WPArticle>
-              &lt;h3 className='a-view--title__default__'>title&lt;/h3>
-              &lt;figure className='a-view-detail__default__'>
-                &lt;img
-                  className='a-view-image__default__'
-                  alt='title'
-                  src='./assets/content-images/0.png'
-                />
-                &lt;figcaption className='a-view-caption__default__'>
-                &lt;/figcaption>
-              &lt;/figure>
-            &lt;/WPArticle>
-          &lt;/li>
+          {[].map((m, k) => {
+            return (
+              &lt;li
+                key={k}
+                ariaCurrent='step'
+                className='m-view--listing__default__'
+              >
+                &lt;WPArticle>
+                  &lt;h3 className='a-view--title__default__'>
+                    title
+                  &lt;/h3>
+                  &lt;figure className='a-view-detail__default__'>
+                    &lt;img
+                      className='a-view-image__default__'
+                      alt='title'
+                      src='./assets/content-images/0.png'
+                    />
+                    &lt;figcaption className='a-view-caption__default__'>
+                      title
+                    &lt;/figcaption>
+                  &lt;/figure>
+                &lt;/WPArticle>
+              &lt;/li>
+            )
+          }
+          )}
         &lt;/ul>
       &lt;/main>
 
       &lt;WPRolodex />
+      {/* for above */}
 
       {
         /**
@@ -129,12 +163,15 @@ const WPCarousel = () => {
               &lt;li className='m-view--listing__default__'>...&lt;/li>
             &lt;/ul>
           &lt;/li>
+
           &lt;li className='m-view--listing__default__'>
             &lt;h3 className='m-view-title__default__'>&amp;lt;rel='queue'&amp;gt;&lt;/h3>
             &lt;ul className='m-view--list__default__'>
               &lt;li className='m-view--listing__default__'>...&lt;/li>
             &lt;/ul>
           &lt;/li>
+
+          &lt;WebListing />
         &lt;/ul>
       &lt;/footer>
 
@@ -143,120 +180,6 @@ const WPCarousel = () => {
 }
 
 export default WPCarousel
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // EOF
 </code></pre>
@@ -269,13 +192,13 @@ export default WPCarousel
 </div>
 
 <nav>
-    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="Authority.html">Authority</a></li><li><a href="Emotionality.html">Emotionality</a></li></ul><h3>Global</h3><ul><li><a href="global.html#Act">Act</a></li><li><a href="global.html#act">act</a></li><li><a href="global.html#App">App</a></li><li><a href="global.html#Button">Button</a></li><li><a href="global.html#cache">cache</a></li><li><a href="global.html#cache/actions">cache/actions</a></li><li><a href="global.html#cache/auth">cache/auth</a></li><li><a href="global.html#clientPostData">clientPostData</a></li><li><a href="global.html#clientUpdateData">clientUpdateData</a></li><li><a href="global.html#Code">Code</a></li><li><a href="global.html#connect">connect</a></li><li><a href="global.html#Culture">Culture</a></li><li><a href="global.html#DATA_LIST">DATA_LIST</a></li><li><a href="global.html#DataTreeElement">DataTreeElement</a></li><li><a href="global.html#deleteData">deleteData</a></li><li><a href="global.html#EMPTY_TREE">EMPTY_TREE</a></li><li><a href="global.html#GET_NAME">GET_NAME</a></li><li><a href="global.html#getData">getData</a></li><li><a href="global.html#GLUE">GLUE</a></li><li><a href="global.html#HelpText">HelpText</a></li><li><a href="global.html#Icon">Icon</a></li><li><a href="global.html#Input">Input</a></li><li><a href="global.html#link">link</a></li><li><a href="global.html#Link">Link</a></li><li><a href="global.html#List">List</a></li><li><a href="global.html#Listing">Listing</a></li><li><a href="global.html#Logger">Logger</a></li><li><a href="global.html#OPTIONS">OPTIONS</a></li><li><a href="global.html#Person">Person</a></li><li><a href="global.html#POST_NAME">POST_NAME</a></li><li><a href="global.html#Profile">Profile</a></li><li><a href="global.html#reportWebVitals">reportWebVitals</a></li><li><a href="global.html#request">request</a></li><li><a href="global.html#task">task</a></li><li><a href="global.html#Trust">Trust</a></li><li><a href="global.html#web/cache">web/cache</a></li><li><a href="global.html#web/form">web/form</a></li><li><a href="global.html#WPAccordian">WPAccordian</a></li><li><a href="global.html#WPButtons">WPButtons</a></li><li><a href="global.html#WPCarousel">WPCarousel</a></li><li><a href="global.html#WPDialog">WPDialog</a></li><li><a href="global.html#WPFooter">WPFooter</a></li><li><a href="global.html#WPHeader">WPHeader</a></li><li><a href="global.html#WPLocation">WPLocation</a></li><li><a href="global.html#WPTreeviewNavigation">WPTreeviewNavigation</a></li><li><a href="global.html#WPWeather">WPWeather</a></li></ul>
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="Authority.html">Authority</a></li><li><a href="Emotionality.html">Emotionality</a></li></ul><h3>Global</h3><ul><li><a href="global.html#Act">Act</a></li><li><a href="global.html#act">act</a></li><li><a href="global.html#App">App</a></li><li><a href="global.html#Button">Button</a></li><li><a href="global.html#cache">cache</a></li><li><a href="global.html#cache/actions">cache/actions</a></li><li><a href="global.html#cache/auth">cache/auth</a></li><li><a href="global.html#clientPostData">clientPostData</a></li><li><a href="global.html#clientUpdateData">clientUpdateData</a></li><li><a href="global.html#Code">Code</a></li><li><a href="global.html#connect">connect</a></li><li><a href="global.html#Culture">Culture</a></li><li><a href="global.html#DATA_LIST">DATA_LIST</a></li><li><a href="global.html#DataTreeElement">DataTreeElement</a></li><li><a href="global.html#deleteData">deleteData</a></li><li><a href="global.html#EMPTY_TREE">EMPTY_TREE</a></li><li><a href="global.html#GET_NAME">GET_NAME</a></li><li><a href="global.html#getData">getData</a></li><li><a href="global.html#GLUE">GLUE</a></li><li><a href="global.html#HelpText">HelpText</a></li><li><a href="global.html#Icon">Icon</a></li><li><a href="global.html#Input">Input</a></li><li><a href="global.html#link">link</a></li><li><a href="global.html#Link">Link</a></li><li><a href="global.html#List">List</a></li><li><a href="global.html#Listing">Listing</a></li><li><a href="global.html#Logger">Logger</a></li><li><a href="global.html#OPTIONS">OPTIONS</a></li><li><a href="global.html#Person">Person</a></li><li><a href="global.html#POST_NAME">POST_NAME</a></li><li><a href="global.html#Profile">Profile</a></li><li><a href="global.html#reportWebVitals">reportWebVitals</a></li><li><a href="global.html#request">request</a></li><li><a href="global.html#task">task</a></li><li><a href="global.html#Trust">Trust</a></li><li><a href="global.html#web/cache">web/cache</a></li><li><a href="global.html#web/form">web/form</a></li><li><a href="global.html#WebListing">WebListing</a></li><li><a href="global.html#WPAccordian">WPAccordian</a></li><li><a href="global.html#WPButtons">WPButtons</a></li><li><a href="global.html#WPCarousel">WPCarousel</a></li><li><a href="global.html#WPDialog">WPDialog</a></li><li><a href="global.html#WPFooter">WPFooter</a></li><li><a href="global.html#WPHeader">WPHeader</a></li><li><a href="global.html#WPLocation">WPLocation</a></li><li><a href="global.html#WPTreeviewNavigation">WPTreeviewNavigation</a></li><li><a href="global.html#WPWeather">WPWeather</a></li></ul>
 </nav>
 
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.11</a> on Fri Sep 16 2022 19:38:05 GMT-0500 (Central Daylight Time)
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.11</a> on Fri Sep 16 2022 22:29:10 GMT-0500 (Central Daylight Time)
 </footer>
 
 <script> prettyPrint(); </script>

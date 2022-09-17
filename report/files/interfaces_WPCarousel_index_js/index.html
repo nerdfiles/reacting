@@ -47,11 +47,11 @@
   <div class="row">
     <div class="col-md-6">
       <h2 class="header">Maintainability <a href="http://blogs.msdn.com/b/codeanalysis/archive/2007/11/20/maintainability-index-range-and-meaning.aspx"><i class="icon icon-info-sign" rel="popover" data-placement="top" data-trigger="hover" data-content="A value between 0 and 100 that represents the relative ease of maintaining the code. A high value means better maintainability." data-original-title="Maintainability Index"  data-container="body"></i></a></h2>
-      <p class="stat">87.95</p>
+      <p class="stat">81.51</p>
     </div>
     <div class="col-md-6">
       <h2 class="header">Lines of code <i class="icon icon-info-sign" rel="popover" data-placement="top" data-trigger="hover" data-content="Source Lines of Code / Logical Lines of Code" data-original-title="SLOC/LSLOC" data-container="body"></i></h2>
-      <p class="stat">234</p>
+      <p class="stat">157</p>
     </div>
   </div>
   <div class="row historical">
@@ -65,11 +65,11 @@
   <div class="row">
     <div class="col-md-6">
       <h2 class="header">Difficulty  <a href="http://en.wikipedia.org/wiki/Halstead_complexity_measures"><i class="icon icon-info-sign" rel="popover" data-placement="top" data-trigger="hover" data-content="The difficulty measure is related to the difficulty of the program to write or understand." data-original-title="Difficulty" data-container="body"></i></a></h2>
-      <p class="stat">12.63</p>
+      <p class="stat">13.75</p>
     </div>
     <div class="col-md-6">
       <h2 class="header">Estimated Errors  <a href="http://en.wikipedia.org/wiki/Halstead_complexity_measures"><i class="icon icon-info-sign" rel="popover" data-placement="top" data-trigger="hover" data-content="Halstead's delivered bugs is an estimate for the number of errors in the implementation." data-original-title="Delivered Bugs" data-container="body"></i></a></h2>
-      <p class="stat">0.11</p>
+      <p class="stat">0.19</p>
     </div>
   </div>
 </div>
@@ -93,15 +93,36 @@
 <div class="container">
   <div class="row">
     <textarea id="file-source" class="col-md-12">/**
+ * @filepath ./src/interfaces/WPCarousel/index.js
+ * @fileoverview WPCarousel
+ * @author aha &lt;patagnome@protonmail.com&gt;
+ * @license wtfpl, version 2
+ * @since 0.0.0-novel.0
+ * @version 0.0.0-novel.0
+ * @kind React.FC
+ * @todo browse _
  * @name WPCarousel
+ * @function
+ * @see web.dev/apply-instant-loading-with-prpl/
+ * @see web.dev/rail/
+ * @description a function component.
+ * @returns {Object} markup.
  */
 import WPArticle from &#039;./WPArticle&#039;
 import WPRolodex from &#039;./WPRolodex&#039;
+import WebListing from &#039;../../interface.norms/WebListing&#039;
 
-const WPCarousel = () =&gt; {
-
+const WPCarousel = (props) =&gt; {
   return (
-    &lt;section className=&#039;O-view--carousel__default__&#039;&gt;
+    &lt;section
+      ariaDisabled={props.disabled}
+      ariaLabel={props.label}
+      ariaHidden={props.hidden}
+      ariaControls={props.controls}
+      className=&#039;O-view--carousel__default__&#039;
+      id={props.ID}
+      name={props.name}
+    &gt;
 
       &lt;header className=&#039;o-view--title-line__default__&#039;&gt;
         &lt;h2 className=&#039;m-view--carousel-title&#039;&gt;wpcarousel&lt;/h2&gt;
@@ -109,24 +130,37 @@ const WPCarousel = () =&gt; {
 
       &lt;main className=&#039;o-view--carousel__default__&#039;&gt;
         &lt;ul className=&#039;m-view--carousel-list__default__&#039;&gt;
-          &lt;li className=&#039;m-view--listing__default__&#039;&gt;
-            &lt;WPArticle&gt;
-              &lt;h3 className=&#039;a-view--title__default__&#039;&gt;title&lt;/h3&gt;
-              &lt;figure className=&#039;a-view-detail__default__&#039;&gt;
-                &lt;img
-                  className=&#039;a-view-image__default__&#039;
-                  alt=&#039;title&#039;
-                  src=&#039;./assets/content-images/0.png&#039;
-                /&gt;
-                &lt;figcaption className=&#039;a-view-caption__default__&#039;&gt;
-                &lt;/figcaption&gt;
-              &lt;/figure&gt;
-            &lt;/WPArticle&gt;
-          &lt;/li&gt;
+          {[].map((m, k) =&gt; {
+            return (
+              &lt;li
+                key={k}
+                ariaCurrent=&#039;step&#039;
+                className=&#039;m-view--listing__default__&#039;
+              &gt;
+                &lt;WPArticle&gt;
+                  &lt;h3 className=&#039;a-view--title__default__&#039;&gt;
+                    title
+                  &lt;/h3&gt;
+                  &lt;figure className=&#039;a-view-detail__default__&#039;&gt;
+                    &lt;img
+                      className=&#039;a-view-image__default__&#039;
+                      alt=&#039;title&#039;
+                      src=&#039;./assets/content-images/0.png&#039;
+                    /&gt;
+                    &lt;figcaption className=&#039;a-view-caption__default__&#039;&gt;
+                      title
+                    &lt;/figcaption&gt;
+                  &lt;/figure&gt;
+                &lt;/WPArticle&gt;
+              &lt;/li&gt;
+            )
+          }
+          )}
         &lt;/ul&gt;
       &lt;/main&gt;
 
       &lt;WPRolodex /&gt;
+      {/* for above */}
 
       {
         /**
@@ -195,12 +229,15 @@ const WPCarousel = () =&gt; {
               &lt;li className=&#039;m-view--listing__default__&#039;&gt;...&lt;/li&gt;
             &lt;/ul&gt;
           &lt;/li&gt;
+
           &lt;li className=&#039;m-view--listing__default__&#039;&gt;
             &lt;h3 className=&#039;m-view-title__default__&#039;&gt;&amp;lt;rel=&#039;queue&#039;&amp;gt;&lt;/h3&gt;
             &lt;ul className=&#039;m-view--list__default__&#039;&gt;
               &lt;li className=&#039;m-view--listing__default__&#039;&gt;...&lt;/li&gt;
             &lt;/ul&gt;
           &lt;/li&gt;
+
+          &lt;WebListing /&gt;
         &lt;/ul&gt;
       &lt;/footer&gt;
 
@@ -209,120 +246,6 @@ const WPCarousel = () =&gt; {
 }
 
 export default WPCarousel
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // EOF
 </textarea>

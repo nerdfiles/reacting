@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Source: novel-component/form-stub.js</title>
+    <title>JSDoc: Source: interface.norms/WebListing/index.js</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,7 +17,7 @@
 
 <div id="main">
 
-    <h1 class="page-title">Source: novel-component/form-stub.js</h1>
+    <h1 class="page-title">Source: interface.norms/WebListing/index.js</h1>
 
     
 
@@ -27,42 +27,33 @@
     <section>
         <article>
             <pre class="prettyprint source linenums"><code>/**
- * @filepath ./src/novel-component/form-stub.js
- * @fileoverview a task-based interface.
+ * @filepath ./src/interface.norms/WebListing/index.js
+ * @fileoverview a webbed listing.
  * @author aha &lt;patagnome@protonmail.com>
- * @description a task-based interface for https://schema.org/WebActivityHistory.
- * @see https://twitchard.github.io/posts/2021-04-24-behavior-constraining-features.html
- * @summary a task-based interface.
- * @name act
- * @function
- * @version 0.0.0-novel.0
+ * @license wtfpl, version 2
  * @since 0.0.0-novel.0
- * @param {} occasion.
- * @param {} action.
- * @returns Array .
+ * @version 0.0.0-novel.0
+ * @kind _
+ * @todo none
+ * @name WebListing
+ * @function
+ * @see web.dev/apply-instant-loading-with-prpl/
+ * @see web.dev/rail/
+ * @description a webbed listing.
+ * @returns {HTMLLIElement} markup.
  */
-import {
-  POST_KEY,
-  OPTIONS_KEY
-} from './form-actions'
-
-const act = (occasion = [], action) => {
-  switch (action.type) {
-    case OPTIONS_KEY:
-      return {
-        next: ''
-      }
-    case POST_KEY:
-      return {
-        next: ''
-      }
-    default:
-      break
-  }
-  return occasion
+const WebListing = (props) => {
+  return (
+    &lt;li
+      id={props?.ID}
+      title={props?.title}
+    >
+      {props?.title}
+    &lt;/li>
+  )
 }
 
-export default act
+export default WebListing
 
 // EOF
 </code></pre>
