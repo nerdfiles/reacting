@@ -1,11 +1,11 @@
 /**
- * @name WPAccordian
+ * @name WPDialog
  */
-const WPAccordian = () => {
+const WPDialog = () => {
 
 }
 
-export default WPAccordian
+export default WPDialog
 
 
 
