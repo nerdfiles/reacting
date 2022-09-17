@@ -128,6 +128,10 @@ and so on —
   9. elsewhere "[punning]" is described (*To speak autonymically*)
   10. obviously, consider: *To speak metonymically*
   11. "[*To speak narrowly*][narrowly]"??
+  12. *To speak periodically*
+  13. *To speak elliptically*
+  14. *To speak technically*
+  15. ...
 
 *is society prepared for the critique of the storytelling from the author of
 history?*
