@@ -37,7 +37,7 @@ so imagine instead of the [`if-then`][hateoas] formulation `ℜ-relations`,
 2. incremental consistency
 3. domain-focused (algorithmicizability)
 4. traceability
-5. catopticonicity
+5. catopticonicity (hologeneric personites)
 6. possibilizability
 
 ##### specializability
@@ -48,6 +48,14 @@ so imagine instead of the [`if-then`][hateoas] formulation `ℜ-relations`,
 4. rationalizability
 5. panopticonicity
 6. irreversibilizability
+
+1. singularization
+2. necessitization
+
+### categorical and ontological heterogeneous
+### categorical and ontological homogeneity
+### non-autorepresentational humaneity
+### mereological and performational indigeneity
 
 [mamund]: http://www.amundsen.com/talks/2016-04-sacon-patterns/2016-04-sacon-patterns.pdf
 [hateoas]: https://apisyouwonthate.com/blog/common-hypermedia-patterns-with-json-hyper-schema
