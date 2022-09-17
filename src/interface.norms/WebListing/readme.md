@@ -138,6 +138,9 @@ of presence how long should the shadow of an irony be? who cares? how long do
 ghosts survive machinic unconscious? can the shadow of the figure re-found a 
 territory? do dreams perform echoically with the spirit of abstraction? 
 
+just so many different ways to be speaking and to be taken seriously! *c'est 
+les façon de parler*!
+
 *recall*: dr. fielding says "don't [only tell] me your api is rest-ful. it
 insults the intelligence. makes me very angry."
 
