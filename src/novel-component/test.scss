@@ -2,26 +2,73 @@
 /// structure of the space of possibility have a nature or a content?
 /// is the structure itself nature? is it content? 
 ///
-/// @group markup
+/// @group Markup
+/// @see https://twitchard.github.io/posts/2021-04-24-behavior-constraining-features.html
 
-@mixin Thing () {}
+@mixin Concept () {}
 @function () {
   @return false;
 }
 --variable: '';
 $variable: '';
 $variableList: ();
-.Odd {}
+
+/// @group Features
+.Behavior {}
+.Constraint {}
+[class$='constraint:*'] {
+  outline: 1px solid gold;
+}
+[class$='constraint://example.app'] p {
+  background-color: silver;
+}
+/// <div class='constraint::*'>
+///   <p class='constraint::*'>whateverness</p>
+/// </div>
+
+.Capability {}
+.Temporality {}
+.Spatiality {}
+.Presentation {}
+.Attribute {}
+.Relationship {}
+.Rule {}
+.Set {}
+.Offer {}
+.Policy {}
+.Asset {}
+.Collection {}
+.Action {}
+.Permission {}
+.Duty {}
+.Obligation {}
+.Prohibition {}
+.Party {}
+.Operator {}
+
+/// why not an <Element>? here's why: [rel={Operator} className={Operator}]
+/// @example
+/// .Operator+.Operator
+/// <div class="Operator"></div>
+/// <div class="Operator"></div>
+/// @example
+/// .plus+.quus
+/// <div class="plus"></div>
+/// <div class="quus"></div>
+[class="plus quus"] {}
+/// does not tell anything about the media query specificity nor containing 
+/// properties, just "plus" and "quus" relayed to a client.
+
 .Thing {
-  @extend .Odd;
+  @extend .Behavior;
   @if {}
   @else {}
   @else {}
-  @include Thing();
+  @include Concept();
 }
 
 /// @todo sass
-$t: 'before';
+$time: 'before';
 
 
 /// @name Q
@@ -38,7 +85,7 @@ $t: 'before';
 
 /// @todo sass
 .P {
-  @include Q($t) {
+  @include Q($time) {
     color: orange;
   }
 }
@@ -46,7 +93,7 @@ $t: 'before';
 
 /// @todo sass
 .T {
-  &:#{$t} {}
+  &:#{$time} {}
 }
 /// .T {}
 /// .T:before {}
