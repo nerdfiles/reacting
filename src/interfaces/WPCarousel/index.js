@@ -63,6 +63,7 @@ const WPCarousel = () => {
       </main>
 
       <WPRolodex />
+      {/* for above */}
 
       {
         /**
