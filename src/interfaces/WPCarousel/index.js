@@ -17,14 +17,16 @@
 import WPArticle from './WPArticle'
 import WPRolodex from './WPRolodex'
 
-const WPCarousel = () => {
+const WPCarousel = (props) => {
   return (
     <section
-      ariaDisabled='false'
-      ariaLabel=''
-      ariaHidden='false'
-      ariaControls=''
+      ariaDisabled={props.disabled}
+      ariaLabel={props.label}
+      ariaHidden={props.hidden}
+      ariaControls={props.controls}
       className='O-view--carousel__default__'
+      id={props.ID}
+      name={props.name}
     >
 
       <header className='o-view--title-line__default__'>
