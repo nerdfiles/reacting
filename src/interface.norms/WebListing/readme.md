@@ -132,6 +132,12 @@ and so on —
 *is society prepared for the critique of the storytelling from the author of
 history?*
 
+must one pass over in silence to speak just-so? is speaking so visible because it is 
+visual? visual because it is visible, or seems just-so? given the metaphysics
+of presence how long should the shadow of an irony be? who cares? how long do 
+ghosts survive machinic unconscious? can the shadow of the figure re-found a 
+territory? do dreams perform echoically with the spirit of abstraction? 
+
 *recall*: dr. fielding says "don't [only tell] me your api is rest-ful. it
 insults the intelligence. makes me very angry."
 
