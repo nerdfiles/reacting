@@ -86,7 +86,8 @@ data has *perlocutionary force* or *modal force* (see "a theory of modal functio
 7. universalizability.
 8. etc.
 
-so here, we study as an object of web science, *transformative metonymy*.
+so here, we study as an object of web science, *perlocutionary metonymysis* 
+and *transformative metonymy* as *generic transclusivity*.
 
 #### interactability
 
