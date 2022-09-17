@@ -109,10 +109,15 @@ in Context][dpvic]). elsewhere "[punning]" is described (*To speak autonymically
 *is society prepared for the critique of the storytelling from the author of
 history?*
 
-*recall*: fielding says "don't [only tell] me your api is rest-ful. it insults the
-intelligence. makes me very angry."
+*recall*: dr. fielding says "don't [only tell] me your api is rest-ful. it 
+insults the intelligence. makes me very angry."
 
 *with what must the storytelling begin?*
+
+perhaps presenting the mundane incoherence of the historical and political
+truths-to-bear in the distribution of *pedagological ownership* ain't the
+best but also it don't seem the worse compared to the radical, violent
+incoherence of *educological omission* and [*misappropriation*][mis].
 
 #### interactability
 
@@ -223,6 +228,7 @@ substance"; etc.
 [dpvic]: https://drive.google.com/file/d/1Jwoy5BevUu1sHFxmN0jN-coMgAFQzxoj/view?usp=sharing
 [apistorytelling]: https://apievangelist.com/2019/07/28/api-storytelling-within-the-enterprise/
 [punning]: https://www.w3.org/TR/owl2-new-features/#F12:_Punning
+[mis]: https://twobithistory.org/2020/06/28/rest.html
 
 ```html
 <footer className='o-view--[]__default__'>
