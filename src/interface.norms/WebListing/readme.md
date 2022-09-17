@@ -100,7 +100,8 @@ constituency; i.e., invite, describe, and elaborate an ontodicy, ontoturgy,
 ontogony, ontology of and for narrativization. "conceptual metaphor" or
 "conduit metaphor" as the industry would lead one to think, plus *echo*,
 *irony*, *metonym*, *metaphor*, *analogy*, *anaphor*; e.g., *what* [it] is-,
-*where*-, *when*-, *how* one goes on-, *why* one ought-, *what* one must needs-
+*where*-, *when*-, *how* one goes on-, *why* one ought-, *what* one must needs-,
+and so on —
 
   1. *To speak ironically*
   2. *To speak figuratively*
