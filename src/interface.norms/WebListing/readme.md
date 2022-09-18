@@ -364,7 +364,10 @@ in the request to which they share data interacting with each
 other.
 
 ```plate.js
-const P (resolve) => {
+const P (resolve, reject) => {
+  if (!window?.document) {
+    reject(window)
+  }
   const p = {}
   resolve(p)
 }
