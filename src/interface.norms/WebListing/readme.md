@@ -363,14 +363,22 @@ a declaration of what manner a client is speaking may be modeled
 in the request to which they share data interacting with each
 other.
 
-```plate.json
-{
-  "class": [],
-  "properties": [],
-  "entities": [],
-  "actions": [],
-  "links": []
+```plate.js
+const HTTP_POST = axios?.post ?? () => ({})
+const plainOldJavaScriptObject = {
+  "class": Array,
+  "properties": Object,
+  "entities": Array,
+  "actions": Array,
+  "links": Array
 }
+HTTP_POST(plainOldJavaScriptObject)
+  .then((response) => {
+    console.log(response)
+  })
+  .catch((error) => {
+    console.log(error)
+  })
 ```
 
 order counts here, since "links" by definition presuppose some encounter, say
