@@ -180,16 +180,18 @@ but one justification for the tag "#apisyoumighthate".
 ```attitudinal-semantics.md
 (q)  B("s is t") = B(that P)
 
-B: belief
-P: propositional contents
-"": context unit
-(): frame unit
-[]: content unit
- : spatiality
-=: model
-N: noun
-V: verb
+B:   belief
+P:   propositional contents
+"":  context unit
+():  frame unit
+[]:  content unit
+ :   spatiality (space between lattice sites has no physical meaning, however
+     non-physical meaning is not ruled out)
+=:   model
+N:   noun
+V:   verb
 Adj: adjective
+NP:  noun phrase
 ```
 
 #### mental structure (mind as information process-er)
