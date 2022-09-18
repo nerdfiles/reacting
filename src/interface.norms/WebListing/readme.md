@@ -109,24 +109,33 @@ communication, the performativity of language. while we can analyze words on
 screens and in texts, there's a force of thought, as it were, which remains
 *outer world*.
 
-#### mental structure
+#### mental structure (objectification, object-orientation; creations and formations)
 
-affective/attitudinal/paradigmatic re-presentation (*in* and *through*).
+*emergent* judgment (determinate contents): affective/attitudinal/paradigmatic
+re-presentation (*on* and *through*).
 
-#### supramodal
+`edit-on-formation`, `edit-through-formation`, ...
 
-pragmatic re-presentation (*by* and *to*).
+#### supramodal (creations and adjustments)
 
-#### premotor
+*completive* judgment (determinate contents): pragmatic re-presentation (*by*
+and *to*).
 
-epochic re-presentation (*of* and *for*).
+`edit-by-formation`, `edit-to-formation`, ...
+
+#### premotor (adjustments and processes)
+
+*deductive* judgment (mixed/probabilistic contents): epochic re-presentation
+(*of* and *for*).
 
 `edit-of-formation`, `edit-for-formation`, ...
 
-#### filter ("edit-form")
+#### filter ("edit-form"; performation, perlocution; formations and processes)
 
-ironic, pretensive, figurative re-presentation (*in* and *between*; e.g.,
-`in-edit-formation`, `edit-in-formation`, etc. as an *implementation
+*conclusive* judgment (mixed/probabilistic contents): ironic, pretensive,
+figurative re-presentation (*in* and *between*).
+
+e.g., `in-edit-formation`, `edit-in-formation`, etc. as an *implementation
 occurrence* at a `<form>`; i.e., an agent may be between the
 `<form>`*-in-process*, *-in-adjustment*, *-in-creation*) as points of view or 
 visibility. in a sense, a `<form>` is an ironic affair. it's on a screen,
