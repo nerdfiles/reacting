@@ -22,7 +22,9 @@ const concept = {
   title: t.maybe(t.String),
   type: t.maybe(t.String),
   value: t.maybe(t.String),
-  favicon: t.maybe(t.Boolean)
+  favicon: t.maybe(t.Boolean),
+  rel: t.maybe(t.String),
+  rev: t.maybe(t.String)
 }
 
 const Button = t.struct(concept, 'Button')

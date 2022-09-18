@@ -29,6 +29,8 @@ const NovelComponentWeb = (props) => {
   return (
     <span
       title={props?.title}
+      rel={props?.rel}
+      rev={props?.rev}
       href={props?.href}
     >
       {props?.title}
