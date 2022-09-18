@@ -122,6 +122,7 @@ class Story
 story = new Story(drawer.first, drawer.last, drawer.first, drawer.last)
 story.play()
 drawer.outcome()
+# expects: [['1'], ['1', '1'], ['1'], ['1', '1']]
 ```
 
 *To be speaking as*, *To speak [so]*, ... are equally necessary
