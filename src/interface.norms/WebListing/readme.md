@@ -53,7 +53,58 @@ streams/graphql/blah/etc. patterns.
 think "[.well-known/core][core]" but for [logical foundations for question 
 answering][logic]. remko j.h. scha.
 
-### value layer
+### attribution layer (plane)
+
+#### momentum
+
+#### action
+
+#### impulse
+
+#### force
+
+### discovery layer (plane)
+
+#### diagnosability
+
+#### maskability
+
+#### confineability
+
+#### retryability
+
+#### recoverability
+
+#### serializability
+
+#### rollbackability
+
+### control plane (layer)
+
+concatenative structure, cooperative ethos, communicative praxis, 
+collectivity-without-universality, collaborative epistemology,
+affective educology, etc.
+
+*To be speaking as*, *To speak [so]*, ... are equally necessary
+in relating an affordance: for whom or what something is an affordance
+can receive it so through speaking in a way or manner, notably
+specify-able by that speaker one's self doing the relating.
+
+#### mental structure
+
+#### supramodal
+
+#### premotor
+
+#### filter ("edit-form")
+
+### narration plane
+
+#### discourse-pragmatic invariants
+
+#### rotational invariants
+
+### value layer (plane)
 
 #### transformation/transformative
 
