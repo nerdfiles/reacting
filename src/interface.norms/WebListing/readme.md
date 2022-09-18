@@ -53,7 +53,7 @@ streams/graphql/blah/etc. patterns.
 think "[.well-known/core][core]" but for [logical foundations for question 
 answering][logic] (scha, remko j.h.).
 
-### attribution layer (plane)
+### attribution plane ("layer")
 
 #### momentum
 
@@ -63,7 +63,7 @@ answering][logic] (scha, remko j.h.).
 
 #### force
 
-### discovery layer (plane)
+### discovery plane ("layer")
 
 #### diagnosability
 
@@ -79,7 +79,7 @@ answering][logic] (scha, remko j.h.).
 
 #### rollbackability
 
-### control plane (layer)
+### control plane ("layer")
 
 concatenative structure, cooperative ethos, communicative praxis, 
 collectivity-without-universality, collaborative epistemology,
@@ -114,21 +114,27 @@ screens and in texts, there's a force of thought, as it were, which remains
 *emergent* judgment (determinate contents): affective/attitudinal/paradigmatic
 re-presentation (*on* and *through*).
 
-`edit-on-formation`, `edit-through-formation`, ...
+1. `edit-on-formation`,
+2. `edit-through-formation`,
+3. ...
 
 #### supramodal (creations and adjustments)
 
 *completive* judgment (determinate contents): pragmatic re-presentation (*by*
 and *to*).
 
-`edit-by-formation`, `edit-to-formation`, ...
+1. `edit-by-formation`,
+2. `edit-to-formation`,
+3. ...
 
 #### premotor (adjustments and processes)
 
 *deductive* judgment (mixed/probabilistic contents): epochic re-presentation
 (*of* and *for*).
 
-`edit-of-formation`, `edit-for-formation`, ...
+1. `edit-of-formation`,
+2. `edit-for-formation`,
+3. ...
 
 #### filter ("edit-form"; performation, perlocution; formations and processes)
 
@@ -154,7 +160,7 @@ complexities "we" orchestrate into it.
 
 #### rotational invariants
 
-### value layer (plane)
+### value layer (value plane; the terror of value)
 
 #### transformation/transformative
 
