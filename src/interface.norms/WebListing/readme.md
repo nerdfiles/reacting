@@ -144,9 +144,9 @@ i can gather. one cannot preface ironic speaking "To speak
 ironically"; when we pretend we actually do something, 
 and therefore have only pretended to pretend. anyone should
 be familiar with this adage delivered to us by derrida. at
-any rate, some people are intellectually think and prefer
+any rate, some people are intellectually thick, or can feign so, and prefer
 [data][irony] to nudge them in the direction of an informed sense of 
-right speaking. so in some sense it must be reasonably said
+right speaking. of course, this doesn't tell us we ought to build according to *feigning* and *performances* of skulldruggery (because we don't architect according to instances, by the Liskov substitution principle or whatever); so in some sense it must be reasonably said
 one is not "controlling" another's thought: one cannot control
 another to be taken "ironically", nor probably "literally", "echoically",
 nor yet "metonymically," for that matter. words don't do that.
