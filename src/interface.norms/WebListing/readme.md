@@ -85,6 +85,45 @@ concatenative structure, cooperative ethos, communicative praxis,
 collectivity-without-universality, collaborative epistemology,
 affective educology, etc.
 
+#### metaphor vs. metonym
+
+metonymy is a feature of automorphism: a thing relating to itself through
+one of its parts; *lend me your wheels* implies a car, maybe some keys,
+a whole grammar of specificity between subjects, objects, modes,
+periods, and so on. a metaphorical reading, on the other hand,
+would tell us that "cars are wheels", or maybe "wheels are cars". of
+course, the metaphorical reading is merely possible but not typical
+of expectations between actual conversants. the extent to which
+*architecture* is described metaphorically is that to which it
+induces abstractness, albeit both inviting through conduiticity or
+modularity. is a design pattern relayed through the metaphor of a
+"commander" superior to that of a "drawer"
+
+```
+drawer = (() ->
+	store = []
+
+	subTask = () ->
+		store.push(['1'])
+
+	anotherTask = () ->
+		store.push(['1', '1'])
+
+	tasks =
+		first: subTask
+		last: anotherTask
+		outcome: -> store
+)()
+
+class Story
+	constructor: (@tasks...) ->
+	play: -> task() for task in @tasks
+
+story = new Story(drawer.first, drawer.last, drawer.first, drawer.last)
+story.play()
+drawer.outcome()
+```
+
 *To be speaking as*, *To speak [so]*, ... are equally necessary
 in relating an affordance: for whom or what something is an affordance
 can receive it so through speaking in a way or manner, notably
@@ -109,7 +148,7 @@ communication, the performativity of language. while we can analyze words on
 screens and in texts, there's a force of thought, as it were, which remains
 *outer world*.
 
-"create-form" and "edit-form" should be thought in how `<form>` compares to the
+"[create-form][cform]" and "edit-form" should be thought in how `<form>` compares to the
 string "-form." indeed, a `<form>` is submitted in virtue of some specification
 pertaining to a `rel="...-form"`, which implies a process, or adjustment, or
 some other such "creation" at a point of view between beings, namely ourselves
@@ -463,6 +502,7 @@ preferring pretence, the ironic, conceptual metaphor
 [core]: https://docs.zephyrproject.org/latest/connectivity/networking/api/coap.html?highlight=coap#c.COAP_WELL_KNOWN_CORE_PATH
 [mis]: https://twobithistory.org/2020/06/28/rest.html
 [ham]: https://www.semanticscholar.org/paper/HAM%3A-a-general-purpose-hypertext-abstract-machine-Campbell-Goodman/63138c844fda3661a74ec464f8dda1428ad987e9
+[cform]: https://www.rfc-editor.org/rfc/rfc6861.html
 [narrowly]: https://plato.stanford.edu/entries/truth-correspondence/
 [roemer]: https://www.academia.edu/85456631/What_Is_Socialism_Today_Conceptions_of_a_Cooperative_Economy
 [state]: https://github.com/jaime-olivares/yuml-diagram/wiki#state-diagram
