@@ -15,12 +15,17 @@
  */
 import {
   POST_KEY,
-  OPTIONS_KEY
+  OPTIONS_KEY,
+  GET_KEY
 } from './form-actions'
 
 const act = (occasion = [], action) => {
   switch (action.type) {
     case OPTIONS_KEY:
+      return {
+        next: ''
+      }
+    case GET_KEY:
       return {
         next: ''
       }

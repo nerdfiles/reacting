@@ -16,10 +16,11 @@ export default connect((occasion) => {
   // between the abstractive and abstractness which reflect rendencies in
   // specialization checking specificity development over concretization.
   // @see https://apisyouwonthate.com/blog/common-hypermedia-patterns-with-json-hyper-schema
+  const P = occasion?.next
 
-  if (occasion && occasion['next']) {
+  if (P) {
     return {
-      key: occasion && occasion.next
+      key: P
     }
   }
 }, (dispatch) => {
