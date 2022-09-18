@@ -51,7 +51,7 @@ streams/graphql/blah/etc. patterns.
 ## .wh-\* (interactability)
 
 think "[.well-known/core][core]" but for [logical foundations for question 
-answering][logic]. remko j.h. scha.
+answering][logic] (scha, remko j.h.).
 
 ### attribution layer (plane)
 
@@ -111,11 +111,33 @@ screens and in texts, there's a force of thought, as it were, which remains
 
 #### mental structure
 
+affective/attitudinal/paradigmatic re-presentation (*in* and *through*).
+
 #### supramodal
+
+pragmatic re-presentation (*by* and *to*).
 
 #### premotor
 
+epochic re-presentation (*of* and *for*).
+
+`edit-of-formation`, `edit-for-formation`, ...
+
 #### filter ("edit-form")
+
+ironic, pretensive, figurative re-presentation (*in* and *between*; e.g.,
+`in-edit-formation`, `edit-in-formation`, etc. as an *implementation
+occurrence* at a `<form>`; i.e., an agent may be between the
+`<form>`*-in-process*, *-in-adjustment*, *-in-creation*) as points of view or 
+visibility. in a sense, a `<form>` is an ironic affair. it's on a screen,
+and it is apparently about something. typically to a web developer it
+isn't much ado about anything until its `action` attribute is invoked
+through some method afforded by the implementation of the DOM element
+so faithfully rendered in the "page". as we develop web these `<form>`s
+mostly do anything but what "we" wish. in truth, we are implementing
+the desires and machinic unconscious of others, the other, the stranger
+estraged from time and space, moving between cyberspace's cyclomatic
+complexities "we" orchestrate into it.
 
 ### narration plane
 
