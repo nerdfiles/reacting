@@ -98,8 +98,16 @@ ironically"; when we pretend we actually do something,
 and therefore have only pretended to pretend. anyone should
 be familiar with this adage delivered to us by derrida. at
 any rate, some people are intellectually think and prefer
-[data][irony] to nudge them in the direction of an informed sense of right 
-speaking.
+[data][irony] to nudge them in the direction of an informed sense of 
+right speaking. so in some sense it must be reasonably said
+one is not "controlling" another's thought: one cannot control
+another to be taken "ironically", nor probably "literally", "echoically",
+nor yet "metonymically," for that matter. words don't do that.
+
+by this point we'll have recognized the perlocutionary force of
+communication, the performativity of language. while we can analyze words on
+screens and in texts, there's a force of thought, as it were, which remains
+*outer world*.
 
 #### mental structure
 
