@@ -90,6 +90,17 @@ in relating an affordance: for whom or what something is an affordance
 can receive it so through speaking in a way or manner, notably
 specify-able by that speaker one's self doing the relating.
 
+what implies control? does suggesting one is speaking so guarantee
+they will be taken as such, qua-qua and the like? hardly. words
+don't do that kind of work for us. nor anyone, as far as
+i can gather. one cannot preface ironic speaking "To speak
+ironically"; when we pretend we actually do something, 
+and therefore have only pretended to pretend. anyone should
+be familiar with this adage delivered to us by derrida. at
+any rate, some people are intellectually think and prefer
+[data][metonymy] to nudge them in the direction of an informed sense of right 
+speaking.
+
 #### mental structure
 
 #### supramodal
