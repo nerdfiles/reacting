@@ -11,9 +11,9 @@ emojis, emoticons, blissymbols, sumarian, etc.
 
 ## `ℜ-relations` (relating .relations)
 
-## `×-used` (most recently .used)
+## `ℵ-used` (most recently .used)
 
-## `∃-watched` (.push and .watched)
+## `∀-watched` (.push and .watched)
 
 ## `∃-subscription` (.subscription)
 
