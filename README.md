@@ -1,5 +1,10 @@
 # reacting
 
+## .
+
+![browse https://twitter.com/weptwithoutwit/with_replies
+https://pbs.twimg.com/media/Fc8zXpeXoAI20hJ?format=jpg&name=900x900](https://raw.githubusercontent.com/nerdfiles/reacting/develop/src/assets/content-images/Fc8zXpeXoAI20hJ.jpg)
+
 tryna get [arrested][arrested] with the sauce [not a decade too soon][fielding]; 
 i.e., we will not be employing "state management," and we're concerned with 
 drawing out what "statelessness" entails (e.g., "direct linking" or url-to-url 
