@@ -57,13 +57,16 @@ class Concept {
     }
   }
 }
+
 const ALL = []
 const LIST = Promise.all(ALL)
 const concept = new Concept()
 const CELL = Promise.all(concept({
   ...LIST
 }))
-console.log(CELL)
+CELL.then((res) => {
+  console.log(res)
+})
 
 /**
  * @name App
@@ -74,7 +77,10 @@ function App () {
    * @constant
    * @default
    */
-  const [CLIENTGETDATA, CLIENTGETSETDATA] = useState([])
+  const [
+    CLIENTGETDATA,
+    CLIENTGETSETDATA
+  ] = useState([])
 
   /**
    * @constant
@@ -115,18 +121,18 @@ function App () {
   const Act = (props) => {
     return (
       <Button
-        textLabel='get'
         act={act}
+        textLabel='get'
       />
     )
   }
 
   return (
     <div
-      itemScope
-      itemType='https://schema.org/WebApplication'
       className='O-view--webapp__default__ bg'
       id='top'
+      itemScope
+      itemType='https://schema.org/WebApplication'
     >
       <WPHeader />
 
@@ -134,11 +140,11 @@ function App () {
 
       {
         /*
-      <Link
-        init={link('kite', '.m-view--datalist__default__')}
-        byClass='m-view--datalist__default__'
-        href='https://reqres.in/api/users?page=2'
-      />
+          <Link
+            init={link('kite', '.m-view--datalist__default__')}
+            byClass='m-view--datalist__default__'
+            href='https://reqres.in/api/users?page=2'
+          />
         */
       }
 
@@ -148,10 +154,10 @@ function App () {
 
       <main className='S-view--loci__default__'>
         <input
+          className='m-view--datapoint-entry__default__'
           id='datapoint-entry'
           name='datapoint-entry'
           onInput={(e) => CLIENTPOSTSETDATA(e.currentTarget.value)}
-          className='m-view--datapoint-entry__default__'
         />
         <ul className='m-view--datalist__default__'>
           <List dataList={CLIENTGETDATA} />
@@ -169,21 +175,21 @@ function App () {
           </li>
           <li className='m-view--listing__default__'>
             <Button
-              textLabel='create'
               act={() => services.postData(CLIENTPOSTDATA, CLIENTPOSTSETDATA)}
               onChange={() => services.updateData(CLIENTPOSTDATA, CLIENTUPDATESETDATA)}
+              textLabel='create'
             />
           </li>
           <li className='m-view--listing__default__'>
             <Button
-              textLabel='update'
               act={() => services.updateData(CLIENTUPDATEDATA, CLIENTUPDATESETDATA)}
+              textLabel='update'
             />
           </li>
           <li className='m-view--listing__default__'>
             <Button
-              textLabel='delete'
               act={() => services.deleteData(CLIENTDELETEDATA, CLIENTDELETESETDATA)}
+              textLabel='delete'
             />
           </li>
         </ul>
