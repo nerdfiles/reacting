@@ -169,7 +169,9 @@ common, but yet can get lost if api servers are thought only to speak with
 norm which belies the capabilities people should expect from apis. this is
 but one justification for the tag "#apisyoumighthate".
 
-#### mental structure (objectification, object-orientation; creations and formations)
+#### mental structure (mind as information process-er)
+
+##### (objectification, object-orientation; creations and formations)
 
 *emergent* judgment (determinate contents): affective/attitudinal/paradigmatic
 re-presentation (*on* and *through*).
@@ -178,7 +180,9 @@ re-presentation (*on* and *through*).
 2. `edit-on-a-formation`,
 3. ...
 
-#### supramodal (creations and adjustments)
+#### supramodal metaphor
+
+##### (creations and adjustments)
 
 *completive* judgment (determinate contents): pragmatic re-presentation (*by*
 and *to*).
@@ -187,7 +191,9 @@ and *to*).
 2. `edit-to-the-adjustment`,
 3. ...
 
-#### premotor (adjustments and processes)
+#### premotor metaphor
+
+##### (adjustments and processes)
 
 *deductive* judgment (mixed/probabilistic contents): epochic re-presentation
 (*of* and *for*).
@@ -195,7 +201,9 @@ and *to*).
 1. `edit-of-a-process`,
 2. `edit-for-the-adjustment`
 
-#### filter ("edit-form"; performation, perlocution; formations and processes)
+#### metaphor of attention: filter
+
+##### ("edit-form"; performation, perlocution; formations and processes)
 
 *conclusive* judgment (mixed/probabilistic contents): ironic, pretensive,
 figurative re-presentation (*in* and *between*).
