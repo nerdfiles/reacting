@@ -187,6 +187,9 @@ P: propositional contents
 []: content unit
  : spatiality
 =: model
+N: noun
+V: verb
+Adj: adjective
 ```
 
 #### mental structure (mind as information process-er)
