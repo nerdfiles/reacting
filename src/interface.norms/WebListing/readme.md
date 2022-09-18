@@ -133,7 +133,7 @@ this question and its elaboration is what an api storytelling
 might tell us, or it will be discoverable in the interface itself.
 
 *To be speaking as*, *To speak [so]*, ... are equally necessary in relating an 
-affordance: for whom or what something is an affordance can receive it so 
+affordance: for whom or what something is an affordance which can receive it so 
 through speaking in a way or manner, notably specify-able by that speaker 
 one's self doing the relating.
 
