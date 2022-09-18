@@ -98,7 +98,7 @@ ironically"; when we pretend we actually do something,
 and therefore have only pretended to pretend. anyone should
 be familiar with this adage delivered to us by derrida. at
 any rate, some people are intellectually think and prefer
-[data][metonymy] to nudge them in the direction of an informed sense of right 
+[data][irony] to nudge them in the direction of an informed sense of right 
 speaking.
 
 #### mental structure
@@ -343,6 +343,7 @@ preferring pretence, the ironic, conceptual metaphor
 [hateoas]: https://apisyouwonthate.com/blog/common-hypermedia-patterns-with-json-hyper-schema
 [algebratizability]: https://kb.osu.edu/bitstream/handle/1811/86640/OJSM_18_Spring1990_22.pdf
 [metonymy]: https://www.cambridge.org/core/journals/language-and-cognition/article/metonymies-are-more-literal-than-metaphors-evidence-from-ratings-of-german-idioms/1CBBCFF893235E161608B6834860FA69
+[irony]: https://www.academia.edu/17031036/Irony_and_metarepresentation
 [resthooks]: https://resthooks.org
 [dpvic]: https://drive.google.com/file/d/1Jwoy5BevUu1sHFxmN0jN-coMgAFQzxoj/view?usp=sharing
 [apistorytelling]: https://apievangelist.com/2019/07/28/api-storytelling-within-the-enterprise/
