@@ -365,9 +365,9 @@ other.
 
 ```plate.json
 {
-  "type": [],
+  "class": [],
   "properties": [],
-  "embedded": [],
+  "entities": [],
   "actions": [],
   "links": []
 }
@@ -376,12 +376,12 @@ other.
 order counts here, since "links" by definition presuppose some encounter, say
 through the `click` (`onClick`, etc.) or the `swipe`. "`actions`" very much 
 too assume stuff happening between the client and its agency co-governing its 
-progression through the application ready-at-hand. "`type`," "`properties`," 
-and "`embedded`," most readily will be passed through a RAIL (response, 
+progression through the application ready-at-hand. "`class`," "`properties`," 
+and "`entities`," most readily will be passed through a RAIL (response, 
 animate, idle, load) implementation pipeline pattern, so their quantity of 
 data may be dependent on the data store which supplies their `dataList`.
 
-"`type`" most likely will influence the shape the client is expected to
+"`class`" most likely will influence the shape the client is expected to
 present to anyone using the application. often such information is
 originally produced through UML documents, concerning class, activity,
 sequence, and [state] expression of a diagrammatology, to start.
