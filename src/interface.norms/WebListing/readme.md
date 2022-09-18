@@ -34,19 +34,19 @@ streams/graphql/blah/etc. patterns.
 
 ## `💤-queues` (.queues)
 
-## .routes
+## `📍-routes` (.routes)
 
-## .estimations
+## `⚙-estimations` (.estimations)
 
-## .events
+## `⏰-events` (.events)
 
-## .locks
+## `🔒-locks` (.locks)
 
-## .apologies
+## `🎗-apologies` (.apologies)
 
-## .memories
+## `📝-memories` (.memories)
 
-## .pingbacks
+## `📌-pingbacks` (.pingbacks)
 
 ## .wh-\* (interactability)
 
