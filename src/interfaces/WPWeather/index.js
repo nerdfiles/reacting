@@ -15,13 +15,13 @@ const Data = (props) => {
 
   return (
     <ul className='m-view--list__default__'>
-      {DATA.length ?
+      {DATA && DATA.length ?
         DATA.map(() => {
           return (
-            <li class='m-view--listing__default__'>
-              <div class='m-view--bucket__default__'>
-                <span class='m-view--label__default__'>weather data label/icon</span>
-                <span class='m-view--datum__default__'>weather data/visualization</span>
+            <li className='m-view--listing__default__'>
+              <div className='m-view--bucket__default__'>
+                <span className='m-view--label__default__'>weather data label/icon</span>
+                <span className='m-view--datum__default__'>weather data/visualization</span>
               </div>
             </li>
           )
