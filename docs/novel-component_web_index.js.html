@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Source: novel-component/index.js</title>
+    <title>JSDoc: Source: novel-component/web/index.js</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,7 +17,7 @@
 
 <div id="main">
 
-    <h1 class="page-title">Source: novel-component/index.js</h1>
+    <h1 class="page-title">Source: novel-component/web/index.js</h1>
 
     
 
@@ -27,108 +27,44 @@
     <section>
         <article>
             <pre class="prettyprint source linenums"><code>/**
- * @filepath ./src/novel-component/index.js
+ * @filepath ./src/novel-component/web/index.js
+ * @fileoverview a test bed.
+ * @name NovelComponentWeb
  * @author aha &lt;patagnome@protonmail.com>
- * @license wtfpl, version 2
+ * @summary a test bed space for trying our organic css in reactjs.
+ * @description novel-component exports something but "web" is the "goto" file 
+ * to see how it should be implemented. generally, the component is
+ * "un-opinionated" in its configured design assumption. the goal is to ward
+ * off "component"-based thinking and comprehension in designing interfaces.
+ * "component" is a metaphor for containment. in the interface we are less
+ * interested in what-has-what than what-holds-what. indeed, "what" happens is 
+ * described rather than "how", but further specificity implies difference in 
+ * relatedness between what's what. what the pattern here is concerned with
+ * being "un-opinionated" about is the "what-has-what" while being very opinionated
+ * about the "what-holds-what." what-holds-what? the interface holds information
+ * about the occasion of its use: this is "pressed", that is "opened", or those
+ * are "disabled." all such development is trivial so long as category mistakes
+ * do not enter and solution types are not misapplied to the structure of the
+ * space of possibility or problem space which conditions for its specializability,
+ * exemplification and realizability.
  * @version 0.0.0-novel.0
  * @since 0.0.0-novel.0
- * @fileoverview a web component-ish thing for reactjs generally expected to
- * present a https://schema.org/WebActivityHistory at some point.
- * @name NovelComponent
- * @kind Class
- * @description a web component which minimally presents an interactionCounter.
- */
-import React, { createStore } from 'react'
-import WebCache from './web-cache'
-import './index.scss'
-import './connect'
-
-const __interface__ = createStore(WebCache)
-
-/**
- * @name task
- * @description example,
- * ```
- * { type: 'GET_KEY' }
- * ```
- * .
  * @function
- * @param {CustomEvent} e - .
+ * @param {Object} props - .
+ * @returns {Element} .
  */
-const task = (e) => {
-  /**
-   * @constant
-   * @default
-   * @example
-   * const COMMAND = 'GET_KEY'
-   */
-  const COMMAND = 'POST_KEY'
-
-  const command = {
-    type: COMMAND
-  }
-
-  __interface__.dispatch(command)
-
-  e.preventDefault()
+const NovelComponentWeb = (props) => {
+  return (
+    &lt;span
+      title={props?.title}
+      href={props?.href}
+    >
+      {props?.title}
+    &lt;/span>
+  )
 }
 
-class NovelComponent extends React.Component {
-  constructor (props) {
-    super(props)
-    this.state = {}
-  }
-
-  render () {
-    return (
-      &lt;div
-        {...this.props}
-        className='m-view--novel-component__default__'
-        onClick={task}
-      >
-        component copy
-      &lt;/div>
-    )
-  }
-
-  componentDidMount () {
-  }
-
-  componentWillReceiveProps (nextProps) {
-  }
-
-  shouldComponentUpdate (nextProps, nextState) {
-    return true
-  }
-
-  componentWillUpdate (nextProps, nextState) {
-  }
-
-  componentDidUpdate (prevProps, prevState) {
-  }
-
-  componentWillUnmount () {
-  }
-}
-
-NovelComponent.propTypes = {
-  ID: React.PropTypes.number,
-  startTime: React.PropTypes.string,
-  endTime: React.PropTypes.string,
-  location: React.PropTypes.string,
-  interactionType: React.PropTypes.string,
-  interactionService: React.PropTypes.string
-}
-
-const taskCommands = {}
-
-taskCommands['https://schema.org/InteractionCounter'] = {
-  interactionCount: 0
-}
-
-NovelComponent.defaultProps = taskCommands
-
-export default NovelComponent
+export default NovelComponentWeb
 
 // EOF
 </code></pre>

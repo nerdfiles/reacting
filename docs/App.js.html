@@ -57,11 +57,11 @@ import WPWeather from './interfaces/WPWeather'
 import link from './assets/interface-scripts/link'
 import Link from './interface.parts/Link'
 
-// var hash = new petri.Place('hash')
-// var hash = new petri.Place('hash')
-// var hash = new petri.Place('hash')
-// var tHash = new petri.Transition('hash', [hash], [hash, hash])
-// var net = new petri.Net(p1)
+// const hash = new petri.Place('hash')
+// const hash = new petri.Place('hash')
+// const hash = new petri.Place('hash')
+// const tHash = new petri.Transition('hash', [hash], [hash, hash])
+// const net = new petri.Net(p1)
 
 // net.ingest(10)
 
@@ -85,13 +85,16 @@ class Concept {
     }
   }
 }
+
 const ALL = []
 const LIST = Promise.all(ALL)
 const concept = new Concept()
 const CELL = Promise.all(concept({
   ...LIST
 }))
-console.log(CELL)
+CELL.then((res) => {
+  console.log(res)
+})
 
 /**
  * @name App
@@ -102,7 +105,10 @@ function App () {
    * @constant
    * @default
    */
-  const [CLIENTGETDATA, CLIENTGETSETDATA] = useState([])
+  const [
+    CLIENTGETDATA,
+    CLIENTGETSETDATA
+  ] = useState([])
 
   /**
    * @constant
@@ -143,18 +149,18 @@ function App () {
   const Act = (props) => {
     return (
       &lt;Button
-        textLabel='get'
         act={act}
+        textLabel='get'
       />
     )
   }
 
   return (
     &lt;div
-      itemScope
-      itemType='https://schema.org/WebApplication'
       className='O-view--webapp__default__ bg'
       id='top'
+      itemScope
+      itemType='https://schema.org/WebApplication'
     >
       &lt;WPHeader />
 
@@ -162,11 +168,11 @@ function App () {
 
       {
         /*
-      &lt;Link
-        init={link('kite', '.m-view--datalist__default__')}
-        byClass='m-view--datalist__default__'
-        href='https://reqres.in/api/users?page=2'
-      />
+          &lt;Link
+            init={link('kite', '.m-view--datalist__default__')}
+            byClass='m-view--datalist__default__'
+            href='https://reqres.in/api/users?page=2'
+          />
         */
       }
 
@@ -176,10 +182,10 @@ function App () {
 
       &lt;main className='S-view--loci__default__'>
         &lt;input
+          className='m-view--datapoint-entry__default__'
           id='datapoint-entry'
           name='datapoint-entry'
           onInput={(e) => CLIENTPOSTSETDATA(e.currentTarget.value)}
-          className='m-view--datapoint-entry__default__'
         />
         &lt;ul className='m-view--datalist__default__'>
           &lt;List dataList={CLIENTGETDATA} />
@@ -197,21 +203,21 @@ function App () {
           &lt;/li>
           &lt;li className='m-view--listing__default__'>
             &lt;Button
-              textLabel='create'
               act={() => services.postData(CLIENTPOSTDATA, CLIENTPOSTSETDATA)}
               onChange={() => services.updateData(CLIENTPOSTDATA, CLIENTUPDATESETDATA)}
+              textLabel='create'
             />
           &lt;/li>
           &lt;li className='m-view--listing__default__'>
             &lt;Button
-              textLabel='update'
               act={() => services.updateData(CLIENTUPDATEDATA, CLIENTUPDATESETDATA)}
+              textLabel='update'
             />
           &lt;/li>
           &lt;li className='m-view--listing__default__'>
             &lt;Button
-              textLabel='delete'
               act={() => services.deleteData(CLIENTDELETEDATA, CLIENTDELETESETDATA)}
+              textLabel='delete'
             />
           &lt;/li>
         &lt;/ul>
@@ -235,13 +241,13 @@ export default App
 </div>
 
 <nav>
-    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="Authority.html">Authority</a></li><li><a href="Emotionality.html">Emotionality</a></li></ul><h3>Global</h3><ul><li><a href="global.html#Act">Act</a></li><li><a href="global.html#act">act</a></li><li><a href="global.html#App">App</a></li><li><a href="global.html#Button">Button</a></li><li><a href="global.html#cache">cache</a></li><li><a href="global.html#cache/actions">cache/actions</a></li><li><a href="global.html#cache/auth">cache/auth</a></li><li><a href="global.html#clientPostData">clientPostData</a></li><li><a href="global.html#clientUpdateData">clientUpdateData</a></li><li><a href="global.html#Code">Code</a></li><li><a href="global.html#connect">connect</a></li><li><a href="global.html#Culture">Culture</a></li><li><a href="global.html#DATA_LIST">DATA_LIST</a></li><li><a href="global.html#DataTreeElement">DataTreeElement</a></li><li><a href="global.html#deleteData">deleteData</a></li><li><a href="global.html#EMPTY_TREE">EMPTY_TREE</a></li><li><a href="global.html#EmptyTree">EmptyTree</a></li><li><a href="global.html#GET_NAME">GET_NAME</a></li><li><a href="global.html#getData">getData</a></li><li><a href="global.html#GLUE">GLUE</a></li><li><a href="global.html#HelpText">HelpText</a></li><li><a href="global.html#Icon">Icon</a></li><li><a href="global.html#Input">Input</a></li><li><a href="global.html#link">link</a></li><li><a href="global.html#Link">Link</a></li><li><a href="global.html#List">List</a></li><li><a href="global.html#Listing">Listing</a></li><li><a href="global.html#Logger">Logger</a></li><li><a href="global.html#OPTIONS">OPTIONS</a></li><li><a href="global.html#Person">Person</a></li><li><a href="global.html#POST_NAME">POST_NAME</a></li><li><a href="global.html#Profile">Profile</a></li><li><a href="global.html#reportWebVitals">reportWebVitals</a></li><li><a href="global.html#request">request</a></li><li><a href="global.html#Table">Table</a></li><li><a href="global.html#Tabs">Tabs</a></li><li><a href="global.html#task">task</a></li><li><a href="global.html#Toast">Toast</a></li><li><a href="global.html#Toolbar">Toolbar</a></li><li><a href="global.html#Trust">Trust</a></li><li><a href="global.html#web/cache">web/cache</a></li><li><a href="global.html#web/form">web/form</a></li><li><a href="global.html#WebListing">WebListing</a></li><li><a href="global.html#WPAccordian">WPAccordian</a></li><li><a href="global.html#WPButtons">WPButtons</a></li><li><a href="global.html#WPCarousel">WPCarousel</a></li><li><a href="global.html#WPDialog">WPDialog</a></li><li><a href="global.html#WPFooter">WPFooter</a></li><li><a href="global.html#WPHeader">WPHeader</a></li><li><a href="global.html#WPLocation">WPLocation</a></li><li><a href="global.html#WPTable">WPTable</a></li><li><a href="global.html#WPTabs">WPTabs</a></li><li><a href="global.html#WPToast">WPToast</a></li><li><a href="global.html#WPToolbar">WPToolbar</a></li><li><a href="global.html#WPTreegridEmailInbox">WPTreegridEmailInbox</a></li><li><a href="global.html#WPTreeviewNavigation">WPTreeviewNavigation</a></li><li><a href="global.html#WPWeather">WPWeather</a></li></ul>
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="Authority.html">Authority</a></li><li><a href="Emotionality.html">Emotionality</a></li></ul><h3>Global</h3><ul><li><a href="global.html#Act">Act</a></li><li><a href="global.html#act">act</a></li><li><a href="global.html#App">App</a></li><li><a href="global.html#Button">Button</a></li><li><a href="global.html#cache">cache</a></li><li><a href="global.html#cache/actions">cache/actions</a></li><li><a href="global.html#cache/auth">cache/auth</a></li><li><a href="global.html#clientPostData">clientPostData</a></li><li><a href="global.html#clientUpdateData">clientUpdateData</a></li><li><a href="global.html#Code">Code</a></li><li><a href="global.html#connect">connect</a></li><li><a href="global.html#Culture">Culture</a></li><li><a href="global.html#DATA_LIST">DATA_LIST</a></li><li><a href="global.html#DataTreeElement">DataTreeElement</a></li><li><a href="global.html#deleteData">deleteData</a></li><li><a href="global.html#EMPTY_TREE">EMPTY_TREE</a></li><li><a href="global.html#EmptyTree">EmptyTree</a></li><li><a href="global.html#GET_NAME">GET_NAME</a></li><li><a href="global.html#getData">getData</a></li><li><a href="global.html#GLUE">GLUE</a></li><li><a href="global.html#HelpText">HelpText</a></li><li><a href="global.html#Icon">Icon</a></li><li><a href="global.html#Input">Input</a></li><li><a href="global.html#link">link</a></li><li><a href="global.html#Link">Link</a></li><li><a href="global.html#List">List</a></li><li><a href="global.html#Listing">Listing</a></li><li><a href="global.html#Logger">Logger</a></li><li><a href="global.html#NovelComponentWeb">NovelComponentWeb</a></li><li><a href="global.html#OPTIONS">OPTIONS</a></li><li><a href="global.html#Person">Person</a></li><li><a href="global.html#POST_NAME">POST_NAME</a></li><li><a href="global.html#Profile">Profile</a></li><li><a href="global.html#reportWebVitals">reportWebVitals</a></li><li><a href="global.html#request">request</a></li><li><a href="global.html#Table">Table</a></li><li><a href="global.html#Tabs">Tabs</a></li><li><a href="global.html#task">task</a></li><li><a href="global.html#Toast">Toast</a></li><li><a href="global.html#Toolbar">Toolbar</a></li><li><a href="global.html#Trust">Trust</a></li><li><a href="global.html#web/cache">web/cache</a></li><li><a href="global.html#web/form">web/form</a></li><li><a href="global.html#WebListing">WebListing</a></li><li><a href="global.html#WPAccordian">WPAccordian</a></li><li><a href="global.html#WPButtons">WPButtons</a></li><li><a href="global.html#WPCarousel">WPCarousel</a></li><li><a href="global.html#WPDialog">WPDialog</a></li><li><a href="global.html#WPFooter">WPFooter</a></li><li><a href="global.html#WPHeader">WPHeader</a></li><li><a href="global.html#WPLocation">WPLocation</a></li><li><a href="global.html#WPTable">WPTable</a></li><li><a href="global.html#WPTabs">WPTabs</a></li><li><a href="global.html#WPToast">WPToast</a></li><li><a href="global.html#WPToolbar">WPToolbar</a></li><li><a href="global.html#WPTreegridEmailInbox">WPTreegridEmailInbox</a></li><li><a href="global.html#WPTreeviewNavigation">WPTreeviewNavigation</a></li><li><a href="global.html#WPWeather">WPWeather</a></li></ul>
 </nav>
 
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.11</a> on Sun Sep 18 2022 09:41:35 GMT-0500 (GMT-05:00)
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.11</a> on Sun Sep 18 2022 12:46:52 GMT-0500 (GMT-05:00)
 </footer>
 
 <script> prettyPrint(); </script>
