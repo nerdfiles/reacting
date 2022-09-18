@@ -29,11 +29,11 @@ import WPWeather from './interfaces/WPWeather'
 import link from './assets/interface-scripts/link'
 import Link from './interface.parts/Link'
 
-// var hash = new petri.Place('hash')
-// var hash = new petri.Place('hash')
-// var hash = new petri.Place('hash')
-// var tHash = new petri.Transition('hash', [hash], [hash, hash])
-// var net = new petri.Net(p1)
+// const hash = new petri.Place('hash')
+// const hash = new petri.Place('hash')
+// const hash = new petri.Place('hash')
+// const tHash = new petri.Transition('hash', [hash], [hash, hash])
+// const net = new petri.Net(p1)
 
 // net.ingest(10)
 
