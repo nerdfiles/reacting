@@ -101,23 +101,23 @@ modularity. is a design pattern relayed through the metaphor of a
 
 ```coffeecript
 drawer = (() ->
-	store = []
+  store = []
 
-	subTask = () ->
-		store.push(['1'])
+  subTask = () ->
+    store.push(['1'])
 
-	anotherTask = () ->
-		store.push(['1', '1'])
+  anotherTask = () ->
+    store.push(['1', '1'])
 
-	tasks =
-		first: subTask
-		last: anotherTask
-		outcome: -> store
+  tasks =
+    first: subTask
+    last: anotherTask
+    outcome: -> store
 )()
 
 class Story
-	constructor: (@tasks...) ->
-	play: -> task() for task in @tasks
+  constructor: (@tasks...) ->
+  play: -> task() for task in @tasks
 
 story = new Story(drawer.first, drawer.last, drawer.first, drawer.last)
 story.play()
