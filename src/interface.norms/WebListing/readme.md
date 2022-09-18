@@ -125,10 +125,17 @@ drawer.outcome()
 # expects: [['1'], ['1', '1'], ['1'], ['1', '1']]
 ```
 
-*To be speaking as*, *To speak [so]*, ... are equally necessary
-in relating an affordance: for whom or what something is an affordance
-can receive it so through speaking in a way or manner, notably
-specify-able by that speaker one's self doing the relating.
+obviously `story` may be playing about with some data. will it
+or its properties, quality properties, persist in value if i
+interact with it? why shouldn't the outcome be a reduction
+of all `'1'`s to something altogether *other*, like `['elephant']`?
+this question and its elaboration is what an api storytelling
+might tell us, or it will be discoverable in the interface itself.
+
+*To be speaking as*, *To speak [so]*, ... are equally necessary in relating an 
+affordance: for whom or what something is an affordance can receive it so 
+through speaking in a way or manner, notably specify-able by that speaker 
+one's self doing the relating.
 
 what implies control? does suggesting one is speaking so guarantee
 they will be taken as such, qua-qua and the like? hardly. words
