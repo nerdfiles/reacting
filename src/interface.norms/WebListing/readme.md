@@ -47,7 +47,8 @@ streams/graphql/blah/etc. patterns.
 
 ## .wh-\* (interactability)
 
-think "[.well-known/core][core]" but for [logical foundations for question answering][logic]. remko j.h. scha.
+think "[.well-known/core][core]" but for [logical foundations for question 
+answering][logic]. remko j.h. scha.
 
 ### value layer
 
@@ -58,8 +59,8 @@ i.e., reduction of subject-form to object-form; e.g., saying-by-doing,
 doing-by-saying, being-by-saying, saying-by-being, nothing-by-being,
 appearing-by-saying, saying-by-appearing, nothing-by-doing, doing-by-nothing,
 etc.), *transformability*, *transformativity*, *transversativity*,
-*transversality*, *perversality*, *perversativity*, *performativity* (see dictionary of
-non-philosophy à la austin et al.):
+*transversality*, *perversality*, *perversativity*, *performativity* (see 
+dictionary of non-philosophy à la austin et al.):
 
 1. transformed::performed
 2. transformation::performation
@@ -77,7 +78,7 @@ data has *perlocutionary force* or *modal force* (see "a theory of modal functio
 > you data model is not your object model is not your resource model is not
 > your affordance model.
 >
-> (amundsen.)
+> &mdash; mike amundsen. [12 patterns][mamund] (ibid.). [microservice architecture][ma].
 
 > [...] we should cease viewing Nash optimization as the universal conception
 of rational behavior in games, but think of rather as representing the
@@ -271,6 +272,8 @@ substance"; etc.
 ### mereological and performational indigeneity
 
 [mamund]: http://www.amundsen.com/talks/2016-04-sacon-patterns/2016-04-sacon-patterns.pdf
+[ma]: https://www.programmer-books.com/wp-content/uploads/2019/07/Microservice-Architecture.pdf
+[ma2]: https://www.oreilly.com/library/view/microservice-architecture/9781491956328/
 [hateoas]: https://apisyouwonthate.com/blog/common-hypermedia-patterns-with-json-hyper-schema
 [algebratizability]: https://kb.osu.edu/bitstream/handle/1811/86640/OJSM_18_Spring1990_22.pdf
 [metonymy]: https://www.cambridge.org/core/journals/language-and-cognition/article/metonymies-are-more-literal-than-metaphors-evidence-from-ratings-of-german-idioms/1CBBCFF893235E161608B6834860FA69
