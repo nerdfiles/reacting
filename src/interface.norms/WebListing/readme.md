@@ -122,7 +122,13 @@ come before us to hand and deliver us all that's about being about with
 us (and at times without us). forms beget forms and here and there we
 play participants to this activity, so much so that we describe ourselves
 up to it and about it: "editing" and "creating" forms anywhere being-there
-with them, expecting them to "validate" and the like.
+with them, expecting them to "validate" and the like. we might append that
+we are "creating (the) form (of) X" when relating what we are performing when
+submitting `curl` requests to api servers. talking in such a way should be
+common, but yet can get lost if api servers are thought only to speak with
+"vanity" and "pretty" urls. `GET /api/noun/noun/` is common marketing buzz
+norm which belies the capabilities people should expect from apis. this is
+but one justification for the tag "#apisyoumighthate".
 
 #### mental structure (objectification, object-orientation; creations and formations)
 
