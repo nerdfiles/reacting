@@ -6,30 +6,33 @@ so imagine instead of the [`if-then`][hateoas] formulation `ℜ-relations`,
 `×-used`, `∃-watched`, `∃-subscription`, `∅-navigation`, `∞-fixtures`,
 `👤-profiles`, `⚠-ignores`, `ℹ-forwards`, `💤-queues`, ...
 
-## relating .relations
+interfaces for `@`, `#`, `~`, `.`, and the like for http, tls?, ssl?, quic, 
+emojis, emoticons, blissymbols, sumarian, etc.
 
-## most recently .used
+## `ℜ-relations` (relating .relations)
 
-## .push and .watched
+## `×-used` (most recently .used)
 
-## .subscription
+## `∃-watched` (.push and .watched)
+
+## `∃-subscription` (.subscription)
 
 see [resthooks]. observable, subject, SAM, redux, reactive
 streams/graphql/blah/etc. patterns.
 
-## .navigation
+## `∅-navigation` (.navigation)
 
 `$ npm i react-router`?? ugh field.
 
-## .fixtures
+## `∞-fixtures` (.fixtures)
 
-## .profiles
+## `👤-profiles` (.profiles)
 
-## .ignores
+## `⚠-ignores` (.ignores)
 
-## .forwards
+## `ℹ-forwards` (.forwards)
 
-## .queues
+## `💤-queues` (.queues)
 
 ## .routes
 
@@ -244,8 +247,7 @@ epochic/synechdochic, [literalness][metonymy]
 
 preferring pretence, the ironic, conceptual metaphor
 
-"argument is war"; "linguistic expression is a container"; "time is a
-substance"; etc.
+"argument is war"; "linguistic expression is a container"; "time is a substance"; etc. [lakoff]
 
 1. feature-focused
 2. mereological/cyclomatic/non-metacomputational/architectural complexity
@@ -272,6 +274,8 @@ substance"; etc.
 ### mereological and performational indigeneity
 
 [mamund]: http://www.amundsen.com/talks/2016-04-sacon-patterns/2016-04-sacon-patterns.pdf
+[recipe]: https://3lib.net/book/21816838/7dad21
+[lakoff]: http://theliterarylink.com/metaphors.html
 [ma]: https://www.programmer-books.com/wp-content/uploads/2019/07/Microservice-Architecture.pdf
 [ma2]: https://www.oreilly.com/library/view/microservice-architecture/9781491956328/
 [hateoas]: https://apisyouwonthate.com/blog/common-hypermedia-patterns-with-json-hyper-schema
