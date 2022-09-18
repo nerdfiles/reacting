@@ -177,6 +177,18 @@ common, but yet can get lost if api servers are thought only to speak with
 norm which belies the capabilities people should expect from apis. this is
 but one justification for the tag "#apisyoumighthate".
 
+```attitudinal-semantics.md
+(q)  B("s is t") = B(that P)
+
+B: belief
+P: propositional contents
+"": context unit
+(): frame unit
+[]: content unit
+ : spatiality
+=: model
+```
+
 #### mental structure (mind as information process-er)
 
 ##### (objectification, object-orientation; creations and formations)
