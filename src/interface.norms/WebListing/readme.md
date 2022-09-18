@@ -426,10 +426,10 @@ after motherfuckingwebsite.com givens:
 
 algorithmic layout but is it algebra? (see *algorithmicizability*)
 
-1. grids
-2. displays
-3. hooks (before, after order serializations)
-4. models
+1. `grid`s
+2. `display`s
+3. `hook`s (before, after order serializations)
+4. `model`s
 
 see [grammuelle]. i'm not much sure what "algorithmic layout" would
 look like except that the `./api` would issue *metonymic meta-re-presentation*,
