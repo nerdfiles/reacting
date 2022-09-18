@@ -99,7 +99,7 @@ induces abstractness, albeit both inviting through conduiticity or
 modularity. is a design pattern relayed through the metaphor of a
 "commander" superior to that of a "drawer"
 
-```
+```coffeecript
 drawer = (() ->
 	store = []
 
