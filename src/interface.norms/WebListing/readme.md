@@ -415,14 +415,14 @@ typicality. *algorithmicizability*.
 
 after motherfuckingwebsite.com givens:
 
-1. Ifs
-2. Onces
-3. Spreads
-4. Classes
-5. Withs
-6. Responses
-7. Wraps
-8. Rules
+1. `If`s
+2. `Once`s
+3. `Spread`s
+4. `Classe`s
+5. `With`s
+6. `Response`s
+7. `Wrap`s
+8. `Rule`s
 
 algorithmic layout but is it algebra? (see *algorithmicizability*)
 
