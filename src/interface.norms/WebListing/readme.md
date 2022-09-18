@@ -156,13 +156,13 @@ communication, the performativity of language. while we can analyze words on
 screens and in texts, there's a force of thought, as it were, which remains
 *outer world*.
 
-"[create-form][cform]" and "edit-form" should be thought in how `<form>` compares to the
-string "-form." indeed, a `<form>` is submitted in virtue of some specification
-pertaining to a `rel="...-form"`, which implies a process, or adjustment, or
-some other such "creation" at a point of view between beings, namely ourselves
-and the whateverness left over. we click buttons and go about our way. in a
-sense "we" are *editing form*, itself even, through agreements in nature
-we take for granted or stipulate inasmuch as what the terms of engagement
+"[create-form][cform]" and "edit-form" should be thought in how `<form>` 
+compares to the string "-form." indeed, a `<form>` is submitted in virtue of 
+some specification pertaining to a `rel="...-form"`, which implies a process,
+or adjustment, or some other such "creation" at a point of view between 
+beings, namely ourselves and the whateverness left over. we click buttons and 
+go about our way. in a sense "we" are *editing form*, itself even, through agreements in 
+nature we take for granted or stipulate inasmuch as what the terms of engagement
 mean to us, by us, for us, and the like. it's somewhat common to agree
 in nature despite one's self, or others, and in virtue of others, having
 come before us to hand and deliver us all that's about being about with
