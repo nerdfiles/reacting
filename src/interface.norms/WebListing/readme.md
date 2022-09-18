@@ -364,7 +364,11 @@ in the request to which they share data interacting with each
 other.
 
 ```plate.js
-const HTTP_POST = axios?.post ?? () => ({})
+const P (resolve) => {
+  const p = {}
+  resolve(p)
+}
+const HTTP_POST = axios?.post ?? new Promise(P)
 const plainOldJavaScriptObject = {
   "class": Array,
   "properties": Object,
