@@ -20,7 +20,13 @@ a {
 
 /// @name ./src/App.scss:classes:.bg
 .bg {
-  background-image: url("./assets/interface-images/ab85baf464c52ac8de22402aacc1f23d_9d6abcf4_500.jpg")
+  background-image: url("./assets/interface-images/ab85baf464c52ac8de22402aacc1f23d_9d6abcf4_500.jpg");
+  background-size: cover;
+}
+
+ul, dl, ol {
+  margin: 0;
+  padding: 2.9rem .895rem;
 }
 
 /// @name ./src/App.scss:attrs:[class*="line"]
