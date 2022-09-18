@@ -1,5 +1,9 @@
 /**
+ * @filepath ./src/novel-component/web/index.js
+ * @fileoverview a test bed.
  * @name NovelComponentWeb
+ * @author aha <patagnome@protonmail.com>
+ * @summary a test bed space for trying our organic css in reactjs.
  * @description novel-component exports something but "web" is the "goto" file 
  * to see how it should be implemented. generally, the component is
  * "un-opinionated" in its configured design assumption. the goal is to ward
@@ -15,6 +19,10 @@
  * do not enter and solution types are not misapplied to the structure of the
  * space of possibility or problem space which conditions for its specializability,
  * exemplification and realizability.
+ * @version 0.0.0-novel.0
+ * @since 0.0.0-novel.0
+ * @function
+ * @param {Object} props - .
  * @returns {Element} .
  */
 const NovelComponentWeb = (props) => {
