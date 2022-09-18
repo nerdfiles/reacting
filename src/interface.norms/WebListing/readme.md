@@ -114,8 +114,8 @@ screens and in texts, there's a force of thought, as it were, which remains
 *emergent* judgment (determinate contents): affective/attitudinal/paradigmatic
 re-presentation (*on* and *through*).
 
-1. `edit-on-formation`,
-2. `edit-through-formation`,
+1. `edit-through-the-creation`,
+2. `edit-on-a-formation`,
 3. ...
 
 #### supramodal (creations and adjustments)
@@ -123,8 +123,8 @@ re-presentation (*on* and *through*).
 *completive* judgment (determinate contents): pragmatic re-presentation (*by*
 and *to*).
 
-1. `edit-by-formation`,
-2. `edit-to-formation`,
+1. `edit-by-a-creation`,
+2. `edit-to-the-adjustment`,
 3. ...
 
 #### premotor (adjustments and processes)
@@ -132,14 +132,16 @@ and *to*).
 *deductive* judgment (mixed/probabilistic contents): epochic re-presentation
 (*of* and *for*).
 
-1. `edit-of-formation`,
-2. `edit-for-formation`,
-3. ...
+1. `edit-of-a-process`,
+2. `edit-for-the-adjustment`
 
 #### filter ("edit-form"; performation, perlocution; formations and processes)
 
 *conclusive* judgment (mixed/probabilistic contents): ironic, pretensive,
 figurative re-presentation (*in* and *between*).
+
+1. `edit-in-the-formation`,
+2. `edit-between-a-process`
 
 e.g., `in-edit-formation`, `edit-in-formation`, etc. as an *implementation
 occurrence* at a `<form>`; i.e., an agent may be between the
@@ -160,7 +162,19 @@ complexities "we" orchestrate into it.
 
 #### rotational invariants
 
-### value layer (value plane; the terror of value)
+### value plane (value "layer"; the terror of value)
+
+be mindful of the aspects of affordance, mutability, idempotence, safety,
+and transclusion. `value` may relate something in a "contract"
+or some other such "resource" "we" handle in space and time. the
+transformation, blocking, cloning and copying of `value` depends
+on how we describe its participation in windowed time. we may add
+an abstraction, a database or a list, or a table with "methods"
+to manage it, but the organization of any stuff happening eventually
+meets with the decision-making process, which must needs integrate
+with everything else in-going and out-going, hoping to avoid
+tragedies of the commons or the dreadful "garbage-in-garbage-out"
+pattern.
 
 #### transformation/transformative
 
