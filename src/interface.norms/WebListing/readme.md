@@ -230,6 +230,35 @@ truths-to-bear in the distribution of *pedagological ownership* ain't the
 best but also it don't seem the worse compared to the radical, violent
 incoherence of *educological omission* and [*misappropriation*][mis].
 
+##### protocol-level formal input specification language (plfisl)
+
+a declaration of what manner a client is speaking may be modeled
+in the request to which they share data interacting with each
+other.
+
+```plate.json
+{
+  "type": [],
+  "properties": [],
+  "embedded": [],
+  "actions": [],
+  "links": []
+}
+```
+
+order counts here, since "links" by definition presuppose some encounter, say
+through the `click` (`onClick`, etc.) or the `swipe`. "`actions`" very much 
+too assume stuff happening between the client and its agency co-governing its 
+progression through the application ready-at-hand. "`type`," "`properties`," 
+and "`embedded`," most readily will be passed through a RAIL (response, 
+animate, idle, load) implementation pipeline pattern, so their quantity of 
+data may be dependent on the data store which supplies their `dataList`.
+
+"`type`" most likely will influence the shape the client is expected to
+present to anyone using the application. often such information is
+originally produced through UML documents, concerning class, activity,
+sequence, and [state] expression of a diagrammatology, to start.
+
 #### interactability
 
 patalysis (catopticonic analysis, dualysis, etc.). *patalyzability*.
@@ -364,6 +393,7 @@ preferring pretence, the ironic, conceptual metaphor
 [ham]: https://www.semanticscholar.org/paper/HAM%3A-a-general-purpose-hypertext-abstract-machine-Campbell-Goodman/63138c844fda3661a74ec464f8dda1428ad987e9
 [narrowly]: https://plato.stanford.edu/entries/truth-correspondence/
 [roemer]: https://www.academia.edu/85456631/What_Is_Socialism_Today_Conceptions_of_a_Cooperative_Economy
+[state]: https://github.com/jaime-olivares/yuml-diagram/wiki#state-diagram
 
 ```html
 <footer className='o-view--[]__default__'>
