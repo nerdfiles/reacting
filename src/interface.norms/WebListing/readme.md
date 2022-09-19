@@ -48,7 +48,7 @@ streams/graphql/blah/etc. patterns.
 
 ## `📌-pingbacks` (.pingbacks)
 
-## .wh-\* (interactability)
+## `🐌-interactability` (.wh-\* questions)
 
 think "[.well-known/core][core]" but for [logical foundations for question 
 answering][logic] (scha, remko j.h.).
