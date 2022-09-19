@@ -1,32 +1,38 @@
 const fs = require('fs')
 const log = console.log
 
-const toFileSync = (data, filename) =>
-  fs.writeFileSync(`${filename}`, JSON.stringify(data, null, 2))
 /**
  * @constant
  * @default
  */
 const LIST = []
 
+/**
+ * toFileSync.
+ *
+ * @param {} data
+ * @param {} filename
+ */
+const toFileSync = (data, filename) =>
+  fs.writeFileSync(`${filename}`, JSON.stringify(data, null, 2))
+
+/**
+ * readFileLines.
+ *
+ * @param {} filename
+ */
 const readFileLines = filename =>
   fs
     .readFileSync(filename)
     .toString('UTF8')
     .split('')
 
-const count = readFileLines('./.count')
-
-// for (const index of count) {
-//   LIST.push(index)
-// }
-
-// const COUNT = LIST.join('')
-
-// log(LIST)
-// log(COUNT)
-
-const inc = (num) => {
+/**
+ * increment.
+ *
+ * @param {} num
+ */
+const increment = (num) => {
   return new Promise((resolve, reject) => {
     try {
       resolve(num)
@@ -36,8 +42,10 @@ const inc = (num) => {
   })
 }
 
+const count = readFileLines('./.count')
+
 for (const index of count) {
-  LIST.push(inc(index))
+  LIST.push(increment(index))
 }
 
 Promise
@@ -51,11 +59,11 @@ Promise
       .then((res) => {
         const FILEPATH = './.module.report.json'
         const output = {}
-        const c = res.reduce((acc, ref) => {
+        const moduleCount = res.reduce((acc, ref) => {
           return Number(acc) + Number(ref.value)
         }, [])
 
-        output['module.count'] = c
+        output['module.count'] = moduleCount
 
         toFileSync(output, FILEPATH)
         log('written:', FILEPATH)
