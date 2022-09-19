@@ -136,11 +136,13 @@ might tell us, or it will be discoverable in the interface itself.
 affordance: for whom or what something is an affordance which can receive it so 
 through speaking in a way or manner, notably specify-able by that speaker 
 one's self doing the relating. `rel="self"` does not typically explict
-"self-for-the-self", but it will be evidence through introspection of
-the rest of the model through which `rel="self"` is relayed, should it be
-a link or anything else.
+"self-for-the-self", but it will be evident through introspection of
+the rest of the model in which `rel="self"` is relayed, should it be
+a link or anything else. "pages" contain "selves" which obviously
+those such link relation types can say anything about that which is
+beyond the page, what is taking place at our world.
 
-what implies control? does suggesting one is speaking so guarantee
+what *implies* control? does suggesting one is speaking so guarantee
 they will be taken as such, qua-qua and the like? hardly. words
 don't do that kind of work for us. nor anyone, as far as
 i can gather. one cannot preface ironic speaking "To speak
