@@ -1,4 +1,5 @@
 /**
+ * @name gulpfile
  * @description
  * possibly useful for looking at maintainability and estimation from
  * different dev experience style perspectives. e.g., a dev who codes
