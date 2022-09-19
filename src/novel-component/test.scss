@@ -65,15 +65,11 @@ $variableList: ();
 /// .plus+.quus<emmet:(\ctrl+y)+\leader>
 /// <div class="plus"></div>
 /// <div class="quus"></div>
-///
-/// `.plus.quus`
 [class="plus quus"] {}
 
-/// does not tell anything about the media query specificity nor containing 
-/// properties, just "plus" and "quus" relayed to a client.
-///
-/// @see http://dbpedia.org/resource/Thing
-/// @see https://schema.org/Thing
+/// ".plus.quus" does not tell anything about the media query specificity nor 
+/// the surrounding properties, just "plus" and "quus" relayed to a client. it's
+/// just a http://dbpedia.org/resource/Thing (https://schema.org/Thing).
 .Thing {
   @extend .Behavior;
   @if {}
