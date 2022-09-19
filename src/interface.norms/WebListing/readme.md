@@ -135,7 +135,10 @@ might tell us, or it will be discoverable in the interface itself.
 *To be speaking as*, *To speak [so]*, ... are equally necessary in relating an 
 affordance: for whom or what something is an affordance which can receive it so 
 through speaking in a way or manner, notably specify-able by that speaker 
-one's self doing the relating.
+one's self doing the relating. `rel="self"` does not typically explict
+"self-for-the-self", but it will be evidence through introspection of
+the rest of the model through which `rel="self"` is relayed, should it be
+a link or anything else.
 
 what implies control? does suggesting one is speaking so guarantee
 they will be taken as such, qua-qua and the like? hardly. words
