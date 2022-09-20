@@ -29,15 +29,15 @@ import List from './interface.parts/List'
 import Link from './interface.parts/Link'
 import link from './assets/interface-scripts/link'
 
-// const hash = new petri.Place('hash')
-// const hash = new petri.Place('hash')
-// const hash = new petri.Place('hash')
-// const tHash = new petri.Transition('hash', [hash], [hash, hash])
+// const one = new petri.Place('hash1')
+// const two = new petri.Place('hash2')
+// const three = new petri.Place('hash3')
+// const tHash = new petri.Transition('hash4', [one], [two, three])
 // const net = new petri.Net(p1)
 
 // net.ingest(10)
 
-// t1.on('fire', async () => {
+// tHash.on('fire', async () => {
 //  console.log('t1 fired')
 // })
 
@@ -48,25 +48,19 @@ import link from './assets/interface-scripts/link'
 // })
 
 class Concept {
-  constructor (list) {
-    return (list) => {
-      console.log(list)
+  constructor (a) {
+    return (b) => {
       return [
-        list
+        ...a,
+        ...b
       ]
     }
   }
 }
 
-const ALL = []
-const LIST = Promise.all(ALL)
-const concept = new Concept()
-const CELL = Promise.all(concept({
-  ...LIST
-}))
-CELL.then((res) => {
-  console.log(res)
-})
+const concept = new Concept(['1'])
+const brick = concept(['2'])
+console.log(brick)
 
 /**
  * @name App
