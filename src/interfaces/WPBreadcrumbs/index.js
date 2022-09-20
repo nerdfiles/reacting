@@ -2,7 +2,7 @@
  * @name WPBreadcrumbs
  * @version 0.0.0-novel.0
  * @description WPBreadcrumbs.
- * @kind function.React.FC
+ * @kind function
  * @param {Object} props - .
  */
 const WPBreadcrumbs = (props) => {

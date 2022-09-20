@@ -19,15 +19,15 @@
 import './App.scss'
 import { FC, useState } from 'react'
 // import petri from 'petri-net'
+import services from './infrastructure/services'
 import WPHeader from './interfaces/WPHeader'
 import WPFooter from './interfaces/WPFooter'
-import Button from './interface.parts/Button'
-import services from './infrastructure/services'
-import List from './interface.parts/List'
 import WPLocation from './interfaces/WPLocation'
 import WPWeather from './interfaces/WPWeather'
-import link from './assets/interface-scripts/link'
+import Button from './interface.parts/Button'
+import List from './interface.parts/List'
 import Link from './interface.parts/Link'
+import link from './assets/interface-scripts/link'
 
 // const hash = new petri.Place('hash')
 // const hash = new petri.Place('hash')
