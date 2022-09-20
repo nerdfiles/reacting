@@ -167,6 +167,7 @@ function App () {
           <li className='m-view--listing__default__'>
             <Act />
           </li>
+
           <li className='m-view--listing__default__'>
             <Button
               act={() => services.postData(CLIENTPOSTDATA, CLIENTPOSTSETDATA)}
@@ -174,12 +175,14 @@ function App () {
               textLabel='create'
             />
           </li>
+
           <li className='m-view--listing__default__'>
             <Button
               act={() => services.updateData(CLIENTUPDATEDATA, CLIENTUPDATESETDATA)}
               textLabel='update'
             />
           </li>
+
           <li className='m-view--listing__default__'>
             <Button
               act={() => services.deleteData(CLIENTDELETEDATA, CLIENTDELETESETDATA)}
