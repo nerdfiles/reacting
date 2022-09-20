@@ -8,9 +8,10 @@
  * @since 0.0.0-novel.0
  * @todo none
  * @version 0.0.0-novel.0
- * @description a rough-and-ready, very stable list element that serves part 
- * to a list. it's currently accepting a title attribute for no particular 
- * reason but demonstration purposes.
+ * @description
+ * a singular ❮li❯ implementation in reactjs; rough-and-ready, very stable
+ * listing element that serves part to a list. it's currently accepting a title
+ * attribute for no particular reason but demonstration purposes.
  * @summary a function component returning a list element in jsx for
  * reactjs.
  * @kind constant
@@ -38,13 +39,14 @@ const Listing = (props) => {
    */
   const CLASSNAME = 'm-view--listing__default__'
   const helpText = props?.concept && props.concept.additionalNameHelpText()
+  const NAME = props?.concept.name
 
   return (
     <li
       className={CLASSNAME}
       title={helpText}
     >
-      {props.concept.name}
+      {NAME}
     </li>
   )
 }

@@ -3,7 +3,7 @@
  * @fileoverview yet another list web component
  * @name List
  * @function
- * @description List.js.
+ * @description a singular ❮list❯ implementation in reactjs.
  * @license wtfpl, version 2
  * @version 0.0.0-novel.0
  * @since 0.0.0-novel.0
@@ -18,14 +18,12 @@ import Listing from './Listing'
 import Person from '../domain/person'
 
 const EMPTY_LIST = (
-  <ul>
-    <li>
-      <span
-        class='m-view-icon__default__'
-        aria-label='empty'
-      ></span>
-    </li>
-  </ul>
+  <li>
+    <span
+      class='m-view-icon__default__'
+      aria-label='empty'
+    ></span>
+  </li>
 )
 
 /**

@@ -464,7 +464,7 @@ and what not, along with bits about interprocess communication
 communication*). *transformability* begets *transformativeness* and the
 *transformational* with *transformedness*. the confluence of 
 meta-re-presentational communication begets *holophrasic and 
-hologeneric transversality* and *immanent performational collectivivity*.
+hologeneric transversality* and *immanent performational collectivity*.
 
 #### diminutability
 

@@ -231,16 +231,3 @@ of vision.
 2. josef müller-brockman. grid systems. 
 3. jef raskin. the humane interface.
 4. christian bök. 'pataphysics: the poetics of an imaginary science.
-
-
-
-
-
-
-
-
-
-
-
-
-

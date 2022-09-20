@@ -1,6 +1,6 @@
 /**
  * @name Input
- * @description Input.
+ * @description a singular ❮input❯ implementation in reactjs.
  * @param props - properties for the component.
  * @returns {HTMLInputElement} markup.
  */
