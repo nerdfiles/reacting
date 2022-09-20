@@ -1,6 +1,6 @@
 # WebListing
 
-see [mamund] and [hateoas].
+first, read about [grammatical affordance][ga]. then see [mamund] and [hateoas].
 
 so imagine instead of the [`if-then`][hateoas] formulation `ℜ-relations`,
 `×-used`, `∃-watched`, `∃-subscription`, `∅-navigation`, `∞-fixtures`,
@@ -347,7 +347,7 @@ and so on —
   5. *To speak anaphorically*
   6. *To speak literally*
   7. *To speak analogically*
-  8. etc. (see [Discourse-Pragmatic Variation in Context][dpvic])
+  8. etc. (see [discourse-pragmatic variation in context][dpvic])
   9. elsewhere "[punning]" is described (*To speak autonymically*)
   10. obviously, consider: *To speak metonymically*
   11. "[*To speak narrowly*][narrowly]"??
@@ -537,6 +537,7 @@ preferring pretence, the ironic, conceptual metaphor
 ### mereological and performational indigeneity
 
 [mamund]: http://www.amundsen.com/talks/2016-04-sacon-patterns/2016-04-sacon-patterns.pdf
+[ga]: https://holoentropic.tumblr.com/post/695869727149637632/grammatical-affordance
 [recipe]: https://3lib.net/book/21816838/7dad21
 [lakoff]: http://theliterarylink.com/metaphors.html
 [ma]: https://www.programmer-books.com/wp-content/uploads/2019/07/Microservice-Architecture.pdf
