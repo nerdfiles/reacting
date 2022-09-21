@@ -6,7 +6,7 @@
  * @version 0.0.0-novel.0
  * @since 0.0.0-novel.0
  * @kind class
- * @description an emotional infome.
+ * @description an emotionality infome.
  */
 class Emotionality {
   ambition () {}
